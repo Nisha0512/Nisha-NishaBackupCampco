@@ -28,19 +28,13 @@
           <%}
           else
               {%>
-        <input type="button" class="button alt processorderDealer" name="woocommerce_checkout_place_order" value="Place order" />      
-        
+        <input type="button" class="button alt processorderDealer" name="woocommerce_checkout_place_order" value="Place order" />              
               <%}
            %>
     </div>
     </div>
-
-     <%--<div class="form-row place-order">
-                   
-                    <%--<input type="submit" class="button alt" name="woocommerce_checkout_place_order" id="place_order" value="Place order" data-value="Place order" />-%>
-                        <asp:Button ID="Button1" runat="server" class="button alt" name="woocommerce_checkout_place_order" OnClick="btnProcessOrder_Click" Text="Place order"></asp:Button>               
-                  </div>--%>
-                    <div class="clearfix-qube-ezio"></div>
+     
+    <div class="clearfix-qube-ezio"></div>
     <div id="content-qube">
         <div class="width-container-qube">
             <article id="post-109" class="post-109 page type-page status-publish hentry">
@@ -1002,10 +996,7 @@
         %>
                                <tr class="cart_item"><td>No product selected for Order process.</td></tr>
                          <%  }%>
-                    <%--<tr class="cart_item">
-                      <td class="product-name"> Anderson Anorak&nbsp; <strong class="product-quantity">&times; 1</strong></td>                      
-                      <td class="product-total"><span class="amount">&#36;249.00</span></td>
-                    </tr>--%>
+                   
                   </tbody>
 
                   <tfoot>
@@ -1036,35 +1027,19 @@
                 </table>
                 
                 <div id="payment" class="woocommerce-checkout-payment">
-                  <!-- <ul class="wc_payment_methods payment_methods methods">
-                    <li class="wc_payment_method payment_method_cheque">
-                      <input id="payment_method_cheque" type="radio" class="input-radio" name="payment_method" value="cheque"  checked='checked' data-order_button_text="" />
-                      <label for="payment_method_cheque"> Cheque Payment </label>
-                      <div class="payment_box payment_method_cheque" >
-                        <p>Please send your cheque to Store Name, Store Street, Store Town, Store State / County, Store Postcode.</p>
-                      </div>
-                    </li>
-                    <li class="wc_payment_method payment_method_paypal">
-                      <input id="payment_method_paypal" type="radio" class="input-radio" name="payment_method" value="paypal"  data-order_button_text="Proceed to PayPal" />
-                      <label for="payment_method_paypal"> PayPal <img src="https://www.paypalobjects.com/webstatic/mktg/logo/AM_mc_vs_dc_ae.jpg" alt="PayPal Acceptance Mark" /><a href="https://www.paypal.com/us/webapps/mpp/paypal-popup" class="about_paypal" onclick="javascript:window.open('https://www.paypal.com/us/webapps/mpp/paypal-popup','WIPaypal','toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=1060, height=700'); return false;" title="What is PayPal?">What is PayPal?</a> </label>
-                      <div class="payment_box payment_method_paypal" style="display:none;">
-                        <p>Pay via PayPal; you can pay with your credit card if you don&#8217;t have a PayPal account.</p>
-                      </div>
-                    </li>
-                  </ul> -->
+                  
                   <div class="form-row place-order">
                    
                     <%--<input type="submit" class="button alt" name="woocommerce_checkout_place_order" id="place_order" value="Place order" data-value="Place order" />--%>
                         <%-- <asp:Button CssClass="campco-btn processorder" ID="btnplaceorder" runat="server"  name="woocommerce_checkout_place_order"  Text="Place order" ></asp:Button>               --%>
                   
-                        <% if (cusID1 == "GUEST")
+             <% if (cusID1 == "GUEST")
            {%>
-        <input type="button" class="button alt processorder" name="woocommerce_checkout_place_order" value="Place order" /> 
+              <input type="button" class="button alt processorder" name="woocommerce_checkout_place_order" value="Place order" /> 
           <%}
           else
               {%>
-        <input type="button" class="button alt processorderDealer" name="woocommerce_checkout_place_order" value="Place order" />      
-        
+               <input type="button" class="button alt processorderDealer" name="woocommerce_checkout_place_order" value="Place order" />              
               <%}
            %>
                         </div>
@@ -1074,7 +1049,9 @@
                         Would you like faster checkout and access to special offers and deals?                
                     <%--  <input id="ham" type="checkbox" name="SaveCC" value="ham" class="input-text"/><label for="ham">Save on Profile?</label>                                          
                        <input id="ham1" class="input-text" type="checkbox" name="SaveShip" value="ham"/><label for="ham1">Save this address on Profile?</label>
-                      --%>    </fieldset>
+                      --%>   
+
+                     </fieldset>
                       </br>
                        <DIV style="margin-left:140px">
                         <asp:Button CssClass="btn btn-save-add btnsubmit textarea-address btnyes" ID="btnyes" runat="server"  name="woocommerce_checkout_place_order"  Text="Yes please"  OnClick="btnyes_Click"  ></asp:Button> <%-----%>              
@@ -1084,19 +1061,18 @@
                                     </div>
                                    </div>
                                 </div>                      
-                    <div id="popupcardDealer" class="simplePopup" style="width:120px; height:130px">
+                    <div id="popupcardDealer" class="simplePopup" style="width:130px; height:160px">
                    <div class="form-style-2 addcards" >
                      <fieldset> 
                         Would you like faster checkout and access to special offers and deals?   
                       </br> </br>
                           <input id="ham" type="checkbox" name="SaveCC" value="ham" class="input-text"/><label for="ham">Save on Profile?</label>                                          
                        <input id="ham1" class="input-text" type="checkbox" name="SaveShip" value="ham"/><label for="ham1">Save this address on Profile?</label>
-                      
-                     </fieldset>      
-                   
-                    
-                       <div>
-                                    </div>
+                       <br/>  <br/>                                                                
+                       <div style="margin-left:140px">
+  <asp:Button CssClass="btn btn-save-add btnsubmit textarea-address" ID="btnplaceorder" runat="server"  name="woocommerce_checkout_place_order"  Text="Place Order"  OnClick="btnProcessOrder_Click"></asp:Button>               
+                        </div>
+                          </fieldset>    
                                    </div>
                                 </div>                            
                     <div id="radiopopupcard" class="simplePopup" style="width:120px; height:130px">
@@ -1121,60 +1097,7 @@
                 </div>
               </div>
 
-              <!-- <h3 id="order_review_heading">Your order</h3>
-              <div id="order_review" class="woocommerce-checkout-review-order">
-                <table class="shop_table woocommerce-checkout-review-order-table">
-                  <thead>
-                    <tr>
-                      <th class="product-name">Product</th>
-                      <th class="product-total">Total</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr class="cart_item">
-                      <td class="product-name"> Anderson Anorak&nbsp; <strong class="product-quantity">&times; 1</strong></td>
-                      <td class="product-total"><span class="amount">&#36;249.00</span></td>
-                    </tr>
-                  </tbody>
-                  <tfoot>
-                    <tr class="cart-subtotal">
-                      <th>Subtotal</th>
-                      <td><span class="amount">&#36;249.00</span></td>
-                    </tr>
-                    <tr class="order-total">
-                      <th>Total</th>
-                      <td><strong><span class="amount">&#36;249.00</span></strong></td>
-                    </tr>
-                  </tfoot>
-                </table>
-                <div id="payment" class="woocommerce-checkout-payment">
-                  <ul class="wc_payment_methods payment_methods methods">
-                    <li class="wc_payment_method payment_method_cheque">
-                      <input id="payment_method_cheque" type="radio" class="input-radio" name="payment_method" value="cheque"  checked='checked' data-order_button_text="" />
-                      <label for="payment_method_cheque"> Cheque Payment </label>
-                      <div class="payment_box payment_method_cheque" >
-                        <p>Please send your cheque to Store Name, Store Street, Store Town, Store State / County, Store Postcode.</p>
-                      </div>
-                    </li>
-                    <li class="wc_payment_method payment_method_paypal">
-                      <input id="payment_method_paypal" type="radio" class="input-radio" name="payment_method" value="paypal"  data-order_button_text="Proceed to PayPal" />
-                      <label for="payment_method_paypal"> PayPal <img src="https://www.paypalobjects.com/webstatic/mktg/logo/AM_mc_vs_dc_ae.jpg" alt="PayPal Acceptance Mark" /><a href="https://www.paypal.com/us/webapps/mpp/paypal-popup" class="about_paypal" onclick="javascript:window.open('https://www.paypal.com/us/webapps/mpp/paypal-popup','WIPaypal','toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=1060, height=700'); return false;" title="What is PayPal?">What is PayPal?</a> </label>
-                      <div class="payment_box payment_method_paypal" style="display:none;">
-                        <p>Pay via PayPal; you can pay with your credit card if you don&#8217;t have a PayPal account.</p>
-                      </div>
-                    </li>
-                  </ul>
-                  <div class="form-row place-order">
-                    <noscript>
-                    Since your browser does not support JavaScript, or it is disabled, please ensure you click the <em>Update Totals</em> button before placing your order. You may be charged more than the amount stated above if you fail to do so. <br/>
-                    <input type="submit" class="button alt" name="woocommerce_checkout_update_totals" value="Update totals" />
-                    </noscript>
-                    <input type="submit" class="button alt" name="woocommerce_checkout_place_order" id="place_order" value="Place order" data-value="Place order" />
-                    <input type="hidden" id="_wpnonce" name="_wpnonce" value="4d986669c5" />
-                    <input type="hidden" name="_wp_http_referer" value="/demo/ezio-modern-shop/checkout/" />
-                  </div>
-                </div>
-              </div> -->
+              
             </div>
             </div>
           </div>
