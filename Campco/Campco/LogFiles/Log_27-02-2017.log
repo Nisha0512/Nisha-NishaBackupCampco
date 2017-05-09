@@ -1,0 +1,22 @@
+-------------------START-------------2/27/2017 3:06:48 PM
+Page :Login.aspx
+----------------------------------------------------
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Campco.Common.Login.VerifyUserLogin() in E:\nisha\ordex\hR\Campco\Campco\Common\Login.aspx.cs:line 204
+   at Campco.Common.Login.btnLogin_Click(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\Login.aspx.cs:line 63
+-------------------END-------------2/27/2017 3:06:49 PM
+-------------------START-------------2/27/2017 3:10:49 PM
+Page :Login.aspx
+----------------------------------------------------
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Campco.Common.Login.VerifyUserLogin() in E:\nisha\ordex\hR\Campco\Campco\Common\Login.aspx.cs:line 204
+   at Campco.Common.Login.btnLogin_Click(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\Login.aspx.cs:line 63
+-------------------END-------------2/27/2017 3:10:54 PM

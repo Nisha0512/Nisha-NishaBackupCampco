@@ -1,0 +1,9 @@
+-------------------------START-------------------------3/30/2017 12:22:08 PM
+Page :index.aspx
+----------------------------------------------------
+Stack Trace :   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\index.aspx.cs:line 48
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\index.aspx.cs:line 48
+-------------------------END-------------------------3/30/2017 12:22:08 PM
+----------------------------------------------------

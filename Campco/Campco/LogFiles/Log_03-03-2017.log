@@ -1,0 +1,56 @@
+-------------------------START-------------------------3/3/2017 11:34:02 AM
+Page :index.aspx
+----------------------------------------------------
+Stack Trace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Campco.Common.CampcoCommon.lnkSignout_Click(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\CampcoCommon.Master.cs:line 228
+----------------------------------------------------
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Campco.Common.CampcoCommon.lnkSignout_Click(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\CampcoCommon.Master.cs:line 228
+-------------------------END-------------------------3/3/2017 11:34:03 AM
+----------------------------------------------------
+-------------------------START-------------------------3/3/2017 3:50:03 PM
+Page :ProductList.aspx
+----------------------------------------------------
+Stack Trace :   at Campco.dbUtility.GetProductCategory(Int32 catid) in E:\nisha\ordex\hR\Campco\Campco\AppCode\dbUtility.cs:line 677
+   at Campco.Common.ProductList.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\ProductList.aspx.cs:line 96
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.dbUtility.GetProductCategory(Int32 catid) in E:\nisha\ordex\hR\Campco\Campco\AppCode\dbUtility.cs:line 677
+   at Campco.Common.ProductList.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\ProductList.aspx.cs:line 96
+-------------------------END-------------------------3/3/2017 3:50:03 PM
+----------------------------------------------------
+-------------------------START-------------------------3/3/2017 3:50:04 PM
+Page :ProductList.aspx
+----------------------------------------------------
+Stack Trace :   at Campco.dbUtility.GetCategoryLogo(Int32 categoryId, String prod_cd, Int32 param) in E:\nisha\ordex\hR\Campco\Campco\AppCode\dbUtility.cs:line 514
+   at Campco.Common.CampcoCommon.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\CampcoCommon.Master.cs:line 100
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.dbUtility.GetCategoryLogo(Int32 categoryId, String prod_cd, Int32 param) in E:\nisha\ordex\hR\Campco\Campco\AppCode\dbUtility.cs:line 514
+   at Campco.Common.CampcoCommon.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\CampcoCommon.Master.cs:line 100
+-------------------------END-------------------------3/3/2017 3:50:04 PM
+----------------------------------------------------
+-------------------------START-------------------------3/3/2017 4:03:32 PM
+Page :index.aspx
+----------------------------------------------------
+Stack Trace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Campco.Common.CampcoCommon.lnkSignout_Click(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\CampcoCommon.Master.cs:line 228
+----------------------------------------------------
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Campco.Common.CampcoCommon.lnkSignout_Click(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\CampcoCommon.Master.cs:line 228
+-------------------------END-------------------------3/3/2017 4:03:32 PM
+----------------------------------------------------

@@ -1,0 +1,89 @@
+-------------------------START-------------------------4/8/2017 11:14:42 AM
+Page :index.aspx
+----------------------------------------------------
+Stack Trace :   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\index.aspx.cs:line 131
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\index.aspx.cs:line 131
+-------------------------END-------------------------4/8/2017 11:14:42 AM
+----------------------------------------------------
+-------------------------START-------------------------4/8/2017 11:21:32 AM
+Page :index.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\index.aspx.cs:line 131
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\index.aspx.cs:line 131
+-------------------------END-------------------------4/8/2017 11:21:33 AM
+----------------------------------------------------
+-------------------------START-------------------------4/8/2017 11:25:14 AM
+Page :Registration.aspx
+----------------------------------------------------
+Event :Registration page Load
+-------------------------END-------------------------4/8/2017 11:25:14 AM
+----------------------------------------------------
+-------------------------START-------------------------4/8/2017 11:25:14 AM
+Page :Registration.aspx
+----------------------------------------------------
+Event :FillCapctcha.
+-------------------------END-------------------------4/8/2017 11:25:14 AM
+----------------------------------------------------
+-------------------------START-------------------------4/8/2017 11:26:51 AM
+Page :CreateCaptcha.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at Campco.Common.CampcoCommon.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\CampcoCommon.Master.cs:line 158
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.Common.CampcoCommon.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\CampcoCommon.Master.cs:line 158
+-------------------------END-------------------------4/8/2017 11:26:51 AM
+----------------------------------------------------
+-------------------------START-------------------------4/8/2017 11:27:59 AM
+Page :login.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at Campco.Common.CampcoCommon.Addbtnsubscriber() in E:\nisha\ordex\hR\Campco\Campco\Common\CampcoCommon.Master.cs:line 360
+   at Campco.Common.CampcoCommon.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\CampcoCommon.Master.cs:line 53
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.Common.CampcoCommon.Addbtnsubscriber() in E:\nisha\ordex\hR\Campco\Campco\Common\CampcoCommon.Master.cs:line 360
+   at Campco.Common.CampcoCommon.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\CampcoCommon.Master.cs:line 53
+-------------------------END-------------------------4/8/2017 11:27:59 AM
+----------------------------------------------------
+-------------------------START-------------------------4/8/2017 11:28:32 AM
+Page :index.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\index.aspx.cs:line 131
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\index.aspx.cs:line 131
+-------------------------END-------------------------4/8/2017 11:28:32 AM
+----------------------------------------------------
+-------------------------START-------------------------4/8/2017 11:30:26 AM
+Page :index.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\index.aspx.cs:line 131
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\index.aspx.cs:line 131
+-------------------------END-------------------------4/8/2017 11:30:26 AM
+----------------------------------------------------
+-------------------------START-------------------------4/8/2017 3:31:23 PM
+Page :index.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\index.aspx.cs:line 80
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\index.aspx.cs:line 80
+-------------------------END-------------------------4/8/2017 3:31:23 PM
+----------------------------------------------------

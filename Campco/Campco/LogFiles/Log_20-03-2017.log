@@ -1,0 +1,216 @@
+-------------------------START-------------------------3/20/2017 11:01:36 AM
+Page :BrandBanner.aspx
+----------------------------------------------------
+Stack Trace :   at Campco.AdminPanel.WebForm2.Insert_Banners() in E:\nisha\ordex\hR\Campco\Campco\AdminPanel\BrandBanner.aspx.cs:line 96
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.AdminPanel.WebForm2.Insert_Banners() in E:\nisha\ordex\hR\Campco\Campco\AdminPanel\BrandBanner.aspx.cs:line 96
+-------------------------END-------------------------3/20/2017 11:01:36 AM
+----------------------------------------------------
+-------------------------START-------------------------3/20/2017 11:01:36 AM
+Page :BrandBanner.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at Campco.AdminPanel.WebForm2.Insert_Banners() in E:\nisha\ordex\hR\Campco\Campco\AdminPanel\BrandBanner.aspx.cs:line 96
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.AdminPanel.WebForm2.Insert_Banners() in E:\nisha\ordex\hR\Campco\Campco\AdminPanel\BrandBanner.aspx.cs:line 96
+-------------------------END-------------------------3/20/2017 11:01:36 AM
+----------------------------------------------------
+-------------------------START-------------------------3/20/2017 11:02:40 AM
+Page :BrandBanner.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at Campco.AdminPanel.WebForm2.Insert_Banners() in E:\nisha\ordex\hR\Campco\Campco\AdminPanel\BrandBanner.aspx.cs:line 96
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.AdminPanel.WebForm2.Insert_Banners() in E:\nisha\ordex\hR\Campco\Campco\AdminPanel\BrandBanner.aspx.cs:line 96
+-------------------------END-------------------------3/20/2017 11:02:40 AM
+----------------------------------------------------
+-------------------------START-------------------------3/20/2017 11:02:40 AM
+Page :BrandBanner.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at Campco.AdminPanel.WebForm2.Insert_Banners() in E:\nisha\ordex\hR\Campco\Campco\AdminPanel\BrandBanner.aspx.cs:line 96
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.AdminPanel.WebForm2.Insert_Banners() in E:\nisha\ordex\hR\Campco\Campco\AdminPanel\BrandBanner.aspx.cs:line 96
+-------------------------END-------------------------3/20/2017 11:02:40 AM
+----------------------------------------------------
+-------------------------START-------------------------3/20/2017 11:02:40 AM
+Page :BrandBanner.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at Campco.AdminPanel.WebForm2.Insert_Banners() in E:\nisha\ordex\hR\Campco\Campco\AdminPanel\BrandBanner.aspx.cs:line 96
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.AdminPanel.WebForm2.Insert_Banners() in E:\nisha\ordex\hR\Campco\Campco\AdminPanel\BrandBanner.aspx.cs:line 96
+-------------------------END-------------------------3/20/2017 11:02:40 AM
+----------------------------------------------------
+-------------------------START-------------------------3/20/2017 11:07:35 AM
+Page :BrandBanner.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at Campco.AdminPanel.WebForm2.Insert_Banners() in E:\nisha\ordex\hR\Campco\Campco\AdminPanel\BrandBanner.aspx.cs:line 96
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.AdminPanel.WebForm2.Insert_Banners() in E:\nisha\ordex\hR\Campco\Campco\AdminPanel\BrandBanner.aspx.cs:line 96
+-------------------------END-------------------------3/20/2017 11:07:35 AM
+----------------------------------------------------
+-------------------------START-------------------------3/20/2017 11:07:36 AM
+Page :BrandBanner.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at Campco.AdminPanel.WebForm2.Insert_Banners() in E:\nisha\ordex\hR\Campco\Campco\AdminPanel\BrandBanner.aspx.cs:line 96
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.AdminPanel.WebForm2.Insert_Banners() in E:\nisha\ordex\hR\Campco\Campco\AdminPanel\BrandBanner.aspx.cs:line 96
+-------------------------END-------------------------3/20/2017 11:07:36 AM
+----------------------------------------------------
+-------------------------START-------------------------3/20/2017 11:07:36 AM
+Page :BrandBanner.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at Campco.AdminPanel.WebForm2.Insert_Banners() in E:\nisha\ordex\hR\Campco\Campco\AdminPanel\BrandBanner.aspx.cs:line 96
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.AdminPanel.WebForm2.Insert_Banners() in E:\nisha\ordex\hR\Campco\Campco\AdminPanel\BrandBanner.aspx.cs:line 96
+-------------------------END-------------------------3/20/2017 11:07:36 AM
+----------------------------------------------------
+-------------------------START-------------------------3/20/2017 12:03:03 PM
+Page :BrandBanner.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at Campco.AdminPanel.WebForm2.Insert_Banners() in E:\nisha\ordex\hR\Campco\Campco\AdminPanel\BrandBanner.aspx.cs:line 108
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.AdminPanel.WebForm2.Insert_Banners() in E:\nisha\ordex\hR\Campco\Campco\AdminPanel\BrandBanner.aspx.cs:line 108
+-------------------------END-------------------------3/20/2017 12:03:03 PM
+----------------------------------------------------
+-------------------------START-------------------------3/20/2017 12:03:05 PM
+Page :BrandBanner.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at Campco.AdminPanel.WebForm2.Insert_Banners() in E:\nisha\ordex\hR\Campco\Campco\AdminPanel\BrandBanner.aspx.cs:line 108
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.AdminPanel.WebForm2.Insert_Banners() in E:\nisha\ordex\hR\Campco\Campco\AdminPanel\BrandBanner.aspx.cs:line 108
+-------------------------END-------------------------3/20/2017 12:03:05 PM
+----------------------------------------------------
+-------------------------START-------------------------3/20/2017 12:03:06 PM
+Page :BrandBanner.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at Campco.AdminPanel.WebForm2.Insert_Banners() in E:\nisha\ordex\hR\Campco\Campco\AdminPanel\BrandBanner.aspx.cs:line 108
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.AdminPanel.WebForm2.Insert_Banners() in E:\nisha\ordex\hR\Campco\Campco\AdminPanel\BrandBanner.aspx.cs:line 108
+-------------------------END-------------------------3/20/2017 12:03:06 PM
+----------------------------------------------------
+-------------------------START-------------------------3/20/2017 12:18:53 PM
+Page :BrandBanner.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at Campco.AdminPanel.WebForm2.Insert_Banners() in E:\nisha\ordex\hR\Campco\Campco\AdminPanel\BrandBanner.aspx.cs:line 106
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.AdminPanel.WebForm2.Insert_Banners() in E:\nisha\ordex\hR\Campco\Campco\AdminPanel\BrandBanner.aspx.cs:line 106
+-------------------------END-------------------------3/20/2017 12:18:53 PM
+----------------------------------------------------
+-------------------------START-------------------------3/20/2017 12:18:54 PM
+Page :BrandBanner.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at Campco.AdminPanel.WebForm2.Insert_Banners() in E:\nisha\ordex\hR\Campco\Campco\AdminPanel\BrandBanner.aspx.cs:line 106
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.AdminPanel.WebForm2.Insert_Banners() in E:\nisha\ordex\hR\Campco\Campco\AdminPanel\BrandBanner.aspx.cs:line 106
+-------------------------END-------------------------3/20/2017 12:18:54 PM
+----------------------------------------------------
+-------------------------START-------------------------3/20/2017 6:11:05 PM
+Page :CustomerProfilelist.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Campco.AdminPanel.CustomerProfilelist.GetCustomer() in E:\nisha\ordex\hR\Campco\Campco\AdminPanel\CustomerProfilelist.aspx.cs:line 33
+----------------------------------------------------
+System.IndexOutOfRangeException: Cannot find table 0.
+   at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Campco.AdminPanel.CustomerProfilelist.GetCustomer() in E:\nisha\ordex\hR\Campco\Campco\AdminPanel\CustomerProfilelist.aspx.cs:line 33
+-------------------------END-------------------------3/20/2017 6:11:05 PM
+----------------------------------------------------
+-------------------------START-------------------------3/20/2017 6:13:44 PM
+Page :CustomerProfilelist.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Campco.AdminPanel.CustomerProfilelist.GetCustomer() in E:\nisha\ordex\hR\Campco\Campco\AdminPanel\CustomerProfilelist.aspx.cs:line 33
+----------------------------------------------------
+System.IndexOutOfRangeException: Cannot find table 0.
+   at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Campco.AdminPanel.CustomerProfilelist.GetCustomer() in E:\nisha\ordex\hR\Campco\Campco\AdminPanel\CustomerProfilelist.aspx.cs:line 33
+-------------------------END-------------------------3/20/2017 6:13:44 PM
+----------------------------------------------------
+-------------------------START-------------------------3/20/2017 6:19:31 PM
+Page :CustomerProfilelist.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Campco.AdminPanel.CustomerProfilelist.GetCustomer() in E:\nisha\ordex\hR\Campco\Campco\AdminPanel\CustomerProfilelist.aspx.cs:line 33
+----------------------------------------------------
+System.IndexOutOfRangeException: Cannot find table 0.
+   at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Campco.AdminPanel.CustomerProfilelist.GetCustomer() in E:\nisha\ordex\hR\Campco\Campco\AdminPanel\CustomerProfilelist.aspx.cs:line 33
+-------------------------END-------------------------3/20/2017 6:19:31 PM
+----------------------------------------------------
+-------------------------START-------------------------3/20/2017 6:25:06 PM
+Page :CustomerProfilelist.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Campco.AdminPanel.CustomerProfilelist.GetCustomer() in E:\nisha\ordex\hR\Campco\Campco\AdminPanel\CustomerProfilelist.aspx.cs:line 33
+----------------------------------------------------
+System.IndexOutOfRangeException: Cannot find table 0.
+   at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Campco.AdminPanel.CustomerProfilelist.GetCustomer() in E:\nisha\ordex\hR\Campco\Campco\AdminPanel\CustomerProfilelist.aspx.cs:line 33
+-------------------------END-------------------------3/20/2017 6:25:06 PM
+----------------------------------------------------
+-------------------------START-------------------------3/20/2017 6:49:01 PM
+Page :CustomerProfilelist.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Campco.AdminPanel.CampcoAdmin.lnkSinIn_Click(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\AdminPanel\CampcoAdmin.Master.cs:line 37
+----------------------------------------------------
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Campco.AdminPanel.CampcoAdmin.lnkSinIn_Click(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\AdminPanel\CampcoAdmin.Master.cs:line 37
+-------------------------END-------------------------3/20/2017 6:49:01 PM
+----------------------------------------------------

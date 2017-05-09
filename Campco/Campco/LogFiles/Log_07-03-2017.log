@@ -1,0 +1,266 @@
+-------------------------START-------------------------3/7/2017 2:37:45 PM
+Page :index.aspx
+----------------------------------------------------
+Stack Trace :   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\index.aspx.cs:line 73
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\index.aspx.cs:line 73
+-------------------------END-------------------------3/7/2017 2:37:46 PM
+----------------------------------------------------
+-------------------------START-------------------------3/7/2017 2:41:18 PM
+Page :index.aspx
+----------------------------------------------------
+Stack Trace :   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\index.aspx.cs:line 73
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\index.aspx.cs:line 73
+-------------------------END-------------------------3/7/2017 2:41:18 PM
+----------------------------------------------------
+-------------------------START-------------------------3/7/2017 3:14:22 PM
+Page :UpdateMyProfile.aspx
+----------------------------------------------------
+Stack Trace :   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at Campco.dbUtility.GetCustomerDetail_MyProfile(Registration_Property R) in E:\nisha\ordex\hR\Campco\Campco\AppCode\dbUtility.cs:line 281
+   at Campco.Common.UpdateMyProfile.Get_CustomerDetail() in E:\nisha\ordex\hR\Campco\Campco\Common\UpdateMyProfile.aspx.cs:line 75
+   at Campco.Common.UpdateMyProfile.Retailer_Wholesaler_UpdateProfile() in E:\nisha\ordex\hR\Campco\Campco\Common\UpdateMyProfile.aspx.cs:line 176
+   at Campco.Common.UpdateMyProfile.btnupdateprofile_Click(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\UpdateMyProfile.aspx.cs:line 122
+----------------------------------------------------
+System.IndexOutOfRangeException: There is no row at position 0.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at Campco.dbUtility.GetCustomerDetail_MyProfile(Registration_Property R) in E:\nisha\ordex\hR\Campco\Campco\AppCode\dbUtility.cs:line 281
+   at Campco.Common.UpdateMyProfile.Get_CustomerDetail() in E:\nisha\ordex\hR\Campco\Campco\Common\UpdateMyProfile.aspx.cs:line 75
+   at Campco.Common.UpdateMyProfile.Retailer_Wholesaler_UpdateProfile() in E:\nisha\ordex\hR\Campco\Campco\Common\UpdateMyProfile.aspx.cs:line 176
+   at Campco.Common.UpdateMyProfile.btnupdateprofile_Click(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\UpdateMyProfile.aspx.cs:line 122
+-------------------------END-------------------------3/7/2017 3:14:22 PM
+----------------------------------------------------
+-------------------------START-------------------------3/7/2017 3:15:53 PM
+Page :index.aspx
+----------------------------------------------------
+Stack Trace :   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\index.aspx.cs:line 73
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\index.aspx.cs:line 73
+-------------------------END-------------------------3/7/2017 3:15:53 PM
+----------------------------------------------------
+-------------------------START-------------------------3/7/2017 4:28:29 PM
+Page :UpdateMyProfile.aspx
+----------------------------------------------------
+Stack Trace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Campco.Common.UpdateMyProfile.Retailer_Wholesaler_UpdateProfile() in E:\nisha\ordex\hR\Campco\Campco\Common\UpdateMyProfile.aspx.cs:line 228
+   at Campco.Common.UpdateMyProfile.btnupdateprofile_Click(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\UpdateMyProfile.aspx.cs:line 122
+----------------------------------------------------
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Campco.Common.UpdateMyProfile.Retailer_Wholesaler_UpdateProfile() in E:\nisha\ordex\hR\Campco\Campco\Common\UpdateMyProfile.aspx.cs:line 228
+   at Campco.Common.UpdateMyProfile.btnupdateprofile_Click(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\UpdateMyProfile.aspx.cs:line 122
+-------------------------END-------------------------3/7/2017 4:28:29 PM
+----------------------------------------------------
+-------------------------START-------------------------3/7/2017 4:35:05 PM
+Page :UpdateMyProfile.aspx
+----------------------------------------------------
+Stack Trace :   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at Campco.dbUtility.GetCustomerDetail_MyProfile(Registration_Property R) in E:\nisha\ordex\hR\Campco\Campco\AppCode\dbUtility.cs:line 281
+   at Campco.Common.UpdateMyProfile.Get_CustomerDetail() in E:\nisha\ordex\hR\Campco\Campco\Common\UpdateMyProfile.aspx.cs:line 75
+   at Campco.Common.UpdateMyProfile.Retailer_Wholesaler_UpdateProfile() in E:\nisha\ordex\hR\Campco\Campco\Common\UpdateMyProfile.aspx.cs:line 176
+   at Campco.Common.UpdateMyProfile.btnupdateprofile_Click(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\UpdateMyProfile.aspx.cs:line 122
+----------------------------------------------------
+System.IndexOutOfRangeException: There is no row at position 0.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at Campco.dbUtility.GetCustomerDetail_MyProfile(Registration_Property R) in E:\nisha\ordex\hR\Campco\Campco\AppCode\dbUtility.cs:line 281
+   at Campco.Common.UpdateMyProfile.Get_CustomerDetail() in E:\nisha\ordex\hR\Campco\Campco\Common\UpdateMyProfile.aspx.cs:line 75
+   at Campco.Common.UpdateMyProfile.Retailer_Wholesaler_UpdateProfile() in E:\nisha\ordex\hR\Campco\Campco\Common\UpdateMyProfile.aspx.cs:line 176
+   at Campco.Common.UpdateMyProfile.btnupdateprofile_Click(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\UpdateMyProfile.aspx.cs:line 122
+-------------------------END-------------------------3/7/2017 4:35:05 PM
+----------------------------------------------------
+-------------------------START-------------------------3/7/2017 4:35:13 PM
+Page :UpdateMyProfile.aspx
+----------------------------------------------------
+Stack Trace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Campco.Common.CampcoCommon.lnkSinIn_Click(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\CampcoCommon.Master.cs:line 210
+----------------------------------------------------
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Campco.Common.CampcoCommon.lnkSinIn_Click(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\CampcoCommon.Master.cs:line 210
+-------------------------END-------------------------3/7/2017 4:35:13 PM
+----------------------------------------------------
+-------------------------START-------------------------3/7/2017 4:37:50 PM
+Page :UpdateMyProfile.aspx
+----------------------------------------------------
+Stack Trace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Campco.Common.CampcoCommon.lnkSignout_Click(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\CampcoCommon.Master.cs:line 231
+----------------------------------------------------
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Campco.Common.CampcoCommon.lnkSignout_Click(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\CampcoCommon.Master.cs:line 231
+-------------------------END-------------------------3/7/2017 4:37:50 PM
+----------------------------------------------------
+-------------------------START-------------------------3/7/2017 4:38:26 PM
+Page :index.aspx
+----------------------------------------------------
+Stack Trace :   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\index.aspx.cs:line 73
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\index.aspx.cs:line 73
+-------------------------END-------------------------3/7/2017 4:38:26 PM
+----------------------------------------------------
+-------------------------START-------------------------3/7/2017 4:38:28 PM
+Page :UpdateMyProfile.aspx
+----------------------------------------------------
+Stack Trace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Campco.Common.CampcoCommon.lnkSignout_Click(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\CampcoCommon.Master.cs:line 231
+----------------------------------------------------
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Campco.Common.CampcoCommon.lnkSignout_Click(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\CampcoCommon.Master.cs:line 231
+-------------------------END-------------------------3/7/2017 4:38:28 PM
+----------------------------------------------------
+-------------------------START-------------------------3/7/2017 4:40:21 PM
+Page :index.aspx
+----------------------------------------------------
+Stack Trace :   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\index.aspx.cs:line 73
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\index.aspx.cs:line 73
+-------------------------END-------------------------3/7/2017 4:40:21 PM
+----------------------------------------------------
+-------------------------START-------------------------3/7/2017 4:40:30 PM
+Page :UpdateMyProfile.aspx
+----------------------------------------------------
+Stack Trace :   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at Campco.dbUtility.GetCustomerDetail_MyProfile(Registration_Property R) in E:\nisha\ordex\hR\Campco\Campco\AppCode\dbUtility.cs:line 281
+   at Campco.Common.UpdateMyProfile.Get_CustomerDetail() in E:\nisha\ordex\hR\Campco\Campco\Common\UpdateMyProfile.aspx.cs:line 75
+   at Campco.Common.UpdateMyProfile.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\UpdateMyProfile.aspx.cs:line 38
+----------------------------------------------------
+System.IndexOutOfRangeException: There is no row at position 0.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at Campco.dbUtility.GetCustomerDetail_MyProfile(Registration_Property R) in E:\nisha\ordex\hR\Campco\Campco\AppCode\dbUtility.cs:line 281
+   at Campco.Common.UpdateMyProfile.Get_CustomerDetail() in E:\nisha\ordex\hR\Campco\Campco\Common\UpdateMyProfile.aspx.cs:line 75
+   at Campco.Common.UpdateMyProfile.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\UpdateMyProfile.aspx.cs:line 38
+-------------------------END-------------------------3/7/2017 4:40:30 PM
+----------------------------------------------------
+-------------------------START-------------------------3/7/2017 4:40:36 PM
+Page :UpdateMyProfile.aspx
+----------------------------------------------------
+Stack Trace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Campco.Common.CampcoCommon.lnkSinIn_Click(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\CampcoCommon.Master.cs:line 210
+----------------------------------------------------
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Campco.Common.CampcoCommon.lnkSinIn_Click(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\CampcoCommon.Master.cs:line 210
+-------------------------END-------------------------3/7/2017 4:40:36 PM
+----------------------------------------------------
+-------------------------START-------------------------3/7/2017 4:47:06 PM
+Page :UpdateMyProfile.aspx
+----------------------------------------------------
+Stack Trace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Campco.Common.UpdateMyProfile.Retailer_Wholesaler_UpdateProfile() in E:\nisha\ordex\hR\Campco\Campco\Common\UpdateMyProfile.aspx.cs:line 228
+   at Campco.Common.UpdateMyProfile.btnupdateprofile_Click(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\UpdateMyProfile.aspx.cs:line 122
+----------------------------------------------------
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Campco.Common.UpdateMyProfile.Retailer_Wholesaler_UpdateProfile() in E:\nisha\ordex\hR\Campco\Campco\Common\UpdateMyProfile.aspx.cs:line 228
+   at Campco.Common.UpdateMyProfile.btnupdateprofile_Click(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\UpdateMyProfile.aspx.cs:line 122
+-------------------------END-------------------------3/7/2017 4:47:06 PM
+----------------------------------------------------
+-------------------------START-------------------------3/7/2017 5:06:28 PM
+Page :UpdateMyProfile.aspx
+----------------------------------------------------
+Stack Trace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Campco.Common.CampcoCommon.lnkSignout_Click(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\CampcoCommon.Master.cs:line 231
+----------------------------------------------------
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Campco.Common.CampcoCommon.lnkSignout_Click(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\CampcoCommon.Master.cs:line 231
+-------------------------END-------------------------3/7/2017 5:06:28 PM
+----------------------------------------------------
+-------------------------START-------------------------3/7/2017 5:07:10 PM
+Page :index.aspx
+----------------------------------------------------
+Stack Trace :   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\index.aspx.cs:line 73
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\index.aspx.cs:line 73
+-------------------------END-------------------------3/7/2017 5:07:10 PM
+----------------------------------------------------
+-------------------------START-------------------------3/7/2017 5:07:16 PM
+Page :UpdateMyProfile.aspx
+----------------------------------------------------
+Stack Trace :   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at Campco.dbUtility.GetCustomerDetail_MyProfile(Registration_Property R) in E:\nisha\ordex\hR\Campco\Campco\AppCode\dbUtility.cs:line 281
+   at Campco.Common.UpdateMyProfile.Get_CustomerDetail() in E:\nisha\ordex\hR\Campco\Campco\Common\UpdateMyProfile.aspx.cs:line 75
+   at Campco.Common.UpdateMyProfile.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\UpdateMyProfile.aspx.cs:line 38
+----------------------------------------------------
+System.IndexOutOfRangeException: There is no row at position 0.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at Campco.dbUtility.GetCustomerDetail_MyProfile(Registration_Property R) in E:\nisha\ordex\hR\Campco\Campco\AppCode\dbUtility.cs:line 281
+   at Campco.Common.UpdateMyProfile.Get_CustomerDetail() in E:\nisha\ordex\hR\Campco\Campco\Common\UpdateMyProfile.aspx.cs:line 75
+   at Campco.Common.UpdateMyProfile.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\UpdateMyProfile.aspx.cs:line 38
+-------------------------END-------------------------3/7/2017 5:07:16 PM
+----------------------------------------------------
+-------------------------START-------------------------3/7/2017 5:07:27 PM
+Page :UpdateMyProfile.aspx
+----------------------------------------------------
+Stack Trace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Campco.Common.CampcoCommon.lnkSinIn_Click(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\CampcoCommon.Master.cs:line 210
+----------------------------------------------------
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at Campco.Common.CampcoCommon.lnkSinIn_Click(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\CampcoCommon.Master.cs:line 210
+-------------------------END-------------------------3/7/2017 5:07:27 PM
+----------------------------------------------------

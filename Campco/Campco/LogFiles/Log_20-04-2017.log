@@ -1,0 +1,681 @@
+-------------------------START-------------------------4/20/2017 12:17:50 PM
+Page :index.aspx
+----------------------------------------------------
+Stack Trace :   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\index.aspx.cs:line 82
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\index.aspx.cs:line 82
+-------------------------END-------------------------4/20/2017 12:17:50 PM
+----------------------------------------------------
+-------------------------START-------------------------4/20/2017 12:17:50 PM
+Page :index.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at Campco.Common.CampcoCommon.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\CampcoCommon.Master.cs:line 155
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.Common.CampcoCommon.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\CampcoCommon.Master.cs:line 155
+-------------------------END-------------------------4/20/2017 12:17:50 PM
+----------------------------------------------------
+-------------------------START-------------------------4/20/2017 12:23:02 PM
+Page :login.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Campco.Common.CampcoCommon.lnkSinIn_Click(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\CampcoCommon.Master.cs:line 281
+----------------------------------------------------
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Campco.Common.CampcoCommon.lnkSinIn_Click(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\CampcoCommon.Master.cs:line 281
+-------------------------END-------------------------4/20/2017 12:23:02 PM
+----------------------------------------------------
+-------------------------START-------------------------4/20/2017 12:23:50 PM
+Page :UpdateMyProfile.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Campco.Common.CampcoCommon.lnkMyaccount_Click(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\CampcoCommon.Master.cs:line 248
+----------------------------------------------------
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Campco.Common.CampcoCommon.lnkMyaccount_Click(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\CampcoCommon.Master.cs:line 248
+-------------------------END-------------------------4/20/2017 12:23:50 PM
+----------------------------------------------------
+-------------------------START-------------------------4/20/2017 12:26:58 PM
+Page :UpdateMyProfile.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Campco.Common.CampcoCommon.lnkSignout_Click(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\CampcoCommon.Master.cs:line 302
+----------------------------------------------------
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Campco.Common.CampcoCommon.lnkSignout_Click(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\CampcoCommon.Master.cs:line 302
+-------------------------END-------------------------4/20/2017 12:26:58 PM
+----------------------------------------------------
+-------------------------START-------------------------4/20/2017 12:27:08 PM
+Page :index.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\index.aspx.cs:line 133
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\index.aspx.cs:line 133
+-------------------------END-------------------------4/20/2017 12:27:08 PM
+----------------------------------------------------
+-------------------------START-------------------------4/20/2017 12:27:11 PM
+Page :index.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\index.aspx.cs:line 133
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\index.aspx.cs:line 133
+-------------------------END-------------------------4/20/2017 12:27:11 PM
+----------------------------------------------------
+-------------------------START-------------------------4/20/2017 12:27:20 PM
+Page :index.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\index.aspx.cs:line 133
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\index.aspx.cs:line 133
+-------------------------END-------------------------4/20/2017 12:27:20 PM
+----------------------------------------------------
+-------------------------START-------------------------4/20/2017 12:27:21 PM
+Page :index.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Campco.Common.CampcoCommon.lnkSinIn_Click(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\CampcoCommon.Master.cs:line 281
+----------------------------------------------------
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Campco.Common.CampcoCommon.lnkSinIn_Click(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\CampcoCommon.Master.cs:line 281
+-------------------------END-------------------------4/20/2017 12:27:21 PM
+----------------------------------------------------
+-------------------------START-------------------------4/20/2017 12:27:35 PM
+Page :index.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\index.aspx.cs:line 133
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\index.aspx.cs:line 133
+-------------------------END-------------------------4/20/2017 12:27:35 PM
+----------------------------------------------------
+-------------------------START-------------------------4/20/2017 12:27:44 PM
+Page :index.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\index.aspx.cs:line 133
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\index.aspx.cs:line 133
+-------------------------END-------------------------4/20/2017 12:27:44 PM
+----------------------------------------------------
+-------------------------START-------------------------4/20/2017 12:27:46 PM
+Page :index.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Campco.Common.CampcoCommon.lnkMyaccount_Click(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\CampcoCommon.Master.cs:line 248
+----------------------------------------------------
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Campco.Common.CampcoCommon.lnkMyaccount_Click(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\CampcoCommon.Master.cs:line 248
+-------------------------END-------------------------4/20/2017 12:27:46 PM
+----------------------------------------------------
+-------------------------START-------------------------4/20/2017 12:28:12 PM
+Page :MyCard.aspx
+----------------------------------------------------
+Event :Get Customer Profile sample
+-------------------------END-------------------------4/20/2017 12:28:12 PM
+----------------------------------------------------
+-------------------------START-------------------------4/20/2017 12:28:14 PM
+Page :MyCard.aspx
+----------------------------------------------------
+Event :Successful.
+-------------------------END-------------------------4/20/2017 12:28:14 PM
+----------------------------------------------------
+-------------------------START-------------------------4/20/2017 12:28:14 PM
+Page :MyCard.aspx
+----------------------------------------------------
+Event :Customer Profile Id: 1218499991
+-------------------------END-------------------------4/20/2017 12:28:14 PM
+----------------------------------------------------
+-------------------------START-------------------------4/20/2017 12:28:19 PM
+Page :MyShippingAddress.aspx
+----------------------------------------------------
+Event :Get Customer Profile sample
+-------------------------END-------------------------4/20/2017 12:28:19 PM
+----------------------------------------------------
+-------------------------START-------------------------4/20/2017 12:28:20 PM
+Page :MyShippingAddress.aspx
+----------------------------------------------------
+Event :Successful.
+-------------------------END-------------------------4/20/2017 12:28:20 PM
+----------------------------------------------------
+-------------------------START-------------------------4/20/2017 12:28:20 PM
+Page :MyShippingAddress.aspx
+----------------------------------------------------
+Event :Customer Profile Id: 1218499991
+-------------------------END-------------------------4/20/2017 12:28:20 PM
+----------------------------------------------------
+-------------------------START-------------------------4/20/2017 12:28:43 PM
+Page :MyShippingAddress.aspx
+----------------------------------------------------
+Event :Get Customer Profile sample
+-------------------------END-------------------------4/20/2017 12:28:43 PM
+----------------------------------------------------
+-------------------------START-------------------------4/20/2017 12:28:44 PM
+Page :MyShippingAddress.aspx
+----------------------------------------------------
+Event :Successful.
+-------------------------END-------------------------4/20/2017 12:28:44 PM
+----------------------------------------------------
+-------------------------START-------------------------4/20/2017 12:28:44 PM
+Page :MyShippingAddress.aspx
+----------------------------------------------------
+Event :Customer Profile Id: 1218499991
+-------------------------END-------------------------4/20/2017 12:28:44 PM
+----------------------------------------------------
+-------------------------START-------------------------4/20/2017 12:28:53 PM
+Page :MyShippingAddress.aspx
+----------------------------------------------------
+Event :Get Customer Profile sample
+-------------------------END-------------------------4/20/2017 12:28:53 PM
+----------------------------------------------------
+-------------------------START-------------------------4/20/2017 12:28:54 PM
+Page :MyShippingAddress.aspx
+----------------------------------------------------
+Event :Successful.
+-------------------------END-------------------------4/20/2017 12:28:54 PM
+----------------------------------------------------
+-------------------------START-------------------------4/20/2017 12:28:54 PM
+Page :MyShippingAddress.aspx
+----------------------------------------------------
+Event :Customer Profile Id: 1218499991
+-------------------------END-------------------------4/20/2017 12:28:54 PM
+----------------------------------------------------
+-------------------------START-------------------------4/20/2017 12:28:58 PM
+Page :MyCard.aspx
+----------------------------------------------------
+Event :Get Customer Profile sample
+-------------------------END-------------------------4/20/2017 12:28:58 PM
+----------------------------------------------------
+-------------------------START-------------------------4/20/2017 12:28:59 PM
+Page :MyCard.aspx
+----------------------------------------------------
+Event :Successful.
+-------------------------END-------------------------4/20/2017 12:28:59 PM
+----------------------------------------------------
+-------------------------START-------------------------4/20/2017 12:28:59 PM
+Page :MyCard.aspx
+----------------------------------------------------
+Event :Customer Profile Id: 1218499991
+-------------------------END-------------------------4/20/2017 12:28:59 PM
+----------------------------------------------------
+-------------------------START-------------------------4/20/2017 12:30:05 PM
+Page :MyCard.aspx
+----------------------------------------------------
+Event :Get Customer Profile sample
+-------------------------END-------------------------4/20/2017 12:30:05 PM
+----------------------------------------------------
+-------------------------START-------------------------4/20/2017 12:30:08 PM
+Page :MyCard.aspx
+----------------------------------------------------
+Event :Successful.
+-------------------------END-------------------------4/20/2017 12:30:08 PM
+----------------------------------------------------
+-------------------------START-------------------------4/20/2017 12:30:08 PM
+Page :MyCard.aspx
+----------------------------------------------------
+Event :Customer Profile Id: 1218499991
+-------------------------END-------------------------4/20/2017 12:30:08 PM
+----------------------------------------------------
+-------------------------START-------------------------4/20/2017 12:30:22 PM
+Page :MyShippingAddress.aspx
+----------------------------------------------------
+Event :Get Customer Profile sample
+-------------------------END-------------------------4/20/2017 12:30:22 PM
+----------------------------------------------------
+-------------------------START-------------------------4/20/2017 12:30:23 PM
+Page :MyShippingAddress.aspx
+----------------------------------------------------
+Event :Successful.
+-------------------------END-------------------------4/20/2017 12:30:23 PM
+----------------------------------------------------
+-------------------------START-------------------------4/20/2017 12:30:23 PM
+Page :MyShippingAddress.aspx
+----------------------------------------------------
+Event :Customer Profile Id: 1218499991
+-------------------------END-------------------------4/20/2017 12:30:23 PM
+----------------------------------------------------
+-------------------------START-------------------------4/20/2017 12:30:48 PM
+Page :index.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\index.aspx.cs:line 133
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\index.aspx.cs:line 133
+-------------------------END-------------------------4/20/2017 12:30:48 PM
+----------------------------------------------------
+-------------------------START-------------------------4/20/2017 12:36:46 PM
+Page :PriceList.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Campco.Common.CampcoCommon.lnkSignout_Click(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\CampcoCommon.Master.cs:line 302
+----------------------------------------------------
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Campco.Common.CampcoCommon.lnkSignout_Click(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\CampcoCommon.Master.cs:line 302
+-------------------------END-------------------------4/20/2017 12:36:46 PM
+----------------------------------------------------
+-------------------------START-------------------------4/20/2017 12:36:47 PM
+Page :index.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\index.aspx.cs:line 133
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\index.aspx.cs:line 133
+-------------------------END-------------------------4/20/2017 12:36:47 PM
+----------------------------------------------------
+-------------------------START-------------------------4/20/2017 12:36:51 PM
+Page :index.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\index.aspx.cs:line 133
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\index.aspx.cs:line 133
+-------------------------END-------------------------4/20/2017 12:36:51 PM
+----------------------------------------------------
+-------------------------START-------------------------4/20/2017 12:37:37 PM
+Page :index.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\index.aspx.cs:line 133
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\index.aspx.cs:line 133
+-------------------------END-------------------------4/20/2017 12:37:37 PM
+----------------------------------------------------
+-------------------------START-------------------------4/20/2017 12:37:44 PM
+Page :index.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\index.aspx.cs:line 133
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\index.aspx.cs:line 133
+-------------------------END-------------------------4/20/2017 12:37:44 PM
+----------------------------------------------------
+-------------------------START-------------------------4/20/2017 12:37:45 PM
+Page :index.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Campco.Common.CampcoCommon.lnkSinIn_Click(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\CampcoCommon.Master.cs:line 281
+----------------------------------------------------
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Campco.Common.CampcoCommon.lnkSinIn_Click(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\CampcoCommon.Master.cs:line 281
+-------------------------END-------------------------4/20/2017 12:37:45 PM
+----------------------------------------------------
+-------------------------START-------------------------4/20/2017 12:38:01 PM
+Page :index.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\index.aspx.cs:line 133
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\index.aspx.cs:line 133
+-------------------------END-------------------------4/20/2017 12:38:01 PM
+----------------------------------------------------
+-------------------------START-------------------------4/20/2017 2:27:41 PM
+Page :index.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\index.aspx.cs:line 133
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\index.aspx.cs:line 133
+-------------------------END-------------------------4/20/2017 2:27:41 PM
+----------------------------------------------------
+-------------------------START-------------------------4/20/2017 2:42:40 PM
+Page :index.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\index.aspx.cs:line 133
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\index.aspx.cs:line 133
+-------------------------END-------------------------4/20/2017 2:42:40 PM
+----------------------------------------------------
+-------------------------START-------------------------4/20/2017 4:29:12 PM
+Page :index.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\index.aspx.cs:line 82
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\index.aspx.cs:line 82
+-------------------------END-------------------------4/20/2017 4:29:12 PM
+----------------------------------------------------
+-------------------------START-------------------------4/20/2017 4:29:12 PM
+Page :index.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at Campco.Common.CampcoCommon.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\CampcoCommon.Master.cs:line 155
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.Common.CampcoCommon.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\CampcoCommon.Master.cs:line 155
+-------------------------END-------------------------4/20/2017 4:29:12 PM
+----------------------------------------------------
+-------------------------START-------------------------4/20/2017 4:30:18 PM
+Page :MyCard.aspx
+----------------------------------------------------
+Event :Get Customer Profile sample
+-------------------------END-------------------------4/20/2017 4:30:18 PM
+----------------------------------------------------
+-------------------------START-------------------------4/20/2017 4:30:20 PM
+Page :MyCard.aspx
+----------------------------------------------------
+Event :Successful.
+-------------------------END-------------------------4/20/2017 4:30:20 PM
+----------------------------------------------------
+-------------------------START-------------------------4/20/2017 4:30:20 PM
+Page :MyCard.aspx
+----------------------------------------------------
+Event :Customer Profile Id: 1218499991
+-------------------------END-------------------------4/20/2017 4:30:20 PM
+----------------------------------------------------
+-------------------------START-------------------------4/20/2017 4:30:37 PM
+Page :MyShippingAddress.aspx
+----------------------------------------------------
+Event :Get Customer Profile sample
+-------------------------END-------------------------4/20/2017 4:30:37 PM
+----------------------------------------------------
+-------------------------START-------------------------4/20/2017 4:30:38 PM
+Page :MyShippingAddress.aspx
+----------------------------------------------------
+Event :Successful.
+-------------------------END-------------------------4/20/2017 4:30:38 PM
+----------------------------------------------------
+-------------------------START-------------------------4/20/2017 4:30:38 PM
+Page :MyShippingAddress.aspx
+----------------------------------------------------
+Event :Customer Profile Id: 1218499991
+-------------------------END-------------------------4/20/2017 4:30:38 PM
+----------------------------------------------------
+-------------------------START-------------------------4/20/2017 4:31:54 PM
+Page :MyShippingAddress.aspx
+----------------------------------------------------
+Event :Get Customer Profile sample
+-------------------------END-------------------------4/20/2017 4:31:54 PM
+----------------------------------------------------
+-------------------------START-------------------------4/20/2017 4:31:56 PM
+Page :MyShippingAddress.aspx
+----------------------------------------------------
+Event :Successful.
+-------------------------END-------------------------4/20/2017 4:31:56 PM
+----------------------------------------------------
+-------------------------START-------------------------4/20/2017 4:31:56 PM
+Page :MyShippingAddress.aspx
+----------------------------------------------------
+Event :Customer Profile Id: 1218499991
+-------------------------END-------------------------4/20/2017 4:31:56 PM
+----------------------------------------------------
+-------------------------START-------------------------4/20/2017 4:32:06 PM
+Page :MyCard.aspx
+----------------------------------------------------
+Event :Get Customer Profile sample
+-------------------------END-------------------------4/20/2017 4:32:06 PM
+----------------------------------------------------
+-------------------------START-------------------------4/20/2017 4:32:07 PM
+Page :MyCard.aspx
+----------------------------------------------------
+Event :Successful.
+-------------------------END-------------------------4/20/2017 4:32:07 PM
+----------------------------------------------------
+-------------------------START-------------------------4/20/2017 4:32:07 PM
+Page :MyCard.aspx
+----------------------------------------------------
+Event :Customer Profile Id: 1218499991
+-------------------------END-------------------------4/20/2017 4:32:07 PM
+----------------------------------------------------
+-------------------------START-------------------------4/20/2017 4:32:12 PM
+Page :MyShippingAddress.aspx
+----------------------------------------------------
+Event :Get Customer Profile sample
+-------------------------END-------------------------4/20/2017 4:32:12 PM
+----------------------------------------------------
+-------------------------START-------------------------4/20/2017 4:32:13 PM
+Page :MyShippingAddress.aspx
+----------------------------------------------------
+Event :Successful.
+-------------------------END-------------------------4/20/2017 4:32:13 PM
+----------------------------------------------------
+-------------------------START-------------------------4/20/2017 4:32:13 PM
+Page :MyShippingAddress.aspx
+----------------------------------------------------
+Event :Customer Profile Id: 1218499991
+-------------------------END-------------------------4/20/2017 4:32:13 PM
+----------------------------------------------------
+-------------------------START-------------------------4/20/2017 4:34:35 PM
+Page :MyShippingAddress.aspx
+----------------------------------------------------
+Event :Get Customer Profile sample
+-------------------------END-------------------------4/20/2017 4:34:35 PM
+----------------------------------------------------
+-------------------------START-------------------------4/20/2017 4:34:37 PM
+Page :MyShippingAddress.aspx
+----------------------------------------------------
+Event :Successful.
+-------------------------END-------------------------4/20/2017 4:34:37 PM
+----------------------------------------------------
+-------------------------START-------------------------4/20/2017 4:34:37 PM
+Page :MyShippingAddress.aspx
+----------------------------------------------------
+Event :Customer Profile Id: 1218499991
+-------------------------END-------------------------4/20/2017 4:34:37 PM
+----------------------------------------------------
+-------------------------START-------------------------4/20/2017 4:34:42 PM
+Page :MyCard.aspx
+----------------------------------------------------
+Event :Get Customer Profile sample
+-------------------------END-------------------------4/20/2017 4:34:42 PM
+----------------------------------------------------
+-------------------------START-------------------------4/20/2017 4:34:43 PM
+Page :MyCard.aspx
+----------------------------------------------------
+Event :Successful.
+-------------------------END-------------------------4/20/2017 4:34:43 PM
+----------------------------------------------------
+-------------------------START-------------------------4/20/2017 4:34:43 PM
+Page :MyCard.aspx
+----------------------------------------------------
+Event :Customer Profile Id: 1218499991
+-------------------------END-------------------------4/20/2017 4:34:43 PM
+----------------------------------------------------
+-------------------------START-------------------------4/20/2017 4:35:18 PM
+Page :MyCard.aspx
+----------------------------------------------------
+Event :Get Customer Profile sample
+-------------------------END-------------------------4/20/2017 4:35:18 PM
+----------------------------------------------------
+-------------------------START-------------------------4/20/2017 4:35:20 PM
+Page :MyCard.aspx
+----------------------------------------------------
+Event :Successful.
+-------------------------END-------------------------4/20/2017 4:35:20 PM
+----------------------------------------------------
+-------------------------START-------------------------4/20/2017 4:35:20 PM
+Page :MyCard.aspx
+----------------------------------------------------
+Event :Customer Profile Id: 1218499991
+-------------------------END-------------------------4/20/2017 4:35:20 PM
+----------------------------------------------------
+-------------------------START-------------------------4/20/2017 4:35:31 PM
+Page :MyCard.aspx
+----------------------------------------------------
+Event :Get Customer Profile sample
+-------------------------END-------------------------4/20/2017 4:35:31 PM
+----------------------------------------------------
+-------------------------START-------------------------4/20/2017 4:35:32 PM
+Page :MyCard.aspx
+----------------------------------------------------
+Event :Successful.
+-------------------------END-------------------------4/20/2017 4:35:32 PM
+----------------------------------------------------
+-------------------------START-------------------------4/20/2017 4:35:32 PM
+Page :MyCard.aspx
+----------------------------------------------------
+Event :Customer Profile Id: 1218499991
+-------------------------END-------------------------4/20/2017 4:35:32 PM
+----------------------------------------------------
+-------------------------START-------------------------4/20/2017 4:35:39 PM
+Page :MyShippingAddress.aspx
+----------------------------------------------------
+Event :Get Customer Profile sample
+-------------------------END-------------------------4/20/2017 4:35:39 PM
+----------------------------------------------------
+-------------------------START-------------------------4/20/2017 4:35:41 PM
+Page :MyShippingAddress.aspx
+----------------------------------------------------
+Event :Successful.
+-------------------------END-------------------------4/20/2017 4:35:41 PM
+----------------------------------------------------
+-------------------------START-------------------------4/20/2017 4:35:41 PM
+Page :MyShippingAddress.aspx
+----------------------------------------------------
+Event :Customer Profile Id: 1218499991
+-------------------------END-------------------------4/20/2017 4:35:41 PM
+----------------------------------------------------
+-------------------------START-------------------------4/20/2017 4:38:41 PM
+Page :MyShippingAddress.aspx
+----------------------------------------------------
+Event :Get Customer Profile sample
+-------------------------END-------------------------4/20/2017 4:38:41 PM
+----------------------------------------------------
+-------------------------START-------------------------4/20/2017 4:38:42 PM
+Page :MyShippingAddress.aspx
+----------------------------------------------------
+Event :Successful.
+-------------------------END-------------------------4/20/2017 4:38:42 PM
+----------------------------------------------------
+-------------------------START-------------------------4/20/2017 4:38:42 PM
+Page :MyShippingAddress.aspx
+----------------------------------------------------
+Event :Customer Profile Id: 1218499991
+-------------------------END-------------------------4/20/2017 4:38:42 PM
+----------------------------------------------------
+-------------------------START-------------------------4/20/2017 4:40:16 PM
+Page :index.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\index.aspx.cs:line 133
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\index.aspx.cs:line 133
+-------------------------END-------------------------4/20/2017 4:40:16 PM
+----------------------------------------------------

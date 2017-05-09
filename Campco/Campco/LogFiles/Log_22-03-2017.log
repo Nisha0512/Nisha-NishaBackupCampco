@@ -1,0 +1,89 @@
+-------------------------START-------------------------3/22/2017 10:59:36 AM
+Page :index.aspx
+----------------------------------------------------
+Stack Trace :   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\index.aspx.cs:line 73
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\index.aspx.cs:line 73
+-------------------------END-------------------------3/22/2017 10:59:36 AM
+----------------------------------------------------
+-------------------------START-------------------------3/22/2017 3:25:18 PM
+Page :BrandBanner.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at System.Web.HttpPostedFile.SaveAs(String filename)
+   at System.Web.UI.WebControls.FileUpload.SaveAs(String filename)
+   at Campco.AdminPanel.WebForm2.Insert_Banners() in E:\nisha\ordex\hR\Campco\Campco\AdminPanel\BrandBanner.aspx.cs:line 80
+----------------------------------------------------
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'E:\nisha\ordex\hR\Campco\Campco\Pic\Brand_Banner\1.jpg'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at System.Web.HttpPostedFile.SaveAs(String filename)
+   at System.Web.UI.WebControls.FileUpload.SaveAs(String filename)
+   at Campco.AdminPanel.WebForm2.Insert_Banners() in E:\nisha\ordex\hR\Campco\Campco\AdminPanel\BrandBanner.aspx.cs:line 80
+-------------------------END-------------------------3/22/2017 3:25:18 PM
+----------------------------------------------------
+-------------------------START-------------------------3/22/2017 3:34:25 PM
+Page :BrandBanner.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at System.Web.HttpPostedFile.SaveAs(String filename)
+   at System.Web.UI.WebControls.FileUpload.SaveAs(String filename)
+   at Campco.AdminPanel.WebForm2.Insert_Banners() in E:\nisha\ordex\hR\Campco\Campco\AdminPanel\BrandBanner.aspx.cs:line 80
+----------------------------------------------------
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'E:\nisha\ordex\hR\Campco\Campco\Pic\Brand_Banner\1.jpg'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at System.Web.HttpPostedFile.SaveAs(String filename)
+   at System.Web.UI.WebControls.FileUpload.SaveAs(String filename)
+   at Campco.AdminPanel.WebForm2.Insert_Banners() in E:\nisha\ordex\hR\Campco\Campco\AdminPanel\BrandBanner.aspx.cs:line 80
+-------------------------END-------------------------3/22/2017 3:34:26 PM
+----------------------------------------------------
+-------------------------START-------------------------3/22/2017 3:41:14 PM
+Page :BrandBanner.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at System.Web.HttpPostedFile.SaveAs(String filename)
+   at System.Web.UI.WebControls.FileUpload.SaveAs(String filename)
+   at Campco.AdminPanel.WebForm2.Insert_Banners() in E:\nisha\ordex\hR\Campco\Campco\AdminPanel\BrandBanner.aspx.cs:line 80
+----------------------------------------------------
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'E:\nisha\ordex\hR\Campco\Campco\Pic\Brand_Banner\1.jpg'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at System.Web.HttpPostedFile.SaveAs(String filename)
+   at System.Web.UI.WebControls.FileUpload.SaveAs(String filename)
+   at Campco.AdminPanel.WebForm2.Insert_Banners() in E:\nisha\ordex\hR\Campco\Campco\AdminPanel\BrandBanner.aspx.cs:line 80
+-------------------------END-------------------------3/22/2017 3:41:14 PM
+----------------------------------------------------
+-------------------------START-------------------------3/22/2017 5:31:27 PM
+Page :index.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\index.aspx.cs:line 73
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\index.aspx.cs:line 73
+-------------------------END-------------------------3/22/2017 5:31:27 PM
+----------------------------------------------------

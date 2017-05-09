@@ -1,0 +1,63 @@
+-------------------------START-------------------------3/8/2017 11:52:42 AM
+Page :index.aspx
+----------------------------------------------------
+Stack Trace :   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\index.aspx.cs:line 73
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\index.aspx.cs:line 73
+-------------------------END-------------------------3/8/2017 11:52:43 AM
+----------------------------------------------------
+-------------------------START-------------------------3/8/2017 11:54:37 AM
+Page :index.aspx
+----------------------------------------------------
+Stack Trace :   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\index.aspx.cs:line 73
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\index.aspx.cs:line 73
+-------------------------END-------------------------3/8/2017 11:54:37 AM
+----------------------------------------------------
+-------------------------START-------------------------3/8/2017 11:55:27 AM
+Page :index.aspx
+----------------------------------------------------
+Stack Trace :   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\index.aspx.cs:line 73
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\index.aspx.cs:line 73
+-------------------------END-------------------------3/8/2017 11:55:27 AM
+----------------------------------------------------
+-------------------------START-------------------------3/8/2017 11:57:17 AM
+Page :index.aspx
+----------------------------------------------------
+Stack Trace :   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\index.aspx.cs:line 73
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\index.aspx.cs:line 73
+-------------------------END-------------------------3/8/2017 11:57:17 AM
+----------------------------------------------------
+-------------------------START-------------------------3/8/2017 11:58:03 AM
+Page :index.aspx
+----------------------------------------------------
+Stack Trace :   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\index.aspx.cs:line 73
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\index.aspx.cs:line 73
+-------------------------END-------------------------3/8/2017 11:58:03 AM
+----------------------------------------------------
+-------------------------START-------------------------3/8/2017 12:16:41 PM
+Page :index.aspx
+----------------------------------------------------
+Stack Trace :   at CacheManager.Core.Utility.Guard.NotNull[T](T value, String parameterName)
+   at CacheManager.Core.CacheItem`1..ctor(String key, String region, T value, Nullable`1 expiration, Nullable`1 timeout, Nullable`1 created, Nullable`1 lastAccessed, Boolean expirationDefaults)
+   at CacheManager.Core.CacheItem`1..ctor(String key, T value)
+   at CacheManager.Core.Internal.BaseCache`1.Add(String key, TCacheValue value)
+   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\index.aspx.cs:line 100
+----------------------------------------------------
+System.ArgumentNullException: Value cannot be null.
+Parameter name: value
+   at CacheManager.Core.Utility.Guard.NotNull[T](T value, String parameterName)
+   at CacheManager.Core.CacheItem`1..ctor(String key, String region, T value, Nullable`1 expiration, Nullable`1 timeout, Nullable`1 created, Nullable`1 lastAccessed, Boolean expirationDefaults)
+   at CacheManager.Core.CacheItem`1..ctor(String key, T value)
+   at CacheManager.Core.Internal.BaseCache`1.Add(String key, TCacheValue value)
+   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\index.aspx.cs:line 100
+-------------------------END-------------------------3/8/2017 12:16:41 PM
+----------------------------------------------------

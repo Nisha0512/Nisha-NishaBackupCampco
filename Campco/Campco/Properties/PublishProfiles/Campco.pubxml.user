@@ -1,0 +1,2727 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>D:\hk\ordex\hR\Build_11032017_2</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="B2B/assets/css/ajax-loader.gif">
+      <publishTime>12/23/2016 16:22:15</publishTime>
+    </File>
+    <File Include="B2B/assets/css/flexslider.css">
+      <publishTime>12/23/2016 16:22:15</publishTime>
+    </File>
+    <File Include="B2B/assets/css/jquery-ui.css">
+      <publishTime>12/23/2016 16:22:15</publishTime>
+    </File>
+    <File Include="B2B/assets/css/jquery.fancybox.css">
+      <publishTime>12/23/2016 16:22:15</publishTime>
+    </File>
+    <File Include="B2B/assets/css/js_composer.min.css">
+      <publishTime>12/23/2016 16:22:15</publishTime>
+    </File>
+    <File Include="B2B/assets/css/prettyPhoto.min.css">
+      <publishTime>12/23/2016 16:22:15</publishTime>
+    </File>
+    <File Include="B2B/assets/css/responsive-tabs.css">
+      <publishTime>12/23/2016 16:22:15</publishTime>
+    </File>
+    <File Include="B2B/assets/css/responsive.css">
+      <publishTime>12/23/2016 16:22:15</publishTime>
+    </File>
+    <File Include="B2B/assets/css/revolutionsettings.css">
+      <publishTime>12/23/2016 16:22:15</publishTime>
+    </File>
+    <File Include="B2B/assets/css/revoution/settings-1.css">
+      <publishTime>12/23/2016 16:22:15</publishTime>
+    </File>
+    <File Include="B2B/assets/css/revoution/settings.css">
+      <publishTime>12/23/2016 16:22:15</publishTime>
+    </File>
+    <File Include="B2B/assets/css/select2.css">
+      <publishTime>12/23/2016 16:22:15</publishTime>
+    </File>
+    <File Include="B2B/assets/css/settings.css">
+      <publishTime>12/23/2016 16:22:15</publishTime>
+    </File>
+    <File Include="B2B/assets/css/style.css">
+      <publishTime>12/23/2016 16:22:15</publishTime>
+    </File>
+    <File Include="B2B/assets/css/styles.css">
+      <publishTime>12/23/2016 16:22:15</publishTime>
+    </File>
+    <File Include="B2B/assets/css/subscription-popup.css">
+      <publishTime>12/23/2016 16:22:15</publishTime>
+    </File>
+    <File Include="B2B/assets/css/ultimate.min.css">
+      <publishTime>12/23/2016 16:22:15</publishTime>
+    </File>
+    <File Include="B2B/assets/css/woocommerce-layout.css">
+      <publishTime>12/23/2016 16:22:15</publishTime>
+    </File>
+    <File Include="B2B/assets/css/woocommerce.css">
+      <publishTime>12/23/2016 16:22:15</publishTime>
+    </File>
+    <File Include="B2B/assets/fonts/font-css/Defaults.css">
+      <publishTime>12/23/2016 16:22:16</publishTime>
+    </File>
+    <File Include="B2B/assets/fonts/font-css/font-awesome.css">
+      <publishTime>12/23/2016 16:22:16</publishTime>
+    </File>
+    <File Include="B2B/assets/fonts/font-css/fonts.css">
+      <publishTime>12/23/2016 16:22:16</publishTime>
+    </File>
+    <File Include="B2B/assets/fonts/font-css/icon.css">
+      <publishTime>12/23/2016 16:22:16</publishTime>
+    </File>
+    <File Include="B2B/assets/fonts/font-css/typicons.min.css">
+      <publishTime>12/23/2016 16:22:16</publishTime>
+    </File>
+    <File Include="B2B/assets/fonts/footerfont/footerfont.css">
+      <publishTime>12/23/2016 16:22:16</publishTime>
+    </File>
+    <File Include="B2B/assets/fonts/mohavebold.zip">
+      <publishTime>12/23/2016 16:22:16</publishTime>
+    </File>
+    <File Include="B2B/assets/fonts/mohavebold/mohavebold.png">
+      <publishTime>12/23/2016 16:22:16</publishTime>
+    </File>
+    <File Include="B2B/assets/fonts/mohavebold/myfontsfree.txt">
+      <publishTime>12/23/2016 16:22:16</publishTime>
+    </File>
+    <File Include="B2B/assets/fonts/onlinefontconverter.com.zip">
+      <publishTime>12/23/2016 16:22:16</publishTime>
+    </File>
+    <File Include="B2B/assets/fonts/typicons.minc422.css">
+      <publishTime>12/23/2016 16:22:16</publishTime>
+    </File>
+    <File Include="B2B/assets/images/about-us-campco.jpg">
+      <publishTime>12/23/2016 16:22:17</publishTime>
+    </File>
+    <File Include="B2B/assets/images/about-us-humvee.jpg">
+      <publishTime>12/23/2016 16:22:17</publishTime>
+    </File>
+    <File Include="B2B/assets/images/about-us-smith-wesson.jpg">
+      <publishTime>12/23/2016 16:22:17</publishTime>
+    </File>
+    <File Include="B2B/assets/images/about-us-uzi.jpg">
+      <publishTime>12/23/2016 16:22:17</publishTime>
+    </File>
+    <File Include="B2B/assets/images/about-us.png">
+      <publishTime>12/23/2016 16:22:17</publishTime>
+    </File>
+    <File Include="B2B/assets/images/ajax-loader.gif">
+      <publishTime>12/23/2016 16:22:16</publishTime>
+    </File>
+    <File Include="B2B/assets/images/amex.png">
+      <publishTime>12/23/2016 16:22:16</publishTime>
+    </File>
+    <File Include="B2B/assets/images/banner/1.jpg">
+      <publishTime>12/23/2016 16:22:18</publishTime>
+    </File>
+    <File Include="B2B/assets/images/banner/10.jpg">
+      <publishTime>12/23/2016 16:22:18</publishTime>
+    </File>
+    <File Include="B2B/assets/images/banner/11.jpg">
+      <publishTime>12/23/2016 16:22:20</publishTime>
+    </File>
+    <File Include="B2B/assets/images/banner/12.jpg">
+      <publishTime>12/23/2016 16:22:18</publishTime>
+    </File>
+    <File Include="B2B/assets/images/banner/13.jpg">
+      <publishTime>12/23/2016 16:22:18</publishTime>
+    </File>
+    <File Include="B2B/assets/images/banner/14.jpg">
+      <publishTime>12/23/2016 16:22:18</publishTime>
+    </File>
+    <File Include="B2B/assets/images/banner/15.jpg">
+      <publishTime>12/23/2016 16:22:21</publishTime>
+    </File>
+    <File Include="B2B/assets/images/banner/16.jpg">
+      <publishTime>12/23/2016 16:22:19</publishTime>
+    </File>
+    <File Include="B2B/assets/images/banner/17.jpg">
+      <publishTime>12/23/2016 16:22:20</publishTime>
+    </File>
+    <File Include="B2B/assets/images/banner/2.jpg">
+      <publishTime>12/23/2016 16:22:21</publishTime>
+    </File>
+    <File Include="B2B/assets/images/banner/3.jpg">
+      <publishTime>12/23/2016 16:22:23</publishTime>
+    </File>
+    <File Include="B2B/assets/images/banner/4.jpg">
+      <publishTime>12/23/2016 16:22:20</publishTime>
+    </File>
+    <File Include="B2B/assets/images/banner/5.jpg">
+      <publishTime>12/23/2016 16:22:23</publishTime>
+    </File>
+    <File Include="B2B/assets/images/banner/6.jpg">
+      <publishTime>12/23/2016 16:22:24</publishTime>
+    </File>
+    <File Include="B2B/assets/images/banner/7.jpg">
+      <publishTime>12/23/2016 16:22:21</publishTime>
+    </File>
+    <File Include="B2B/assets/images/banner/8.jpg">
+      <publishTime>12/23/2016 16:22:23</publishTime>
+    </File>
+    <File Include="B2B/assets/images/banner/9.jpg">
+      <publishTime>12/23/2016 16:22:23</publishTime>
+    </File>
+    <File Include="B2B/assets/images/bg_direction_nav.png">
+      <publishTime>12/23/2016 16:22:16</publishTime>
+    </File>
+    <File Include="B2B/assets/images/bg_play_pause.png">
+      <publishTime>12/23/2016 16:22:16</publishTime>
+    </File>
+    <File Include="B2B/assets/images/campco-about.jpg">
+      <publishTime>12/23/2016 16:22:17</publishTime>
+    </File>
+    <File Include="B2B/assets/images/cap.png">
+      <publishTime>12/23/2016 16:22:17</publishTime>
+    </File>
+    <File Include="B2B/assets/images/catlog.jpg">
+      <publishTime>12/23/2016 16:22:16</publishTime>
+    </File>
+    <File Include="B2B/assets/images/catlog.png">
+      <publishTime>12/23/2016 16:22:17</publishTime>
+    </File>
+    <File Include="B2B/assets/images/client/b1.png">
+      <publishTime>12/23/2016 16:22:22</publishTime>
+    </File>
+    <File Include="B2B/assets/images/client/b2.png">
+      <publishTime>12/23/2016 16:22:22</publishTime>
+    </File>
+    <File Include="B2B/assets/images/client/b3.png">
+      <publishTime>12/23/2016 16:22:21</publishTime>
+    </File>
+    <File Include="B2B/assets/images/client/b4.png">
+      <publishTime>12/23/2016 16:22:22</publishTime>
+    </File>
+    <File Include="B2B/assets/images/client/b5.png">
+      <publishTime>12/23/2016 16:22:22</publishTime>
+    </File>
+    <File Include="B2B/assets/images/client/b6.png">
+      <publishTime>12/23/2016 16:22:22</publishTime>
+    </File>
+    <File Include="B2B/assets/images/client/b7.png">
+      <publishTime>12/23/2016 16:22:22</publishTime>
+    </File>
+    <File Include="B2B/assets/images/client/b8.png">
+      <publishTime>12/23/2016 16:22:22</publishTime>
+    </File>
+    <File Include="B2B/assets/images/client/bb1.png">
+      <publishTime>12/23/2016 16:22:22</publishTime>
+    </File>
+    <File Include="B2B/assets/images/client/bb2.png">
+      <publishTime>12/23/2016 16:22:22</publishTime>
+    </File>
+    <File Include="B2B/assets/images/client/bb3.png">
+      <publishTime>12/23/2016 16:22:22</publishTime>
+    </File>
+    <File Include="B2B/assets/images/client/bb4.png">
+      <publishTime>12/23/2016 16:22:22</publishTime>
+    </File>
+    <File Include="B2B/assets/images/client/bb5.png">
+      <publishTime>12/23/2016 16:22:22</publishTime>
+    </File>
+    <File Include="B2B/assets/images/client/bb6.png">
+      <publishTime>12/23/2016 16:22:22</publishTime>
+    </File>
+    <File Include="B2B/assets/images/client/brand1.png">
+      <publishTime>12/23/2016 16:22:22</publishTime>
+    </File>
+    <File Include="B2B/assets/images/client/brand2.png">
+      <publishTime>12/23/2016 16:22:22</publishTime>
+    </File>
+    <File Include="B2B/assets/images/client/brand3.png">
+      <publishTime>12/23/2016 16:22:22</publishTime>
+    </File>
+    <File Include="B2B/assets/images/client/brand4.png">
+      <publishTime>12/23/2016 16:22:22</publishTime>
+    </File>
+    <File Include="B2B/assets/images/client/brand5.png">
+      <publishTime>12/23/2016 16:22:22</publishTime>
+    </File>
+    <File Include="B2B/assets/images/client/brand6.png">
+      <publishTime>12/23/2016 16:22:22</publishTime>
+    </File>
+    <File Include="B2B/assets/images/client/brand7.png">
+      <publishTime>12/23/2016 16:22:22</publishTime>
+    </File>
+    <File Include="B2B/assets/images/client/brand8.png">
+      <publishTime>12/23/2016 16:22:22</publishTime>
+    </File>
+    <File Include="B2B/assets/images/client/brands/1.jpg">
+      <publishTime>12/23/2016 16:22:22</publishTime>
+    </File>
+    <File Include="B2B/assets/images/client/brands/10.jpg">
+      <publishTime>12/23/2016 16:22:22</publishTime>
+    </File>
+    <File Include="B2B/assets/images/client/brands/11.jpg">
+      <publishTime>12/23/2016 16:22:22</publishTime>
+    </File>
+    <File Include="B2B/assets/images/client/brands/12.jpg">
+      <publishTime>12/23/2016 16:22:22</publishTime>
+    </File>
+    <File Include="B2B/assets/images/client/brands/13.jpg">
+      <publishTime>12/23/2016 16:22:22</publishTime>
+    </File>
+    <File Include="B2B/assets/images/client/brands/14.jpg">
+      <publishTime>12/23/2016 16:22:22</publishTime>
+    </File>
+    <File Include="B2B/assets/images/client/brands/15.jpg">
+      <publishTime>12/23/2016 16:22:22</publishTime>
+    </File>
+    <File Include="B2B/assets/images/client/brands/16.jpg">
+      <publishTime>12/23/2016 16:22:22</publishTime>
+    </File>
+    <File Include="B2B/assets/images/client/brands/17.jpg">
+      <publishTime>12/23/2016 16:22:22</publishTime>
+    </File>
+    <File Include="B2B/assets/images/client/brands/18.jpg">
+      <publishTime>12/23/2016 16:22:22</publishTime>
+    </File>
+    <File Include="B2B/assets/images/client/brands/19.jpg">
+      <publishTime>12/23/2016 16:22:22</publishTime>
+    </File>
+    <File Include="B2B/assets/images/client/brands/2.jpg">
+      <publishTime>12/23/2016 16:22:22</publishTime>
+    </File>
+    <File Include="B2B/assets/images/client/brands/20.jpg">
+      <publishTime>12/23/2016 16:22:22</publishTime>
+    </File>
+    <File Include="B2B/assets/images/client/brands/21.jpg">
+      <publishTime>12/23/2016 16:22:22</publishTime>
+    </File>
+    <File Include="B2B/assets/images/client/brands/3.jpg">
+      <publishTime>12/23/2016 16:22:23</publishTime>
+    </File>
+    <File Include="B2B/assets/images/client/brands/4.jpg">
+      <publishTime>12/23/2016 16:22:22</publishTime>
+    </File>
+    <File Include="B2B/assets/images/client/brands/5.jpg">
+      <publishTime>12/23/2016 16:22:22</publishTime>
+    </File>
+    <File Include="B2B/assets/images/client/brands/6.jpg">
+      <publishTime>12/23/2016 16:22:22</publishTime>
+    </File>
+    <File Include="B2B/assets/images/client/brands/7.jpg">
+      <publishTime>12/23/2016 16:22:22</publishTime>
+    </File>
+    <File Include="B2B/assets/images/client/brands/8.jpg">
+      <publishTime>12/23/2016 16:22:22</publishTime>
+    </File>
+    <File Include="B2B/assets/images/client/brands/9.jpg">
+      <publishTime>12/23/2016 16:22:23</publishTime>
+    </File>
+    <File Include="B2B/assets/images/close-lightbox%402x.png">
+      <publishTime>12/23/2016 16:22:17</publishTime>
+    </File>
+    <File Include="B2B/assets/images/close-lightbox-light%402x.png">
+      <publishTime>12/23/2016 16:22:17</publishTime>
+    </File>
+    <File Include="B2B/assets/images/close-lightbox-light.png">
+      <publishTime>12/23/2016 16:22:17</publishTime>
+    </File>
+    <File Include="B2B/assets/images/close-lightbox.png">
+      <publishTime>12/23/2016 16:22:17</publishTime>
+    </File>
+    <File Include="B2B/assets/images/diners.png">
+      <publishTime>12/23/2016 16:22:17</publishTime>
+    </File>
+    <File Include="B2B/assets/images/discover.png">
+      <publishTime>12/23/2016 16:22:17</publishTime>
+    </File>
+    <File Include="B2B/assets/images/ezio_onepage_team_01.jpg">
+      <publishTime>12/23/2016 16:22:17</publishTime>
+    </File>
+    <File Include="B2B/assets/images/ezio_onepage_team_02.jpg">
+      <publishTime>12/23/2016 16:22:17</publishTime>
+    </File>
+    <File Include="B2B/assets/images/ezio_onepage_team_03.jpg">
+      <publishTime>12/23/2016 16:22:17</publishTime>
+    </File>
+    <File Include="B2B/assets/images/ezio_onepage_team_04.jpg">
+      <publishTime>12/23/2016 16:22:17</publishTime>
+    </File>
+    <File Include="B2B/assets/images/ezio_onepage_team_05.jpg">
+      <publishTime>12/23/2016 16:22:17</publishTime>
+    </File>
+    <File Include="B2B/assets/images/ezio_onepage_team_06.jpg">
+      <publishTime>12/23/2016 16:22:17</publishTime>
+    </File>
+    <File Include="B2B/assets/images/ezio_shop_banner_01.jpg">
+      <publishTime>12/23/2016 16:22:17</publishTime>
+    </File>
+    <File Include="B2B/assets/images/ezio_shop_banner_02.jpg">
+      <publishTime>12/23/2016 16:22:17</publishTime>
+    </File>
+    <File Include="B2B/assets/images/ezio_shop_banner_05.jpg">
+      <publishTime>12/23/2016 16:22:17</publishTime>
+    </File>
+    <File Include="B2B/assets/images/ezio_shop_bg_07.jpg">
+      <publishTime>12/23/2016 16:22:17</publishTime>
+    </File>
+    <File Include="B2B/assets/images/ezio_shop_bg_08.jpg">
+      <publishTime>12/23/2016 16:22:17</publishTime>
+    </File>
+    <File Include="B2B/assets/images/ezio_shop_bg_09.jpg">
+      <publishTime>12/23/2016 16:22:17</publishTime>
+    </File>
+    <File Include="B2B/assets/images/ezio_shop_modern_logo_01_dark-1.png">
+      <publishTime>12/23/2016 16:22:17</publishTime>
+    </File>
+    <File Include="B2B/assets/images/ezio_shop_modern_logo_02_light.png">
+      <publishTime>12/23/2016 16:22:17</publishTime>
+    </File>
+    <File Include="B2B/assets/images/ezio_shop_product_06.jpg">
+      <publishTime>12/23/2016 16:22:17</publishTime>
+    </File>
+    <File Include="B2B/assets/images/f1.jpg">
+      <publishTime>12/23/2016 16:22:17</publishTime>
+    </File>
+    <File Include="B2B/assets/images/f2.jpg">
+      <publishTime>12/23/2016 16:22:17</publishTime>
+    </File>
+    <File Include="B2B/assets/images/f3.jpg">
+      <publishTime>12/23/2016 16:22:17</publishTime>
+    </File>
+    <File Include="B2B/assets/images/f4.jpg">
+      <publishTime>12/23/2016 16:22:17</publishTime>
+    </File>
+    <File Include="B2B/assets/images/f5.jpg">
+      <publishTime>12/23/2016 16:22:17</publishTime>
+    </File>
+    <File Include="B2B/assets/images/f6.jpg">
+      <publishTime>12/23/2016 16:22:17</publishTime>
+    </File>
+    <File Include="B2B/assets/images/f7.jpg">
+      <publishTime>12/23/2016 16:22:17</publishTime>
+    </File>
+    <File Include="B2B/assets/images/fancybox_loading%402x.gif">
+      <publishTime>12/23/2016 16:22:17</publishTime>
+    </File>
+    <File Include="B2B/assets/images/fancybox_loading.gif">
+      <publishTime>12/23/2016 16:22:17</publishTime>
+    </File>
+    <File Include="B2B/assets/images/fancybox_overlay.png">
+      <publishTime>12/23/2016 16:22:17</publishTime>
+    </File>
+    <File Include="B2B/assets/images/fancybox_sprite.png">
+      <publishTime>12/23/2016 16:22:18</publishTime>
+    </File>
+    <File Include="B2B/assets/images/footerhumvee.png">
+      <publishTime>12/23/2016 16:22:17</publishTime>
+    </File>
+    <File Include="B2B/assets/images/footerlogo.png">
+      <publishTime>12/23/2016 16:22:17</publishTime>
+    </File>
+    <File Include="B2B/assets/images/footersmithwesson.png">
+      <publishTime>12/23/2016 16:22:17</publishTime>
+    </File>
+    <File Include="B2B/assets/images/footeruzi.png">
+      <publishTime>12/23/2016 16:22:17</publishTime>
+    </File>
+    <File Include="B2B/assets/images/home-1.jpg">
+      <publishTime>12/23/2016 16:22:18</publishTime>
+    </File>
+    <File Include="B2B/assets/images/home-2.jpg">
+      <publishTime>12/23/2016 16:22:18</publishTime>
+    </File>
+    <File Include="B2B/assets/images/home-3.jpg">
+      <publishTime>12/23/2016 16:22:18</publishTime>
+    </File>
+    <File Include="B2B/assets/images/humvee_logo-lg.jpg">
+      <publishTime>12/23/2016 16:22:18</publishTime>
+    </File>
+    <File Include="B2B/assets/images/humvee_logo-orng.png">
+      <publishTime>12/23/2016 16:22:18</publishTime>
+    </File>
+    <File Include="B2B/assets/images/humvee_logo.png">
+      <publishTime>12/23/2016 16:22:18</publishTime>
+    </File>
+    <File Include="B2B/assets/images/jcb.png">
+      <publishTime>12/23/2016 16:22:18</publishTime>
+    </File>
+    <File Include="B2B/assets/images/knife.jpg">
+      <publishTime>12/23/2016 16:22:18</publishTime>
+    </File>
+    <File Include="B2B/assets/images/laser.png">
+      <publishTime>12/23/2016 16:22:18</publishTime>
+    </File>
+    <File Include="B2B/assets/images/loader.gif">
+      <publishTime>12/23/2016 16:22:18</publishTime>
+    </File>
+    <File Include="B2B/assets/images/logo-up.png">
+      <publishTime>12/23/2016 16:22:18</publishTime>
+    </File>
+    <File Include="B2B/assets/images/logo.png">
+      <publishTime>12/23/2016 16:22:18</publishTime>
+    </File>
+    <File Include="B2B/assets/images/maestro.png">
+      <publishTime>12/23/2016 16:22:18</publishTime>
+    </File>
+    <File Include="B2B/assets/images/mastercard.png">
+      <publishTime>12/23/2016 16:22:18</publishTime>
+    </File>
+    <File Include="B2B/assets/images/media-resource/081913-SW-web-wmnperp-1.jpg">
+      <publishTime>12/23/2016 16:22:23</publishTime>
+    </File>
+    <File Include="B2B/assets/images/media-resource/081913-SW-web-wmnperp-1.png">
+      <publishTime>12/23/2016 16:22:23</publishTime>
+    </File>
+    <File Include="B2B/assets/images/media-resource/2009_outdoor_wire_logo_no_sponsor.jpg">
+      <publishTime>12/23/2016 16:22:23</publishTime>
+    </File>
+    <File Include="B2B/assets/images/media-resource/ads_img.jpg">
+      <publishTime>12/23/2016 16:22:23</publishTime>
+    </File>
+    <File Include="B2B/assets/images/media-resource/ammoland.png">
+      <publishTime>12/23/2016 16:22:23</publishTime>
+    </File>
+    <File Include="B2B/assets/images/media-resource/ccr-header-01c.jpeg">
+      <publishTime>12/23/2016 16:22:23</publishTime>
+    </File>
+    <File Include="B2B/assets/images/media-resource/GunTradeWorld-Dec2013-cover.png">
+      <publishTime>12/23/2016 16:22:23</publishTime>
+    </File>
+    <File Include="B2B/assets/images/media-resource/PersonalDefenseWorld-Logo.jpg">
+      <publishTime>12/23/2016 16:22:23</publishTime>
+    </File>
+    <File Include="B2B/assets/images/media-resource/Recoil-Issue9.png">
+      <publishTime>12/23/2016 16:22:24</publishTime>
+    </File>
+    <File Include="B2B/assets/images/media-resource/SAFARIVEST3.jpg">
+      <publishTime>12/23/2016 16:22:23</publishTime>
+    </File>
+    <File Include="B2B/assets/images/media-resource/Shooting-Retailer-NovDec2013.png">
+      <publishTime>12/23/2016 16:22:23</publishTime>
+    </File>
+    <File Include="B2B/assets/images/media-resource/shooting_wire_header_2010_01.jpg">
+      <publishTime>12/23/2016 16:22:23</publishTime>
+    </File>
+    <File Include="B2B/assets/images/media-resource/site_logo.png">
+      <publishTime>12/23/2016 16:22:23</publishTime>
+    </File>
+    <File Include="B2B/assets/images/media-resource/Tactical-World-Winter2013.png">
+      <publishTime>12/23/2016 16:22:23</publishTime>
+    </File>
+    <File Include="B2B/assets/images/media-resource/tactical_wire_header_no_sponsor.jpg">
+      <publishTime>12/23/2016 16:22:23</publishTime>
+    </File>
+    <File Include="B2B/assets/images/product/1-150x150.jpg">
+      <publishTime>12/23/2016 16:22:23</publishTime>
+    </File>
+    <File Include="B2B/assets/images/product/1-1800x1200.jpg">
+      <publishTime>12/23/2016 16:22:24</publishTime>
+    </File>
+    <File Include="B2B/assets/images/product/1-180x180.jpg">
+      <publishTime>12/23/2016 16:22:23</publishTime>
+    </File>
+    <File Include="B2B/assets/images/product/1-600x600.jpg">
+      <publishTime>12/23/2016 16:22:24</publishTime>
+    </File>
+    <File Include="B2B/assets/images/product/1-750x750.jpg">
+      <publishTime>12/23/2016 16:22:24</publishTime>
+    </File>
+    <File Include="B2B/assets/images/product/1.jpg">
+      <publishTime>12/23/2016 16:22:24</publishTime>
+    </File>
+    <File Include="B2B/assets/images/product/2-150x150.jpg">
+      <publishTime>12/23/2016 16:22:23</publishTime>
+    </File>
+    <File Include="B2B/assets/images/product/2-180x180.jpg">
+      <publishTime>12/23/2016 16:22:24</publishTime>
+    </File>
+    <File Include="B2B/assets/images/product/2-683x1024.jpg">
+      <publishTime>12/23/2016 16:22:24</publishTime>
+    </File>
+    <File Include="B2B/assets/images/product/2-750x750.jpg">
+      <publishTime>12/23/2016 16:22:24</publishTime>
+    </File>
+    <File Include="B2B/assets/images/product/2.jpg">
+      <publishTime>12/23/2016 16:22:24</publishTime>
+    </File>
+    <File Include="B2B/assets/images/product/3-150x150.jpg">
+      <publishTime>12/23/2016 16:22:24</publishTime>
+    </File>
+    <File Include="B2B/assets/images/product/3-180x180.jpg">
+      <publishTime>12/23/2016 16:22:24</publishTime>
+    </File>
+    <File Include="B2B/assets/images/product/3-683x1024.jpg">
+      <publishTime>12/23/2016 16:22:24</publishTime>
+    </File>
+    <File Include="B2B/assets/images/product/3-750x750.jpg">
+      <publishTime>12/23/2016 16:22:24</publishTime>
+    </File>
+    <File Include="B2B/assets/images/product/3.jpg">
+      <publishTime>12/23/2016 16:22:24</publishTime>
+    </File>
+    <File Include="B2B/assets/images/product/4-683x1024.jpg">
+      <publishTime>12/23/2016 16:22:24</publishTime>
+    </File>
+    <File Include="B2B/assets/images/product/4-750x750.jpg">
+      <publishTime>12/23/2016 16:22:24</publishTime>
+    </File>
+    <File Include="B2B/assets/images/product/4.jpg">
+      <publishTime>12/23/2016 16:22:24</publishTime>
+    </File>
+    <File Include="B2B/assets/images/product/5.jpg">
+      <publishTime>12/23/2016 16:22:24</publishTime>
+    </File>
+    <File Include="B2B/assets/images/product/6.jpg">
+      <publishTime>12/23/2016 16:22:24</publishTime>
+    </File>
+    <File Include="B2B/assets/images/product/7.jpg">
+      <publishTime>12/23/2016 16:22:24</publishTime>
+    </File>
+    <File Include="B2B/assets/images/product1.jpg">
+      <publishTime>12/23/2016 16:22:18</publishTime>
+    </File>
+    <File Include="B2B/assets/images/product2.jpg">
+      <publishTime>12/23/2016 16:22:18</publishTime>
+    </File>
+    <File Include="B2B/assets/images/products/plg1.png">
+      <publishTime>12/23/2016 16:22:25</publishTime>
+    </File>
+    <File Include="B2B/assets/images/products/plg2.png">
+      <publishTime>12/23/2016 16:22:24</publishTime>
+    </File>
+    <File Include="B2B/assets/images/products/plg3.png">
+      <publishTime>12/23/2016 16:22:24</publishTime>
+    </File>
+    <File Include="B2B/assets/images/products/plg4.png">
+      <publishTime>12/23/2016 16:22:24</publishTime>
+    </File>
+    <File Include="B2B/assets/images/products/product1.png">
+      <publishTime>12/23/2016 16:22:24</publishTime>
+    </File>
+    <File Include="B2B/assets/images/products/product10.png">
+      <publishTime>12/23/2016 16:22:24</publishTime>
+    </File>
+    <File Include="B2B/assets/images/products/product11.png">
+      <publishTime>12/23/2016 16:22:24</publishTime>
+    </File>
+    <File Include="B2B/assets/images/products/product12.png">
+      <publishTime>12/23/2016 16:22:24</publishTime>
+    </File>
+    <File Include="B2B/assets/images/products/product2.png">
+      <publishTime>12/23/2016 16:22:24</publishTime>
+    </File>
+    <File Include="B2B/assets/images/products/product3.png">
+      <publishTime>12/23/2016 16:22:24</publishTime>
+    </File>
+    <File Include="B2B/assets/images/products/product4.png">
+      <publishTime>12/23/2016 16:22:24</publishTime>
+    </File>
+    <File Include="B2B/assets/images/products/product5.png">
+      <publishTime>12/23/2016 16:22:24</publishTime>
+    </File>
+    <File Include="B2B/assets/images/products/product6.png">
+      <publishTime>12/23/2016 16:22:24</publishTime>
+    </File>
+    <File Include="B2B/assets/images/products/product7.png">
+      <publishTime>12/23/2016 16:22:24</publishTime>
+    </File>
+    <File Include="B2B/assets/images/products/product8.png">
+      <publishTime>12/23/2016 16:22:24</publishTime>
+    </File>
+    <File Include="B2B/assets/images/products/product9.png">
+      <publishTime>12/23/2016 16:22:24</publishTime>
+    </File>
+    <File Include="B2B/assets/images/qube_favicon_dark-1.png">
+      <publishTime>12/23/2016 16:22:18</publishTime>
+    </File>
+    <File Include="B2B/assets/images/recover-logo-orng.png">
+      <publishTime>12/23/2016 16:22:18</publishTime>
+    </File>
+    <File Include="B2B/assets/images/recover-logo.png">
+      <publishTime>12/23/2016 16:22:18</publishTime>
+    </File>
+    <File Include="B2B/assets/images/revolution-icons/Icon-Arrow-left.png">
+      <publishTime>12/23/2016 16:22:24</publishTime>
+    </File>
+    <File Include="B2B/assets/images/revolution-icons/Icon-Arrow-Right.png">
+      <publishTime>12/23/2016 16:22:24</publishTime>
+    </File>
+    <File Include="B2B/assets/images/revolution-icons/large_left.png">
+      <publishTime>12/23/2016 16:22:24</publishTime>
+    </File>
+    <File Include="B2B/assets/images/revolution-icons/large_right.png">
+      <publishTime>12/23/2016 16:22:24</publishTime>
+    </File>
+    <File Include="B2B/assets/images/revolution-icons/loader.gif">
+      <publishTime>12/23/2016 16:22:24</publishTime>
+    </File>
+    <File Include="B2B/assets/images/revolution-icons/small_left.png">
+      <publishTime>12/23/2016 16:22:24</publishTime>
+    </File>
+    <File Include="B2B/assets/images/revolution-icons/small_right.png">
+      <publishTime>12/23/2016 16:22:24</publishTime>
+    </File>
+    <File Include="B2B/assets/images/revolution-icons/timer.png">
+      <publishTime>12/23/2016 16:22:24</publishTime>
+    </File>
+    <File Include="B2B/assets/images/smith-wesson-orng.png">
+      <publishTime>12/23/2016 16:22:18</publishTime>
+    </File>
+    <File Include="B2B/assets/images/smith-wesson.png">
+      <publishTime>12/23/2016 16:22:18</publishTime>
+    </File>
+    <File Include="B2B/assets/images/smith_wesson/SW_HOMESIDER_01.jpg">
+      <publishTime>12/23/2016 16:22:30</publishTime>
+    </File>
+    <File Include="B2B/assets/images/smith_wesson/SW_HOMESIDER_02.jpg">
+      <publishTime>12/23/2016 16:22:28</publishTime>
+    </File>
+    <File Include="B2B/assets/images/social1.png">
+      <publishTime>12/23/2016 16:22:18</publishTime>
+    </File>
+    <File Include="B2B/assets/images/social2.png">
+      <publishTime>12/23/2016 16:22:18</publishTime>
+    </File>
+    <File Include="B2B/assets/images/social3.png">
+      <publishTime>12/23/2016 16:22:18</publishTime>
+    </File>
+    <File Include="B2B/assets/images/social4.png">
+      <publishTime>12/23/2016 16:22:18</publishTime>
+    </File>
+    <File Include="B2B/assets/images/social5.png">
+      <publishTime>12/23/2016 16:22:18</publishTime>
+    </File>
+    <File Include="B2B/assets/images/social6.png">
+      <publishTime>12/23/2016 16:22:18</publishTime>
+    </File>
+    <File Include="B2B/assets/images/social7.png">
+      <publishTime>12/23/2016 16:22:18</publishTime>
+    </File>
+    <File Include="B2B/assets/images/social8.png">
+      <publishTime>12/23/2016 16:22:18</publishTime>
+    </File>
+    <File Include="B2B/assets/images/social9.png">
+      <publishTime>12/23/2016 16:22:18</publishTime>
+    </File>
+    <File Include="B2B/assets/images/uzi-logo.jpg">
+      <publishTime>12/23/2016 16:22:18</publishTime>
+    </File>
+    <File Include="B2B/assets/images/uzi-logo.png">
+      <publishTime>12/23/2016 16:22:18</publishTime>
+    </File>
+    <File Include="B2B/assets/images/UZI/SW_HOMESIDER_01.jpg">
+      <publishTime>12/23/2016 16:22:28</publishTime>
+    </File>
+    <File Include="B2B/assets/images/UZI/SW_HOMESIDER_02.jpg">
+      <publishTime>12/23/2016 16:22:27</publishTime>
+    </File>
+    <File Include="B2B/assets/images/UZI/SW_HOMESIDER_10.jpg">
+      <publishTime>12/23/2016 16:22:30</publishTime>
+    </File>
+    <File Include="B2B/assets/images/UZI/SW_HOMESIDER_7.jpg">
+      <publishTime>12/23/2016 16:22:28</publishTime>
+    </File>
+    <File Include="B2B/assets/images/UZI/SW_HOMESIDER_8.jpg">
+      <publishTime>12/23/2016 16:22:28</publishTime>
+    </File>
+    <File Include="B2B/assets/images/UZI/SW_HOMESIDER_9.jpg">
+      <publishTime>12/23/2016 16:22:28</publishTime>
+    </File>
+    <File Include="B2B/assets/images/UZI/UZI_HOMESIDER_01.jpg">
+      <publishTime>12/23/2016 16:22:31</publishTime>
+    </File>
+    <File Include="B2B/assets/images/UZI/UZI_HOMESIDER_06.jpg">
+      <publishTime>12/23/2016 16:22:31</publishTime>
+    </File>
+    <File Include="B2B/assets/images/UZI/UZI_HOMESIDER_18.jpg">
+      <publishTime>12/23/2016 16:22:30</publishTime>
+    </File>
+    <File Include="B2B/assets/images/UZI/UZI_HOMESIDER_20.jpg">
+      <publishTime>12/23/2016 16:22:31</publishTime>
+    </File>
+    <File Include="B2B/assets/images/visa.png">
+      <publishTime>12/23/2016 16:22:18</publishTime>
+    </File>
+    <File Include="B2B/assets/images/you-tube.png">
+      <publishTime>12/23/2016 16:22:18</publishTime>
+    </File>
+    <File Include="B2B/assets/inc/font-awesome/fonts/fontawesome-webfont93e3.html">
+      <publishTime>12/23/2016 16:22:29</publishTime>
+    </File>
+    <File Include="B2B/assets/js/add-to-cart.min.js">
+      <publishTime>12/23/2016 16:22:30</publishTime>
+    </File>
+    <File Include="B2B/assets/js/address-i18n.min.js">
+      <publishTime>12/23/2016 16:22:30</publishTime>
+    </File>
+    <File Include="B2B/assets/js/cart-fragments.min.js">
+      <publishTime>12/23/2016 16:22:30</publishTime>
+    </File>
+    <File Include="B2B/assets/js/cart.min.js">
+      <publishTime>12/23/2016 16:22:30</publishTime>
+    </File>
+    <File Include="B2B/assets/js/comment-reply.min.js">
+      <publishTime>12/23/2016 16:22:30</publishTime>
+    </File>
+    <File Include="B2B/assets/js/core.min.js">
+      <publishTime>12/23/2016 16:22:30</publishTime>
+    </File>
+    <File Include="B2B/assets/js/country-select.min.js">
+      <publishTime>12/23/2016 16:22:30</publishTime>
+    </File>
+    <File Include="B2B/assets/js/dot_irecommendthis.js">
+      <publishTime>12/23/2016 16:22:31</publishTime>
+    </File>
+    <File Include="B2B/assets/js/flowplayer.min.js">
+      <publishTime>12/23/2016 16:22:31</publishTime>
+    </File>
+    <File Include="B2B/assets/js/form.js">
+      <publishTime>12/23/2016 16:22:31</publishTime>
+    </File>
+    <File Include="B2B/assets/js/jquery-1.9.0.min.js">
+      <publishTime>12/23/2016 16:22:31</publishTime>
+    </File>
+    <File Include="B2B/assets/js/jquery-migrate.min.js">
+      <publishTime>12/23/2016 16:22:31</publishTime>
+    </File>
+    <File Include="B2B/assets/js/jquery-ui.js">
+      <publishTime>12/23/2016 16:22:31</publishTime>
+    </File>
+    <File Include="B2B/assets/js/jquery.blockUI.min.js">
+      <publishTime>12/23/2016 16:22:31</publishTime>
+    </File>
+    <File Include="B2B/assets/js/jquery.cookie.min.js">
+      <publishTime>12/23/2016 16:22:31</publishTime>
+    </File>
+    <File Include="B2B/assets/js/jquery.expander.js">
+      <publishTime>12/23/2016 16:22:31</publishTime>
+    </File>
+    <File Include="B2B/assets/js/jquery.fancybox.pack.js">
+      <publishTime>12/23/2016 16:22:31</publishTime>
+    </File>
+    <File Include="B2B/assets/js/jquery.flexslider-min.js">
+      <publishTime>12/23/2016 16:22:31</publishTime>
+    </File>
+    <File Include="B2B/assets/js/jquery.form.min.js">
+      <publishTime>12/23/2016 16:22:31</publishTime>
+    </File>
+    <File Include="B2B/assets/js/jquery.js">
+      <publishTime>12/23/2016 16:22:31</publishTime>
+    </File>
+    <File Include="B2B/assets/js/jquery.min.js">
+      <publishTime>12/23/2016 16:22:31</publishTime>
+    </File>
+    <File Include="B2B/assets/js/jquery.themepunch.revolution.js.js">
+      <publishTime>12/23/2016 16:22:31</publishTime>
+    </File>
+    <File Include="B2B/assets/js/jquery.themepunch.revolution.min.js">
+      <publishTime>12/23/2016 16:22:31</publishTime>
+    </File>
+    <File Include="B2B/assets/js/jquery.themepunch.tools.min.js">
+      <publishTime>12/23/2016 16:22:31</publishTime>
+    </File>
+    <File Include="B2B/assets/js/js_composer_front.min.js">
+      <publishTime>12/23/2016 16:22:31</publishTime>
+    </File>
+    <File Include="B2B/assets/js/modernizr-2.6.2.min.js">
+      <publishTime>12/23/2016 16:22:31</publishTime>
+    </File>
+    <File Include="B2B/assets/js/mouse.min.js">
+      <publishTime>12/23/2016 16:22:31</publishTime>
+    </File>
+    <File Include="B2B/assets/js/picturefill.min.js">
+      <publishTime>12/23/2016 16:22:31</publishTime>
+    </File>
+    <File Include="B2B/assets/js/picturefill.min41fe.js">
+      <publishTime>12/23/2016 16:22:31</publishTime>
+    </File>
+    <File Include="B2B/assets/js/plugin.js">
+      <publishTime>12/23/2016 16:22:31</publishTime>
+    </File>
+    <File Include="B2B/assets/js/responsive-tabs.js">
+      <publishTime>12/23/2016 16:22:31</publishTime>
+    </File>
+    <File Include="B2B/assets/js/revolution-slider.js">
+      <publishTime>12/23/2016 16:22:31</publishTime>
+    </File>
+    <File Include="B2B/assets/js/revolution/extensions/revolution.extension.actions.min.js">
+      <publishTime>12/23/2016 16:22:32</publishTime>
+    </File>
+    <File Include="B2B/assets/js/revolution/extensions/revolution.extension.carousel.min.js">
+      <publishTime>12/23/2016 16:22:32</publishTime>
+    </File>
+    <File Include="B2B/assets/js/revolution/extensions/revolution.extension.kenburn.min.js">
+      <publishTime>12/23/2016 16:22:32</publishTime>
+    </File>
+    <File Include="B2B/assets/js/revolution/extensions/revolution.extension.layeranimation.min.js">
+      <publishTime>12/23/2016 16:22:32</publishTime>
+    </File>
+    <File Include="B2B/assets/js/revolution/extensions/revolution.extension.migration.min.js">
+      <publishTime>12/23/2016 16:22:32</publishTime>
+    </File>
+    <File Include="B2B/assets/js/revolution/extensions/revolution.extension.navigation.min.js">
+      <publishTime>12/23/2016 16:22:32</publishTime>
+    </File>
+    <File Include="B2B/assets/js/revolution/extensions/revolution.extension.parallax.min.js">
+      <publishTime>12/23/2016 16:22:32</publishTime>
+    </File>
+    <File Include="B2B/assets/js/revolution/extensions/revolution.extension.slideanims.min.js">
+      <publishTime>12/23/2016 16:22:32</publishTime>
+    </File>
+    <File Include="B2B/assets/js/revolution/extensions/revolution.extension.video.min.js">
+      <publishTime>12/23/2016 16:22:32</publishTime>
+    </File>
+    <File Include="B2B/assets/js/revolution/extensions/source/revolution.extension.actions.js">
+      <publishTime>12/23/2016 16:22:32</publishTime>
+    </File>
+    <File Include="B2B/assets/js/revolution/extensions/source/revolution.extension.carousel.js">
+      <publishTime>12/23/2016 16:22:32</publishTime>
+    </File>
+    <File Include="B2B/assets/js/revolution/extensions/source/revolution.extension.kenburn.js">
+      <publishTime>12/23/2016 16:22:32</publishTime>
+    </File>
+    <File Include="B2B/assets/js/revolution/extensions/source/revolution.extension.layeranimation.js">
+      <publishTime>12/23/2016 16:22:32</publishTime>
+    </File>
+    <File Include="B2B/assets/js/revolution/extensions/source/revolution.extension.migration.js">
+      <publishTime>12/23/2016 16:22:32</publishTime>
+    </File>
+    <File Include="B2B/assets/js/revolution/extensions/source/revolution.extension.navigation.js">
+      <publishTime>12/23/2016 16:22:32</publishTime>
+    </File>
+    <File Include="B2B/assets/js/revolution/extensions/source/revolution.extension.parallax.js">
+      <publishTime>12/23/2016 16:22:32</publishTime>
+    </File>
+    <File Include="B2B/assets/js/revolution/extensions/source/revolution.extension.slideanims.js">
+      <publishTime>12/23/2016 16:22:32</publishTime>
+    </File>
+    <File Include="B2B/assets/js/revolution/extensions/source/revolution.extension.video.js">
+      <publishTime>12/23/2016 16:22:32</publishTime>
+    </File>
+    <File Include="B2B/assets/js/revolution/jquery.themepunch.revolution.min-1.js">
+      <publishTime>12/23/2016 16:22:32</publishTime>
+    </File>
+    <File Include="B2B/assets/js/revolution/jquery.themepunch.revolution.min.js">
+      <publishTime>12/23/2016 16:22:31</publishTime>
+    </File>
+    <File Include="B2B/assets/js/revolution/jquery.themepunch.tools.min-1.js">
+      <publishTime>12/23/2016 16:22:32</publishTime>
+    </File>
+    <File Include="B2B/assets/js/revolution/jquery.themepunch.tools.min.js">
+      <publishTime>12/23/2016 16:22:32</publishTime>
+    </File>
+    <File Include="B2B/assets/js/script.js">
+      <publishTime>12/23/2016 16:22:31</publishTime>
+    </File>
+    <File Include="B2B/assets/js/scripts.js">
+      <publishTime>12/23/2016 16:22:31</publishTime>
+    </File>
+    <File Include="B2B/assets/js/select2.min.js">
+      <publishTime>12/23/2016 16:22:31</publishTime>
+    </File>
+    <File Include="B2B/assets/js/shop/jquery-ui-touch-punch.min.js">
+      <publishTime>12/23/2016 16:22:32</publishTime>
+    </File>
+    <File Include="B2B/assets/js/shop/mouse.min.js">
+      <publishTime>12/23/2016 16:22:32</publishTime>
+    </File>
+    <File Include="B2B/assets/js/shop/price-slider.min.js">
+      <publishTime>12/23/2016 16:22:32</publishTime>
+    </File>
+    <File Include="B2B/assets/js/shop/slider.min.js">
+      <publishTime>12/23/2016 16:22:32</publishTime>
+    </File>
+    <File Include="B2B/assets/js/shop/widget.min.js">
+      <publishTime>12/23/2016 16:22:32</publishTime>
+    </File>
+    <File Include="B2B/assets/js/single-product.min.js">
+      <publishTime>12/23/2016 16:22:31</publishTime>
+    </File>
+    <File Include="B2B/assets/js/slider.min.js">
+      <publishTime>12/23/2016 16:22:31</publishTime>
+    </File>
+    <File Include="B2B/assets/js/slider/revolution.extension.actions.min.js">
+      <publishTime>12/23/2016 16:22:32</publishTime>
+    </File>
+    <File Include="B2B/assets/js/slider/revolution.extension.slideanims.min.js">
+      <publishTime>12/23/2016 16:22:32</publishTime>
+    </File>
+    <File Include="B2B/assets/js/slider/revolution.extension.video.min.js">
+      <publishTime>12/23/2016 16:22:32</publishTime>
+    </File>
+    <File Include="B2B/assets/js/subscription-popup.js">
+      <publishTime>12/23/2016 16:22:31</publishTime>
+    </File>
+    <File Include="B2B/assets/js/tab/ultimate.min.css">
+      <publishTime>12/23/2016 16:22:32</publishTime>
+    </File>
+    <File Include="B2B/assets/js/tab/vc-accordion.min.js">
+      <publishTime>12/23/2016 16:22:32</publishTime>
+    </File>
+    <File Include="B2B/assets/js/tab/vc-tabs.min.js">
+      <publishTime>12/23/2016 16:22:32</publishTime>
+    </File>
+    <File Include="B2B/assets/js/tab/vc-tta-autoplay.min.js">
+      <publishTime>12/23/2016 16:22:32</publishTime>
+    </File>
+    <File Include="B2B/assets/js/tabcontent.js">
+      <publishTime>12/23/2016 16:22:31</publishTime>
+    </File>
+    <File Include="B2B/assets/js/ui/core.mine899.js">
+      <publishTime>12/23/2016 16:22:32</publishTime>
+    </File>
+    <File Include="B2B/assets/js/ui/mouse.mine899.js">
+      <publishTime>12/23/2016 16:22:32</publishTime>
+    </File>
+    <File Include="B2B/assets/js/ui/slider.mine899.js">
+      <publishTime>12/23/2016 16:22:32</publishTime>
+    </File>
+    <File Include="B2B/assets/js/ui/widget.mine899.js">
+      <publishTime>12/23/2016 16:22:32</publishTime>
+    </File>
+    <File Include="B2B/assets/js/ultimate.min.js">
+      <publishTime>12/23/2016 16:22:31</publishTime>
+    </File>
+    <File Include="B2B/assets/js/vhparallax.min.js">
+      <publishTime>12/23/2016 16:22:31</publishTime>
+    </File>
+    <File Include="B2B/assets/js/widget.min.js">
+      <publishTime>12/23/2016 16:22:31</publishTime>
+    </File>
+    <File Include="B2B/assets/js/widgets.js">
+      <publishTime>12/23/2016 16:22:31</publishTime>
+    </File>
+    <File Include="B2B/assets/js/woocommerce-add-to-cart.js">
+      <publishTime>12/23/2016 16:22:31</publishTime>
+    </File>
+    <File Include="B2B/assets/js/woocommerce.min.js">
+      <publishTime>12/23/2016 16:22:31</publishTime>
+    </File>
+    <File Include="B2B/assets/js/woo_tabs.js">
+      <publishTime>12/23/2016 16:22:31</publishTime>
+    </File>
+    <File Include="B2B/assets/js/wp-embed.min.js">
+      <publishTime>12/23/2016 16:22:31</publishTime>
+    </File>
+    <File Include="B2B/assets/video/1.jpg">
+      <publishTime>12/23/2016 16:22:32</publishTime>
+    </File>
+    <File Include="B2B/assets/video/1.mp4">
+      <publishTime>12/23/2016 16:27:48</publishTime>
+    </File>
+    <File Include="B2B/assets/video/2.jpg">
+      <publishTime>12/23/2016 16:22:43</publishTime>
+    </File>
+    <File Include="B2B/assets/video/2.mp4">
+      <publishTime>12/23/2016 16:23:46</publishTime>
+    </File>
+    <File Include="B2B/assets/video/3.jpg">
+      <publishTime>12/23/2016 16:22:43</publishTime>
+    </File>
+    <File Include="B2B/assets/video/3.mp4">
+      <publishTime>12/23/2016 16:28:04</publishTime>
+    </File>
+    <File Include="B2B/assets/video/4.jpg">
+      <publishTime>12/23/2016 16:22:48</publishTime>
+    </File>
+    <File Include="B2B/assets/video/4.mp4">
+      <publishTime>12/23/2016 16:26:15</publishTime>
+    </File>
+    <File Include="B2B/assets/video/5.mp4">
+      <publishTime>12/23/2016 16:27:47</publishTime>
+    </File>
+    <File Include="B2B/assets/video/6.mp4">
+      <publishTime>12/23/2016 16:24:07</publishTime>
+    </File>
+    <File Include="B2B/assets/video/7.mp4">
+      <publishTime>12/23/2016 16:28:00</publishTime>
+    </File>
+    <File Include="B2B/WebForm1.aspx">
+      <publishTime>12/23/2016 16:22:15</publishTime>
+    </File>
+    <File Include="bin/AuthorizeNet.dll">
+      <publishTime>12/23/2016 16:44:57</publishTime>
+    </File>
+    <File Include="bin/Campco.dll">
+      <publishTime>02/01/2017 12:06:11</publishTime>
+    </File>
+    <File Include="bin/Campco.dll.config">
+      <publishTime>01/31/2017 10:26:39</publishTime>
+    </File>
+    <File Include="bin/Microsoft.QualityTools.Testing.Fakes.dll">
+      <publishTime>07/26/2012 19:41:24</publishTime>
+    </File>
+    <File Include="Common/Aboutus.aspx">
+      <publishTime>01/05/2017 16:54:47</publishTime>
+    </File>
+    <File Include="Common/Admin.aspx">
+      <publishTime>01/06/2017 12:25:09</publishTime>
+    </File>
+    <File Include="Common/Admin_Brand_Banners.aspx">
+      <publishTime>01/05/2017 18:31:05</publishTime>
+    </File>
+    <File Include="Common/assets/css/ajax-loader.gif">
+      <publishTime>12/23/2016 16:22:53</publishTime>
+    </File>
+    <File Include="Common/assets/css/flexslider.css">
+      <publishTime>12/23/2016 16:22:53</publishTime>
+    </File>
+    <File Include="Common/assets/css/jquery-ui.css">
+      <publishTime>12/23/2016 16:22:53</publishTime>
+    </File>
+    <File Include="Common/assets/css/jquery.fancybox.css">
+      <publishTime>12/23/2016 16:22:53</publishTime>
+    </File>
+    <File Include="Common/assets/css/js_composer.min.css">
+      <publishTime>12/23/2016 16:22:54</publishTime>
+    </File>
+    <File Include="Common/assets/css/pagging.css">
+      <publishTime>12/23/2016 16:22:54</publishTime>
+    </File>
+    <File Include="Common/assets/css/prettyPhoto.min.css">
+      <publishTime>12/23/2016 16:22:54</publishTime>
+    </File>
+    <File Include="Common/assets/css/responsive-tabs.css">
+      <publishTime>12/23/2016 16:22:54</publishTime>
+    </File>
+    <File Include="Common/assets/css/responsive.css">
+      <publishTime>12/23/2016 16:22:54</publishTime>
+    </File>
+    <File Include="Common/assets/css/revolutionsettings.css">
+      <publishTime>12/23/2016 16:22:55</publishTime>
+    </File>
+    <File Include="Common/assets/css/revoution/settings-1.css">
+      <publishTime>12/23/2016 16:22:56</publishTime>
+    </File>
+    <File Include="Common/assets/css/revoution/settings.css">
+      <publishTime>12/23/2016 16:22:55</publishTime>
+    </File>
+    <File Include="Common/assets/css/select2.css">
+      <publishTime>12/23/2016 16:22:55</publishTime>
+    </File>
+    <File Include="Common/assets/css/settings.css">
+      <publishTime>12/23/2016 16:22:55</publishTime>
+    </File>
+    <File Include="Common/assets/css/style.css">
+      <publishTime>01/30/2017 18:14:36</publishTime>
+    </File>
+    <File Include="Common/assets/css/styles.css">
+      <publishTime>01/30/2017 18:14:36</publishTime>
+    </File>
+    <File Include="Common/assets/css/subscription-popup.css">
+      <publishTime>12/23/2016 16:22:55</publishTime>
+    </File>
+    <File Include="Common/assets/css/ultimate.min.css">
+      <publishTime>12/23/2016 16:22:55</publishTime>
+    </File>
+    <File Include="Common/assets/css/woocommerce-layout.css">
+      <publishTime>12/14/2016 12:19:20</publishTime>
+    </File>
+    <File Include="Common/assets/css/woocommerce.css">
+      <publishTime>01/30/2017 18:14:36</publishTime>
+    </File>
+    <File Include="Common/assets/fonts/font-css/Defaults.css">
+      <publishTime>12/23/2016 16:23:26</publishTime>
+    </File>
+    <File Include="Common/assets/fonts/font-css/font-awesome.css">
+      <publishTime>12/23/2016 16:23:26</publishTime>
+    </File>
+    <File Include="Common/assets/fonts/font-css/fonts.css">
+      <publishTime>12/23/2016 16:23:26</publishTime>
+    </File>
+    <File Include="Common/assets/fonts/font-css/icon.css">
+      <publishTime>12/23/2016 16:23:26</publishTime>
+    </File>
+    <File Include="Common/assets/fonts/font-css/typicons.min.css">
+      <publishTime>12/23/2016 16:23:26</publishTime>
+    </File>
+    <File Include="Common/assets/fonts/footerfont/footerfont.css">
+      <publishTime>12/23/2016 16:23:26</publishTime>
+    </File>
+    <File Include="Common/assets/fonts/mohavebold.zip">
+      <publishTime>12/23/2016 16:23:17</publishTime>
+    </File>
+    <File Include="Common/assets/fonts/mohavebold/mohavebold.png">
+      <publishTime>12/23/2016 16:23:36</publishTime>
+    </File>
+    <File Include="Common/assets/fonts/mohavebold/myfontsfree.txt">
+      <publishTime>12/23/2016 16:23:37</publishTime>
+    </File>
+    <File Include="Common/assets/fonts/onlinefontconverter.com.zip">
+      <publishTime>12/23/2016 16:23:18</publishTime>
+    </File>
+    <File Include="Common/assets/fonts/typicons.minc422.css">
+      <publishTime>12/23/2016 16:23:22</publishTime>
+    </File>
+    <File Include="Common/assets/images/about-us-campco.jpg">
+      <publishTime>12/23/2016 16:23:52</publishTime>
+    </File>
+    <File Include="Common/assets/images/about-us-humvee.jpg">
+      <publishTime>12/23/2016 16:24:02</publishTime>
+    </File>
+    <File Include="Common/assets/images/about-us-smith-wesson.jpg">
+      <publishTime>12/23/2016 16:23:58</publishTime>
+    </File>
+    <File Include="Common/assets/images/about-us-uzi.jpg">
+      <publishTime>12/23/2016 16:24:03</publishTime>
+    </File>
+    <File Include="Common/assets/images/about-us.png">
+      <publishTime>12/23/2016 16:23:53</publishTime>
+    </File>
+    <File Include="Common/assets/images/About_swiss.jpg">
+      <publishTime>12/23/2016 16:23:37</publishTime>
+    </File>
+    <File Include="Common/assets/images/ajax-loader.gif">
+      <publishTime>12/23/2016 16:24:02</publishTime>
+    </File>
+    <File Include="Common/assets/images/amex.png">
+      <publishTime>12/23/2016 16:24:02</publishTime>
+    </File>
+    <File Include="Common/assets/images/banner/1.jpg">
+      <publishTime>12/23/2016 16:24:18</publishTime>
+    </File>
+    <File Include="Common/assets/images/banner/10.jpg">
+      <publishTime>12/23/2016 16:24:25</publishTime>
+    </File>
+    <File Include="Common/assets/images/banner/11.jpg">
+      <publishTime>12/23/2016 16:24:31</publishTime>
+    </File>
+    <File Include="Common/assets/images/banner/12.jpg">
+      <publishTime>12/23/2016 16:24:27</publishTime>
+    </File>
+    <File Include="Common/assets/images/banner/13.jpg">
+      <publishTime>12/23/2016 16:24:29</publishTime>
+    </File>
+    <File Include="Common/assets/images/banner/14.jpg">
+      <publishTime>12/23/2016 16:24:31</publishTime>
+    </File>
+    <File Include="Common/assets/images/banner/15.jpg">
+      <publishTime>12/23/2016 16:24:36</publishTime>
+    </File>
+    <File Include="Common/assets/images/banner/16.jpg">
+      <publishTime>12/23/2016 16:24:33</publishTime>
+    </File>
+    <File Include="Common/assets/images/banner/17.jpg">
+      <publishTime>12/23/2016 16:24:35</publishTime>
+    </File>
+    <File Include="Common/assets/images/banner/1_1.jpg">
+      <publishTime>12/23/2016 16:24:18</publishTime>
+    </File>
+    <File Include="Common/assets/images/banner/1_2.jpg">
+      <publishTime>12/23/2016 16:24:22</publishTime>
+    </File>
+    <File Include="Common/assets/images/banner/1_3.jpg">
+      <publishTime>12/23/2016 16:24:23</publishTime>
+    </File>
+    <File Include="Common/assets/images/banner/1_4.jpg">
+      <publishTime>12/23/2016 16:24:22</publishTime>
+    </File>
+    <File Include="Common/assets/images/banner/1_5.jpg">
+      <publishTime>12/23/2016 16:24:25</publishTime>
+    </File>
+    <File Include="Common/assets/images/banner/2.jpg">
+      <publishTime>12/23/2016 16:24:37</publishTime>
+    </File>
+    <File Include="Common/assets/images/banner/3.jpg">
+      <publishTime>12/23/2016 16:24:42</publishTime>
+    </File>
+    <File Include="Common/assets/images/banner/4.jpg">
+      <publishTime>12/23/2016 16:24:39</publishTime>
+    </File>
+    <File Include="Common/assets/images/banner/5.jpg">
+      <publishTime>12/23/2016 16:24:45</publishTime>
+    </File>
+    <File Include="Common/assets/images/banner/6.jpg">
+      <publishTime>12/23/2016 16:24:46</publishTime>
+    </File>
+    <File Include="Common/assets/images/banner/7.jpg">
+      <publishTime>12/23/2016 16:24:45</publishTime>
+    </File>
+    <File Include="Common/assets/images/banner/8.jpg">
+      <publishTime>12/23/2016 16:24:47</publishTime>
+    </File>
+    <File Include="Common/assets/images/banner/9.jpg">
+      <publishTime>12/23/2016 16:24:48</publishTime>
+    </File>
+    <File Include="Common/assets/images/banner/caliber/1.jpg">
+      <publishTime>12/23/2016 16:24:56</publishTime>
+    </File>
+    <File Include="Common/assets/images/banner/caliber/2.jpg">
+      <publishTime>12/23/2016 16:24:59</publishTime>
+    </File>
+    <File Include="Common/assets/images/banner/caliber/21.jpg">
+      <publishTime>12/23/2016 16:25:00</publishTime>
+    </File>
+    <File Include="Common/assets/images/banner/caliber/22.jpg">
+      <publishTime>12/23/2016 16:25:02</publishTime>
+    </File>
+    <File Include="Common/assets/images/banner/caliber/3.jpg">
+      <publishTime>12/23/2016 16:25:04</publishTime>
+    </File>
+    <File Include="Common/assets/images/banner/caliber/4.jpg">
+      <publishTime>12/23/2016 16:25:05</publishTime>
+    </File>
+    <File Include="Common/assets/images/banner/caliber/L_01.jpg">
+      <publishTime>12/23/2016 16:25:07</publishTime>
+    </File>
+    <File Include="Common/assets/images/banner/caliber/L_02.jpg">
+      <publishTime>12/23/2016 16:25:09</publishTime>
+    </File>
+    <File Include="Common/assets/images/banner/caliber/L_03.jpg">
+      <publishTime>12/23/2016 16:25:08</publishTime>
+    </File>
+    <File Include="Common/assets/images/banner/caliber/L_04.jpg">
+      <publishTime>12/23/2016 16:25:10</publishTime>
+    </File>
+    <File Include="Common/assets/images/banner/humvee/1.jpg">
+      <publishTime>12/23/2016 16:25:18</publishTime>
+    </File>
+    <File Include="Common/assets/images/banner/humvee/2.jpg">
+      <publishTime>12/23/2016 16:25:18</publishTime>
+    </File>
+    <File Include="Common/assets/images/banner/humvee/3.jpg">
+      <publishTime>12/23/2016 16:25:18</publishTime>
+    </File>
+    <File Include="Common/assets/images/banner/humvee/4.jpg">
+      <publishTime>12/23/2016 16:25:23</publishTime>
+    </File>
+    <File Include="Common/assets/images/banner/humvee/5.jpg">
+      <publishTime>12/23/2016 16:25:23</publishTime>
+    </File>
+    <File Include="Common/assets/images/banner/humvee/6.jpg">
+      <publishTime>12/23/2016 16:25:22</publishTime>
+    </File>
+    <File Include="Common/assets/images/banner/humvee/7.jpg">
+      <publishTime>12/23/2016 16:25:28</publishTime>
+    </File>
+    <File Include="Common/assets/images/banner/humvee/L_01.jpg">
+      <publishTime>12/23/2016 16:25:26</publishTime>
+    </File>
+    <File Include="Common/assets/images/banner/humvee/L_02.jpg">
+      <publishTime>12/23/2016 16:25:28</publishTime>
+    </File>
+    <File Include="Common/assets/images/banner/humvee/L_03.jpg">
+      <publishTime>12/23/2016 16:25:30</publishTime>
+    </File>
+    <File Include="Common/assets/images/banner/humvee/L_04.jpg">
+      <publishTime>12/23/2016 16:25:37</publishTime>
+    </File>
+    <File Include="Common/assets/images/banner/humvee/L_05.jpg">
+      <publishTime>12/23/2016 16:25:38</publishTime>
+    </File>
+    <File Include="Common/assets/images/banner/L1.jpg">
+      <publishTime>12/23/2016 16:24:50</publishTime>
+    </File>
+    <File Include="Common/assets/images/banner/L2.jpg">
+      <publishTime>12/23/2016 16:24:50</publishTime>
+    </File>
+    <File Include="Common/assets/images/banner/L3.jpg">
+      <publishTime>12/23/2016 16:24:52</publishTime>
+    </File>
+    <File Include="Common/assets/images/banner/L4.jpg">
+      <publishTime>12/23/2016 16:24:54</publishTime>
+    </File>
+    <File Include="Common/assets/images/banner/L5.jpg">
+      <publishTime>12/23/2016 16:24:53</publishTime>
+    </File>
+    <File Include="Common/assets/images/banner/smith/1.jpg">
+      <publishTime>12/23/2016 16:25:34</publishTime>
+    </File>
+    <File Include="Common/assets/images/banner/smith/11.jpg">
+      <publishTime>12/23/2016 16:25:38</publishTime>
+    </File>
+    <File Include="Common/assets/images/banner/smith/2.jpg">
+      <publishTime>12/23/2016 16:25:40</publishTime>
+    </File>
+    <File Include="Common/assets/images/banner/smith/3.jpg">
+      <publishTime>12/23/2016 16:25:40</publishTime>
+    </File>
+    <File Include="Common/assets/images/banner/smith/4.jpg">
+      <publishTime>12/23/2016 16:25:44</publishTime>
+    </File>
+    <File Include="Common/assets/images/banner/smith/5.jpg">
+      <publishTime>12/23/2016 16:25:45</publishTime>
+    </File>
+    <File Include="Common/assets/images/banner/smith/6.jpg">
+      <publishTime>12/23/2016 16:25:45</publishTime>
+    </File>
+    <File Include="Common/assets/images/banner/smith/7.jpg">
+      <publishTime>12/23/2016 16:25:46</publishTime>
+    </File>
+    <File Include="Common/assets/images/banner/smith/L_01.jpg">
+      <publishTime>12/23/2016 16:25:48</publishTime>
+    </File>
+    <File Include="Common/assets/images/banner/smith/L_02.jpg">
+      <publishTime>12/23/2016 16:25:49</publishTime>
+    </File>
+    <File Include="Common/assets/images/banner/smith/L_03.jpg">
+      <publishTime>12/23/2016 16:25:51</publishTime>
+    </File>
+    <File Include="Common/assets/images/banner/swiss/1.jpg">
+      <publishTime>12/23/2016 16:25:52</publishTime>
+    </File>
+    <File Include="Common/assets/images/banner/swiss/2.jpg">
+      <publishTime>12/23/2016 16:25:54</publishTime>
+    </File>
+    <File Include="Common/assets/images/banner/swiss/21.jpg">
+      <publishTime>12/23/2016 16:25:56</publishTime>
+    </File>
+    <File Include="Common/assets/images/banner/swiss/3.jpg">
+      <publishTime>12/23/2016 16:25:56</publishTime>
+    </File>
+    <File Include="Common/assets/images/banner/swiss/4.jpg">
+      <publishTime>12/23/2016 16:25:58</publishTime>
+    </File>
+    <File Include="Common/assets/images/banner/swiss/L_01.jpg">
+      <publishTime>12/23/2016 16:25:59</publishTime>
+    </File>
+    <File Include="Common/assets/images/banner/swiss/L_02.jpg">
+      <publishTime>12/23/2016 16:26:00</publishTime>
+    </File>
+    <File Include="Common/assets/images/banner/swiss/L_03.jpg">
+      <publishTime>12/23/2016 16:26:03</publishTime>
+    </File>
+    <File Include="Common/assets/images/banner/uzi/1.jpg">
+      <publishTime>12/23/2016 16:26:02</publishTime>
+    </File>
+    <File Include="Common/assets/images/banner/uzi/2.jpg">
+      <publishTime>12/23/2016 16:26:02</publishTime>
+    </File>
+    <File Include="Common/assets/images/banner/uzi/3.jpg">
+      <publishTime>12/23/2016 16:26:07</publishTime>
+    </File>
+    <File Include="Common/assets/images/banner/uzi/4.jpg">
+      <publishTime>12/23/2016 16:26:06</publishTime>
+    </File>
+    <File Include="Common/assets/images/banner/uzi/5.jpg">
+      <publishTime>12/23/2016 16:26:07</publishTime>
+    </File>
+    <File Include="Common/assets/images/banner/uzi/51.jpg">
+      <publishTime>12/23/2016 16:26:11</publishTime>
+    </File>
+    <File Include="Common/assets/images/banner/uzi/6.jpg">
+      <publishTime>12/23/2016 16:26:13</publishTime>
+    </File>
+    <File Include="Common/assets/images/banner/uzi/L_01.jpg">
+      <publishTime>12/23/2016 16:26:13</publishTime>
+    </File>
+    <File Include="Common/assets/images/banner/uzi/L_02.jpg">
+      <publishTime>12/23/2016 16:26:12</publishTime>
+    </File>
+    <File Include="Common/assets/images/banner/uzi/L_03.jpg">
+      <publishTime>12/23/2016 16:26:15</publishTime>
+    </File>
+    <File Include="Common/assets/images/bg_direction_nav.png">
+      <publishTime>12/23/2016 16:24:02</publishTime>
+    </File>
+    <File Include="Common/assets/images/bg_play_pause.png">
+      <publishTime>12/23/2016 16:24:02</publishTime>
+    </File>
+    <File Include="Common/assets/images/campco-about.jpg">
+      <publishTime>12/23/2016 16:24:05</publishTime>
+    </File>
+    <File Include="Common/assets/images/cap.png">
+      <publishTime>12/23/2016 16:24:03</publishTime>
+    </File>
+    <File Include="Common/assets/images/catlog.jpg">
+      <publishTime>12/23/2016 16:24:03</publishTime>
+    </File>
+    <File Include="Common/assets/images/catlog.png">
+      <publishTime>12/23/2016 16:24:05</publishTime>
+    </File>
+    <File Include="Common/assets/images/client/b1.png">
+      <publishTime>12/23/2016 16:26:13</publishTime>
+    </File>
+    <File Include="Common/assets/images/client/b2.png">
+      <publishTime>12/23/2016 16:26:13</publishTime>
+    </File>
+    <File Include="Common/assets/images/client/b3.png">
+      <publishTime>12/23/2016 16:26:13</publishTime>
+    </File>
+    <File Include="Common/assets/images/client/b4.png">
+      <publishTime>12/23/2016 16:26:13</publishTime>
+    </File>
+    <File Include="Common/assets/images/client/b5.png">
+      <publishTime>12/23/2016 16:26:13</publishTime>
+    </File>
+    <File Include="Common/assets/images/client/b6.png">
+      <publishTime>12/23/2016 16:26:13</publishTime>
+    </File>
+    <File Include="Common/assets/images/client/b7.png">
+      <publishTime>12/23/2016 16:26:13</publishTime>
+    </File>
+    <File Include="Common/assets/images/client/b8.png">
+      <publishTime>12/23/2016 16:26:13</publishTime>
+    </File>
+    <File Include="Common/assets/images/client/bb1.png">
+      <publishTime>12/23/2016 16:26:13</publishTime>
+    </File>
+    <File Include="Common/assets/images/client/bb2.png">
+      <publishTime>12/23/2016 16:26:13</publishTime>
+    </File>
+    <File Include="Common/assets/images/client/bb3.png">
+      <publishTime>12/23/2016 16:26:13</publishTime>
+    </File>
+    <File Include="Common/assets/images/client/bb4.png">
+      <publishTime>12/23/2016 16:26:13</publishTime>
+    </File>
+    <File Include="Common/assets/images/client/bb5.png">
+      <publishTime>12/23/2016 16:26:13</publishTime>
+    </File>
+    <File Include="Common/assets/images/client/bb6.png">
+      <publishTime>12/23/2016 16:26:14</publishTime>
+    </File>
+    <File Include="Common/assets/images/client/brand1.png">
+      <publishTime>12/23/2016 16:26:14</publishTime>
+    </File>
+    <File Include="Common/assets/images/client/brand11.png">
+      <publishTime>12/23/2016 16:26:14</publishTime>
+    </File>
+    <File Include="Common/assets/images/client/brand2.png">
+      <publishTime>12/23/2016 16:26:14</publishTime>
+    </File>
+    <File Include="Common/assets/images/client/brand3.png">
+      <publishTime>12/23/2016 16:26:14</publishTime>
+    </File>
+    <File Include="Common/assets/images/client/brand4.png">
+      <publishTime>12/23/2016 16:26:14</publishTime>
+    </File>
+    <File Include="Common/assets/images/client/brand5.png">
+      <publishTime>12/23/2016 16:26:14</publishTime>
+    </File>
+    <File Include="Common/assets/images/client/brand6.png">
+      <publishTime>12/23/2016 16:26:14</publishTime>
+    </File>
+    <File Include="Common/assets/images/client/brand7.png">
+      <publishTime>12/23/2016 16:26:14</publishTime>
+    </File>
+    <File Include="Common/assets/images/client/brand8.png">
+      <publishTime>12/23/2016 16:26:14</publishTime>
+    </File>
+    <File Include="Common/assets/images/client/brands/1.jpg">
+      <publishTime>12/23/2016 16:26:14</publishTime>
+    </File>
+    <File Include="Common/assets/images/client/brands/10.jpg">
+      <publishTime>12/23/2016 16:26:14</publishTime>
+    </File>
+    <File Include="Common/assets/images/client/brands/11.jpg">
+      <publishTime>12/23/2016 16:26:14</publishTime>
+    </File>
+    <File Include="Common/assets/images/client/brands/12.jpg">
+      <publishTime>12/23/2016 16:26:14</publishTime>
+    </File>
+    <File Include="Common/assets/images/client/brands/13.jpg">
+      <publishTime>12/23/2016 16:26:15</publishTime>
+    </File>
+    <File Include="Common/assets/images/client/brands/14.jpg">
+      <publishTime>12/23/2016 16:26:15</publishTime>
+    </File>
+    <File Include="Common/assets/images/client/brands/15.jpg">
+      <publishTime>12/23/2016 16:26:15</publishTime>
+    </File>
+    <File Include="Common/assets/images/client/brands/16.jpg">
+      <publishTime>12/23/2016 16:26:15</publishTime>
+    </File>
+    <File Include="Common/assets/images/client/brands/17.jpg">
+      <publishTime>12/23/2016 16:26:15</publishTime>
+    </File>
+    <File Include="Common/assets/images/client/brands/18.jpg">
+      <publishTime>12/23/2016 16:26:15</publishTime>
+    </File>
+    <File Include="Common/assets/images/client/brands/19.jpg">
+      <publishTime>12/23/2016 16:26:16</publishTime>
+    </File>
+    <File Include="Common/assets/images/client/brands/2.jpg">
+      <publishTime>12/23/2016 16:26:15</publishTime>
+    </File>
+    <File Include="Common/assets/images/client/brands/20.jpg">
+      <publishTime>12/23/2016 16:26:15</publishTime>
+    </File>
+    <File Include="Common/assets/images/client/brands/21.jpg">
+      <publishTime>12/23/2016 16:26:15</publishTime>
+    </File>
+    <File Include="Common/assets/images/client/brands/22.jpg">
+      <publishTime>12/23/2016 16:26:16</publishTime>
+    </File>
+    <File Include="Common/assets/images/client/brands/23.jpg">
+      <publishTime>12/23/2016 16:26:16</publishTime>
+    </File>
+    <File Include="Common/assets/images/client/brands/24.jpg">
+      <publishTime>12/23/2016 16:26:16</publishTime>
+    </File>
+    <File Include="Common/assets/images/client/brands/25.jpg">
+      <publishTime>12/23/2016 16:26:16</publishTime>
+    </File>
+    <File Include="Common/assets/images/client/brands/26.jpg">
+      <publishTime>12/23/2016 16:26:16</publishTime>
+    </File>
+    <File Include="Common/assets/images/client/brands/3.jpg">
+      <publishTime>12/23/2016 16:26:16</publishTime>
+    </File>
+    <File Include="Common/assets/images/client/brands/4.jpg">
+      <publishTime>12/23/2016 16:26:16</publishTime>
+    </File>
+    <File Include="Common/assets/images/client/brands/5.jpg">
+      <publishTime>12/23/2016 16:26:16</publishTime>
+    </File>
+    <File Include="Common/assets/images/client/brands/6.jpg">
+      <publishTime>12/23/2016 16:26:16</publishTime>
+    </File>
+    <File Include="Common/assets/images/client/brands/7.jpg">
+      <publishTime>12/23/2016 16:26:17</publishTime>
+    </File>
+    <File Include="Common/assets/images/client/brands/8.jpg">
+      <publishTime>12/23/2016 16:26:17</publishTime>
+    </File>
+    <File Include="Common/assets/images/client/brands/9.jpg">
+      <publishTime>12/23/2016 16:26:17</publishTime>
+    </File>
+    <File Include="Common/assets/images/close-lightbox%402x.png">
+      <publishTime>12/23/2016 16:24:05</publishTime>
+    </File>
+    <File Include="Common/assets/images/close-lightbox-light%402x.png">
+      <publishTime>12/23/2016 16:24:05</publishTime>
+    </File>
+    <File Include="Common/assets/images/close-lightbox-light.png">
+      <publishTime>12/23/2016 16:24:05</publishTime>
+    </File>
+    <File Include="Common/assets/images/close-lightbox.png">
+      <publishTime>12/23/2016 16:24:05</publishTime>
+    </File>
+    <File Include="Common/assets/images/close.png">
+      <publishTime>12/23/2016 16:24:05</publishTime>
+    </File>
+    <File Include="Common/assets/images/diners.png">
+      <publishTime>12/23/2016 16:24:05</publishTime>
+    </File>
+    <File Include="Common/assets/images/discover.png">
+      <publishTime>12/23/2016 16:24:05</publishTime>
+    </File>
+    <File Include="Common/assets/images/ezio_onepage_team_01.jpg">
+      <publishTime>12/23/2016 16:24:05</publishTime>
+    </File>
+    <File Include="Common/assets/images/ezio_onepage_team_02.jpg">
+      <publishTime>12/23/2016 16:24:05</publishTime>
+    </File>
+    <File Include="Common/assets/images/ezio_onepage_team_03.jpg">
+      <publishTime>12/23/2016 16:24:06</publishTime>
+    </File>
+    <File Include="Common/assets/images/ezio_onepage_team_04.jpg">
+      <publishTime>12/23/2016 16:24:06</publishTime>
+    </File>
+    <File Include="Common/assets/images/ezio_onepage_team_05.jpg">
+      <publishTime>12/23/2016 16:24:06</publishTime>
+    </File>
+    <File Include="Common/assets/images/ezio_onepage_team_06.jpg">
+      <publishTime>12/23/2016 16:24:07</publishTime>
+    </File>
+    <File Include="Common/assets/images/ezio_shop_banner_01.jpg">
+      <publishTime>12/23/2016 16:24:07</publishTime>
+    </File>
+    <File Include="Common/assets/images/ezio_shop_banner_02.jpg">
+      <publishTime>12/23/2016 16:24:07</publishTime>
+    </File>
+    <File Include="Common/assets/images/ezio_shop_banner_05.jpg">
+      <publishTime>12/23/2016 16:24:07</publishTime>
+    </File>
+    <File Include="Common/assets/images/ezio_shop_bg_07.jpg">
+      <publishTime>12/23/2016 16:24:09</publishTime>
+    </File>
+    <File Include="Common/assets/images/ezio_shop_bg_08.jpg">
+      <publishTime>12/23/2016 16:24:08</publishTime>
+    </File>
+    <File Include="Common/assets/images/ezio_shop_bg_09.jpg">
+      <publishTime>12/23/2016 16:24:07</publishTime>
+    </File>
+    <File Include="Common/assets/images/ezio_shop_modern_logo_01_dark-1.png">
+      <publishTime>12/23/2016 16:24:07</publishTime>
+    </File>
+    <File Include="Common/assets/images/ezio_shop_modern_logo_02_light.png">
+      <publishTime>12/23/2016 16:24:08</publishTime>
+    </File>
+    <File Include="Common/assets/images/ezio_shop_product_06.jpg">
+      <publishTime>12/23/2016 16:24:09</publishTime>
+    </File>
+    <File Include="Common/assets/images/f1.jpg">
+      <publishTime>12/23/2016 16:24:08</publishTime>
+    </File>
+    <File Include="Common/assets/images/f2.jpg">
+      <publishTime>12/23/2016 16:24:08</publishTime>
+    </File>
+    <File Include="Common/assets/images/f3.jpg">
+      <publishTime>12/23/2016 16:24:08</publishTime>
+    </File>
+    <File Include="Common/assets/images/f4.jpg">
+      <publishTime>12/23/2016 16:24:08</publishTime>
+    </File>
+    <File Include="Common/assets/images/f5.jpg">
+      <publishTime>12/23/2016 16:24:08</publishTime>
+    </File>
+    <File Include="Common/assets/images/f6.jpg">
+      <publishTime>12/23/2016 16:24:08</publishTime>
+    </File>
+    <File Include="Common/assets/images/f7.jpg">
+      <publishTime>12/23/2016 16:24:08</publishTime>
+    </File>
+    <File Include="Common/assets/images/fancybox_loading%402x.gif">
+      <publishTime>12/23/2016 16:24:09</publishTime>
+    </File>
+    <File Include="Common/assets/images/fancybox_loading.gif">
+      <publishTime>12/23/2016 16:24:08</publishTime>
+    </File>
+    <File Include="Common/assets/images/fancybox_overlay.png">
+      <publishTime>12/23/2016 16:24:09</publishTime>
+    </File>
+    <File Include="Common/assets/images/fancybox_sprite.png">
+      <publishTime>12/23/2016 16:24:09</publishTime>
+    </File>
+    <File Include="Common/assets/images/footerhumvee.png">
+      <publishTime>12/23/2016 16:24:09</publishTime>
+    </File>
+    <File Include="Common/assets/images/footerlogo.png">
+      <publishTime>12/23/2016 16:24:09</publishTime>
+    </File>
+    <File Include="Common/assets/images/footersmithwesson.png">
+      <publishTime>12/23/2016 16:24:09</publishTime>
+    </File>
+    <File Include="Common/assets/images/footeruzi.png">
+      <publishTime>12/23/2016 16:24:09</publishTime>
+    </File>
+    <File Include="Common/assets/images/home-1.jpg">
+      <publishTime>12/23/2016 16:24:11</publishTime>
+    </File>
+    <File Include="Common/assets/images/home-2.jpg">
+      <publishTime>12/23/2016 16:24:11</publishTime>
+    </File>
+    <File Include="Common/assets/images/home-3.jpg">
+      <publishTime>12/23/2016 16:24:11</publishTime>
+    </File>
+    <File Include="Common/assets/images/humvee_logo-lg.jpg">
+      <publishTime>12/23/2016 16:24:11</publishTime>
+    </File>
+    <File Include="Common/assets/images/humvee_logo-orng.png">
+      <publishTime>12/23/2016 16:24:11</publishTime>
+    </File>
+    <File Include="Common/assets/images/humvee_logo.png">
+      <publishTime>12/23/2016 16:24:11</publishTime>
+    </File>
+    <File Include="Common/assets/images/Image_Loader1.gif">
+      <publishTime>01/03/2017 10:51:55</publishTime>
+    </File>
+    <File Include="Common/assets/images/jcb.png">
+      <publishTime>12/23/2016 16:24:11</publishTime>
+    </File>
+    <File Include="Common/assets/images/knife.jpg">
+      <publishTime>12/23/2016 16:24:18</publishTime>
+    </File>
+    <File Include="Common/assets/images/laser.png">
+      <publishTime>12/23/2016 16:24:11</publishTime>
+    </File>
+    <File Include="Common/assets/images/loader.gif">
+      <publishTime>12/23/2016 16:24:11</publishTime>
+    </File>
+    <File Include="Common/assets/images/loader1.gif">
+      <publishTime>01/09/2017 12:20:05</publishTime>
+    </File>
+    <File Include="Common/assets/images/loader4.gif">
+      <publishTime>01/09/2017 12:55:21</publishTime>
+    </File>
+    <File Include="Common/assets/images/logo-up.png">
+      <publishTime>12/23/2016 16:24:11</publishTime>
+    </File>
+    <File Include="Common/assets/images/logo-up1.png">
+      <publishTime>12/23/2016 16:24:11</publishTime>
+    </File>
+    <File Include="Common/assets/images/logo.png">
+      <publishTime>12/23/2016 16:24:11</publishTime>
+    </File>
+    <File Include="Common/assets/images/maestro.png">
+      <publishTime>12/23/2016 16:24:11</publishTime>
+    </File>
+    <File Include="Common/assets/images/mastercard.png">
+      <publishTime>12/23/2016 16:24:11</publishTime>
+    </File>
+    <File Include="Common/assets/images/media-resource/081913-SW-web-wmnperp-1.jpg">
+      <publishTime>12/23/2016 16:26:17</publishTime>
+    </File>
+    <File Include="Common/assets/images/media-resource/081913-SW-web-wmnperp-1.png">
+      <publishTime>12/23/2016 16:26:17</publishTime>
+    </File>
+    <File Include="Common/assets/images/media-resource/2009_outdoor_wire_logo_no_sponsor.jpg">
+      <publishTime>12/23/2016 16:26:17</publishTime>
+    </File>
+    <File Include="Common/assets/images/media-resource/ads_img.jpg">
+      <publishTime>12/23/2016 16:26:18</publishTime>
+    </File>
+    <File Include="Common/assets/images/media-resource/ammoland.png">
+      <publishTime>12/23/2016 16:26:17</publishTime>
+    </File>
+    <File Include="Common/assets/images/media-resource/ccr-header-01c.jpeg">
+      <publishTime>12/23/2016 16:26:17</publishTime>
+    </File>
+    <File Include="Common/assets/images/media-resource/GunTradeWorld-Dec2013-cover.png">
+      <publishTime>12/23/2016 16:26:18</publishTime>
+    </File>
+    <File Include="Common/assets/images/media-resource/PersonalDefenseWorld-Logo.jpg">
+      <publishTime>12/23/2016 16:26:18</publishTime>
+    </File>
+    <File Include="Common/assets/images/media-resource/Recoil-Issue9.png">
+      <publishTime>12/23/2016 16:26:18</publishTime>
+    </File>
+    <File Include="Common/assets/images/media-resource/SAFARIVEST3.jpg">
+      <publishTime>12/23/2016 16:26:19</publishTime>
+    </File>
+    <File Include="Common/assets/images/media-resource/Shooting-Retailer-NovDec2013.png">
+      <publishTime>12/23/2016 16:26:20</publishTime>
+    </File>
+    <File Include="Common/assets/images/media-resource/shooting_wire_header_2010_01.jpg">
+      <publishTime>12/23/2016 16:26:18</publishTime>
+    </File>
+    <File Include="Common/assets/images/media-resource/site_logo.png">
+      <publishTime>12/23/2016 16:26:18</publishTime>
+    </File>
+    <File Include="Common/assets/images/media-resource/Tactical-World-Winter2013.png">
+      <publishTime>12/23/2016 16:26:20</publishTime>
+    </File>
+    <File Include="Common/assets/images/media-resource/tactical_wire_header_no_sponsor.jpg">
+      <publishTime>12/23/2016 16:26:18</publishTime>
+    </File>
+    <File Include="Common/assets/images/product/1-150x150.jpg">
+      <publishTime>12/23/2016 16:26:19</publishTime>
+    </File>
+    <File Include="Common/assets/images/product/1-1800x1200.jpg">
+      <publishTime>12/23/2016 16:26:20</publishTime>
+    </File>
+    <File Include="Common/assets/images/product/1-180x180.jpg">
+      <publishTime>12/23/2016 16:26:19</publishTime>
+    </File>
+    <File Include="Common/assets/images/product/1-600x600.jpg">
+      <publishTime>12/23/2016 16:26:20</publishTime>
+    </File>
+    <File Include="Common/assets/images/product/1-750x750.jpg">
+      <publishTime>12/23/2016 16:26:20</publishTime>
+    </File>
+    <File Include="Common/assets/images/product/1.jpg">
+      <publishTime>12/23/2016 16:26:19</publishTime>
+    </File>
+    <File Include="Common/assets/images/product/2-150x150.jpg">
+      <publishTime>12/23/2016 16:26:20</publishTime>
+    </File>
+    <File Include="Common/assets/images/product/2-180x180.jpg">
+      <publishTime>12/23/2016 16:26:20</publishTime>
+    </File>
+    <File Include="Common/assets/images/product/2-683x1024.jpg">
+      <publishTime>12/23/2016 16:26:20</publishTime>
+    </File>
+    <File Include="Common/assets/images/product/2-750x750.jpg">
+      <publishTime>12/23/2016 16:26:20</publishTime>
+    </File>
+    <File Include="Common/assets/images/product/2.jpg">
+      <publishTime>12/23/2016 16:26:20</publishTime>
+    </File>
+    <File Include="Common/assets/images/product/3-150x150.jpg">
+      <publishTime>12/23/2016 16:26:20</publishTime>
+    </File>
+    <File Include="Common/assets/images/product/3-180x180.jpg">
+      <publishTime>12/23/2016 16:26:20</publishTime>
+    </File>
+    <File Include="Common/assets/images/product/3-683x1024.jpg">
+      <publishTime>12/23/2016 16:26:22</publishTime>
+    </File>
+    <File Include="Common/assets/images/product/3-750x750.jpg">
+      <publishTime>12/23/2016 16:26:20</publishTime>
+    </File>
+    <File Include="Common/assets/images/product/3.jpg">
+      <publishTime>12/23/2016 16:26:21</publishTime>
+    </File>
+    <File Include="Common/assets/images/product/4-683x1024.jpg">
+      <publishTime>12/23/2016 16:26:21</publishTime>
+    </File>
+    <File Include="Common/assets/images/product/4-750x750.jpg">
+      <publishTime>12/23/2016 16:26:21</publishTime>
+    </File>
+    <File Include="Common/assets/images/product/4.jpg">
+      <publishTime>12/23/2016 16:26:22</publishTime>
+    </File>
+    <File Include="Common/assets/images/product/5.jpg">
+      <publishTime>12/23/2016 16:26:22</publishTime>
+    </File>
+    <File Include="Common/assets/images/product/6.jpg">
+      <publishTime>12/23/2016 16:26:23</publishTime>
+    </File>
+    <File Include="Common/assets/images/product/7.jpg">
+      <publishTime>12/23/2016 16:26:24</publishTime>
+    </File>
+    <File Include="Common/assets/images/product1.jpg">
+      <publishTime>12/23/2016 16:24:13</publishTime>
+    </File>
+    <File Include="Common/assets/images/product2.jpg">
+      <publishTime>12/23/2016 16:24:12</publishTime>
+    </File>
+    <File Include="Common/assets/images/products/plg1.png">
+      <publishTime>12/23/2016 16:26:23</publishTime>
+    </File>
+    <File Include="Common/assets/images/products/plg2.png">
+      <publishTime>12/23/2016 16:26:24</publishTime>
+    </File>
+    <File Include="Common/assets/images/products/plg3.png">
+      <publishTime>12/23/2016 16:26:24</publishTime>
+    </File>
+    <File Include="Common/assets/images/products/plg4.png">
+      <publishTime>12/23/2016 16:26:24</publishTime>
+    </File>
+    <File Include="Common/assets/images/products/product1.png">
+      <publishTime>12/23/2016 16:26:24</publishTime>
+    </File>
+    <File Include="Common/assets/images/products/product10.png">
+      <publishTime>12/23/2016 16:26:24</publishTime>
+    </File>
+    <File Include="Common/assets/images/products/product11.png">
+      <publishTime>12/23/2016 16:26:24</publishTime>
+    </File>
+    <File Include="Common/assets/images/products/product12.png">
+      <publishTime>12/23/2016 16:26:24</publishTime>
+    </File>
+    <File Include="Common/assets/images/products/product2.png">
+      <publishTime>12/23/2016 16:26:24</publishTime>
+    </File>
+    <File Include="Common/assets/images/products/product3.png">
+      <publishTime>12/23/2016 16:26:24</publishTime>
+    </File>
+    <File Include="Common/assets/images/products/product4.png">
+      <publishTime>12/23/2016 16:26:24</publishTime>
+    </File>
+    <File Include="Common/assets/images/products/product5.png">
+      <publishTime>12/23/2016 16:26:24</publishTime>
+    </File>
+    <File Include="Common/assets/images/products/product6.png">
+      <publishTime>12/23/2016 16:26:25</publishTime>
+    </File>
+    <File Include="Common/assets/images/products/product7.png">
+      <publishTime>12/23/2016 16:26:24</publishTime>
+    </File>
+    <File Include="Common/assets/images/products/product8.png">
+      <publishTime>12/23/2016 16:26:25</publishTime>
+    </File>
+    <File Include="Common/assets/images/products/product9.png">
+      <publishTime>12/23/2016 16:26:26</publishTime>
+    </File>
+    <File Include="Common/assets/images/qube_favicon_dark-1.png">
+      <publishTime>12/23/2016 16:24:12</publishTime>
+    </File>
+    <File Include="Common/assets/images/recover-logo-orng.png">
+      <publishTime>12/23/2016 16:24:12</publishTime>
+    </File>
+    <File Include="Common/assets/images/recover-logo.png">
+      <publishTime>12/23/2016 16:24:12</publishTime>
+    </File>
+    <File Include="Common/assets/images/revolution-icons/Icon-Arrow-left.png">
+      <publishTime>12/23/2016 16:26:24</publishTime>
+    </File>
+    <File Include="Common/assets/images/revolution-icons/Icon-Arrow-Right.png">
+      <publishTime>12/23/2016 16:26:25</publishTime>
+    </File>
+    <File Include="Common/assets/images/revolution-icons/large_left.png">
+      <publishTime>12/23/2016 16:26:25</publishTime>
+    </File>
+    <File Include="Common/assets/images/revolution-icons/large_right.png">
+      <publishTime>12/23/2016 16:26:25</publishTime>
+    </File>
+    <File Include="Common/assets/images/revolution-icons/loader.gif">
+      <publishTime>12/23/2016 16:26:25</publishTime>
+    </File>
+    <File Include="Common/assets/images/revolution-icons/small_left.png">
+      <publishTime>12/23/2016 16:26:25</publishTime>
+    </File>
+    <File Include="Common/assets/images/revolution-icons/small_right.png">
+      <publishTime>12/23/2016 16:26:25</publishTime>
+    </File>
+    <File Include="Common/assets/images/revolution-icons/timer.png">
+      <publishTime>12/23/2016 16:26:25</publishTime>
+    </File>
+    <File Include="Common/assets/images/saved-card-sprite.png">
+      <publishTime>12/23/2016 16:24:12</publishTime>
+    </File>
+    <File Include="Common/assets/images/smith-wesson-orng.png">
+      <publishTime>12/23/2016 16:24:12</publishTime>
+    </File>
+    <File Include="Common/assets/images/smith-wesson.png">
+      <publishTime>12/23/2016 16:24:12</publishTime>
+    </File>
+    <File Include="Common/assets/images/smith_wesson/SW_HOMESIDER_01.jpg">
+      <publishTime>12/23/2016 16:26:30</publishTime>
+    </File>
+    <File Include="Common/assets/images/smith_wesson/SW_HOMESIDER_02.jpg">
+      <publishTime>12/23/2016 16:26:28</publishTime>
+    </File>
+    <File Include="Common/assets/images/social1.png">
+      <publishTime>12/23/2016 16:24:13</publishTime>
+    </File>
+    <File Include="Common/assets/images/social2.png">
+      <publishTime>12/23/2016 16:24:13</publishTime>
+    </File>
+    <File Include="Common/assets/images/social3.png">
+      <publishTime>12/23/2016 16:24:13</publishTime>
+    </File>
+    <File Include="Common/assets/images/social4.png">
+      <publishTime>12/23/2016 16:24:13</publishTime>
+    </File>
+    <File Include="Common/assets/images/social5.png">
+      <publishTime>12/23/2016 16:24:13</publishTime>
+    </File>
+    <File Include="Common/assets/images/social6.png">
+      <publishTime>12/23/2016 16:24:13</publishTime>
+    </File>
+    <File Include="Common/assets/images/social7.png">
+      <publishTime>12/23/2016 16:24:13</publishTime>
+    </File>
+    <File Include="Common/assets/images/social8.png">
+      <publishTime>12/23/2016 16:24:13</publishTime>
+    </File>
+    <File Include="Common/assets/images/social9.png">
+      <publishTime>12/23/2016 16:24:13</publishTime>
+    </File>
+    <File Include="Common/assets/images/uzi-logo.jpg">
+      <publishTime>12/23/2016 16:24:13</publishTime>
+    </File>
+    <File Include="Common/assets/images/uzi-logo.png">
+      <publishTime>12/23/2016 16:24:13</publishTime>
+    </File>
+    <File Include="Common/assets/images/UZI/SW_HOMESIDER_01.jpg">
+      <publishTime>12/23/2016 16:26:33</publishTime>
+    </File>
+    <File Include="Common/assets/images/UZI/SW_HOMESIDER_02.jpg">
+      <publishTime>12/23/2016 16:26:28</publishTime>
+    </File>
+    <File Include="Common/assets/images/UZI/SW_HOMESIDER_10.jpg">
+      <publishTime>12/23/2016 16:26:33</publishTime>
+    </File>
+    <File Include="Common/assets/images/UZI/SW_HOMESIDER_7.jpg">
+      <publishTime>12/23/2016 16:26:32</publishTime>
+    </File>
+    <File Include="Common/assets/images/UZI/SW_HOMESIDER_8.jpg">
+      <publishTime>12/23/2016 16:26:33</publishTime>
+    </File>
+    <File Include="Common/assets/images/UZI/SW_HOMESIDER_9.jpg">
+      <publishTime>12/23/2016 16:26:34</publishTime>
+    </File>
+    <File Include="Common/assets/images/UZI/UZI_HOMESIDER_01.jpg">
+      <publishTime>12/23/2016 16:26:37</publishTime>
+    </File>
+    <File Include="Common/assets/images/UZI/UZI_HOMESIDER_06.jpg">
+      <publishTime>12/23/2016 16:26:34</publishTime>
+    </File>
+    <File Include="Common/assets/images/UZI/UZI_HOMESIDER_18.jpg">
+      <publishTime>12/23/2016 16:26:37</publishTime>
+    </File>
+    <File Include="Common/assets/images/UZI/UZI_HOMESIDER_20.jpg">
+      <publishTime>12/23/2016 16:26:37</publishTime>
+    </File>
+    <File Include="Common/assets/images/visa.png">
+      <publishTime>12/23/2016 16:24:13</publishTime>
+    </File>
+    <File Include="Common/assets/images/you-tube.png">
+      <publishTime>12/23/2016 16:24:13</publishTime>
+    </File>
+    <File Include="Common/assets/inc/font-awesome/fonts/fontawesome-webfont93e3.html">
+      <publishTime>12/23/2016 16:26:37</publishTime>
+    </File>
+    <File Include="Common/assets/js/add-to-cart.min.js">
+      <publishTime>12/23/2016 16:26:38</publishTime>
+    </File>
+    <File Include="Common/assets/js/address-i18n.min.js">
+      <publishTime>12/23/2016 16:26:38</publishTime>
+    </File>
+    <File Include="Common/assets/js/ASPSnippets_Pager.min.js">
+      <publishTime>12/23/2016 16:26:38</publishTime>
+    </File>
+    <File Include="Common/assets/js/cart-fragments.min.js">
+      <publishTime>12/23/2016 16:26:38</publishTime>
+    </File>
+    <File Include="Common/assets/js/cart.min.js">
+      <publishTime>12/23/2016 16:26:38</publishTime>
+    </File>
+    <File Include="Common/assets/js/comment-reply.min.js">
+      <publishTime>12/23/2016 16:26:38</publishTime>
+    </File>
+    <File Include="Common/assets/js/core.min.js">
+      <publishTime>12/23/2016 16:26:38</publishTime>
+    </File>
+    <File Include="Common/assets/js/country-select.min.js">
+      <publishTime>12/23/2016 16:26:38</publishTime>
+    </File>
+    <File Include="Common/assets/js/dot_irecommendthis.js">
+      <publishTime>12/23/2016 16:26:38</publishTime>
+    </File>
+    <File Include="Common/assets/js/flowplayer.min.js">
+      <publishTime>12/23/2016 16:26:38</publishTime>
+    </File>
+    <File Include="Common/assets/js/form.js">
+      <publishTime>12/23/2016 16:26:38</publishTime>
+    </File>
+    <File Include="Common/assets/js/jquery-1.9.0.min.js">
+      <publishTime>12/23/2016 16:26:39</publishTime>
+    </File>
+    <File Include="Common/assets/js/jquery-migrate.min.js">
+      <publishTime>12/23/2016 16:26:39</publishTime>
+    </File>
+    <File Include="Common/assets/js/jquery-ui.js">
+      <publishTime>12/23/2016 16:26:39</publishTime>
+    </File>
+    <File Include="Common/assets/js/jquery.blockUI.min.js">
+      <publishTime>12/23/2016 16:26:38</publishTime>
+    </File>
+    <File Include="Common/assets/js/jquery.cookie.min.js">
+      <publishTime>12/23/2016 16:26:38</publishTime>
+    </File>
+    <File Include="Common/assets/js/jquery.expander.js">
+      <publishTime>12/23/2016 16:26:38</publishTime>
+    </File>
+    <File Include="Common/assets/js/jquery.fancybox.pack.js">
+      <publishTime>12/23/2016 16:26:38</publishTime>
+    </File>
+    <File Include="Common/assets/js/jquery.flexslider-min.js">
+      <publishTime>12/23/2016 16:26:38</publishTime>
+    </File>
+    <File Include="Common/assets/js/jquery.form.min.js">
+      <publishTime>12/23/2016 16:26:38</publishTime>
+    </File>
+    <File Include="Common/assets/js/jquery.js">
+      <publishTime>12/23/2016 16:26:38</publishTime>
+    </File>
+    <File Include="Common/assets/js/jquery.min.js">
+      <publishTime>12/23/2016 16:26:38</publishTime>
+    </File>
+    <File Include="Common/assets/js/jquery.simplePopup.js">
+      <publishTime>12/23/2016 16:26:38</publishTime>
+    </File>
+    <File Include="Common/assets/js/jquery.themepunch.revolution.js.js">
+      <publishTime>12/23/2016 16:26:39</publishTime>
+    </File>
+    <File Include="Common/assets/js/jquery.themepunch.revolution.min.js">
+      <publishTime>12/23/2016 16:26:39</publishTime>
+    </File>
+    <File Include="Common/assets/js/jquery.themepunch.tools.min.js">
+      <publishTime>12/23/2016 16:26:39</publishTime>
+    </File>
+    <File Include="Common/assets/js/js_composer_front.min.js">
+      <publishTime>12/23/2016 16:26:39</publishTime>
+    </File>
+    <File Include="Common/assets/js/loadImg.js">
+      <publishTime>01/10/2017 14:47:01</publishTime>
+    </File>
+    <File Include="Common/assets/js/modernizr-2.6.2.min.js">
+      <publishTime>12/23/2016 16:26:39</publishTime>
+    </File>
+    <File Include="Common/assets/js/mouse.min.js">
+      <publishTime>12/23/2016 16:26:39</publishTime>
+    </File>
+    <File Include="Common/assets/js/paging.js">
+      <publishTime>12/23/2016 16:26:39</publishTime>
+    </File>
+    <File Include="Common/assets/js/picturefill.min.js">
+      <publishTime>12/23/2016 16:26:39</publishTime>
+    </File>
+    <File Include="Common/assets/js/picturefill.min41fe.js">
+      <publishTime>12/23/2016 16:26:39</publishTime>
+    </File>
+    <File Include="Common/assets/js/plugin.js">
+      <publishTime>12/23/2016 16:26:39</publishTime>
+    </File>
+    <File Include="Common/assets/js/responsive-tabs.js">
+      <publishTime>12/23/2016 16:26:39</publishTime>
+    </File>
+    <File Include="Common/assets/js/revolution-slider.js">
+      <publishTime>12/23/2016 16:26:39</publishTime>
+    </File>
+    <File Include="Common/assets/js/revolution/extensions/revolution.extension.actions.min.js">
+      <publishTime>12/23/2016 16:26:40</publishTime>
+    </File>
+    <File Include="Common/assets/js/revolution/extensions/revolution.extension.carousel.min.js">
+      <publishTime>12/23/2016 16:26:40</publishTime>
+    </File>
+    <File Include="Common/assets/js/revolution/extensions/revolution.extension.kenburn.min.js">
+      <publishTime>12/23/2016 16:26:40</publishTime>
+    </File>
+    <File Include="Common/assets/js/revolution/extensions/revolution.extension.layeranimation.min.js">
+      <publishTime>12/23/2016 16:26:40</publishTime>
+    </File>
+    <File Include="Common/assets/js/revolution/extensions/revolution.extension.migration.min.js">
+      <publishTime>12/23/2016 16:26:40</publishTime>
+    </File>
+    <File Include="Common/assets/js/revolution/extensions/revolution.extension.navigation.min.js">
+      <publishTime>12/23/2016 16:26:40</publishTime>
+    </File>
+    <File Include="Common/assets/js/revolution/extensions/revolution.extension.parallax.min.js">
+      <publishTime>12/23/2016 16:26:40</publishTime>
+    </File>
+    <File Include="Common/assets/js/revolution/extensions/revolution.extension.slideanims.min.js">
+      <publishTime>12/23/2016 16:26:40</publishTime>
+    </File>
+    <File Include="Common/assets/js/revolution/extensions/revolution.extension.video.min.js">
+      <publishTime>12/23/2016 16:26:40</publishTime>
+    </File>
+    <File Include="Common/assets/js/revolution/extensions/source/revolution.extension.actions.js">
+      <publishTime>12/23/2016 16:26:40</publishTime>
+    </File>
+    <File Include="Common/assets/js/revolution/extensions/source/revolution.extension.carousel.js">
+      <publishTime>12/23/2016 16:26:40</publishTime>
+    </File>
+    <File Include="Common/assets/js/revolution/extensions/source/revolution.extension.kenburn.js">
+      <publishTime>12/23/2016 16:26:40</publishTime>
+    </File>
+    <File Include="Common/assets/js/revolution/extensions/source/revolution.extension.layeranimation.js">
+      <publishTime>12/23/2016 16:26:40</publishTime>
+    </File>
+    <File Include="Common/assets/js/revolution/extensions/source/revolution.extension.migration.js">
+      <publishTime>12/23/2016 16:26:40</publishTime>
+    </File>
+    <File Include="Common/assets/js/revolution/extensions/source/revolution.extension.navigation.js">
+      <publishTime>12/23/2016 16:26:40</publishTime>
+    </File>
+    <File Include="Common/assets/js/revolution/extensions/source/revolution.extension.parallax.js">
+      <publishTime>12/23/2016 16:26:40</publishTime>
+    </File>
+    <File Include="Common/assets/js/revolution/extensions/source/revolution.extension.slideanims.js">
+      <publishTime>12/23/2016 16:26:40</publishTime>
+    </File>
+    <File Include="Common/assets/js/revolution/extensions/source/revolution.extension.video.js">
+      <publishTime>12/23/2016 16:26:40</publishTime>
+    </File>
+    <File Include="Common/assets/js/revolution/jquery.themepunch.revolution.min-1.js">
+      <publishTime>12/23/2016 16:26:40</publishTime>
+    </File>
+    <File Include="Common/assets/js/revolution/jquery.themepunch.revolution.min.js">
+      <publishTime>12/23/2016 16:26:40</publishTime>
+    </File>
+    <File Include="Common/assets/js/revolution/jquery.themepunch.tools.min-1.js">
+      <publishTime>12/23/2016 16:26:40</publishTime>
+    </File>
+    <File Include="Common/assets/js/revolution/jquery.themepunch.tools.min.js">
+      <publishTime>12/23/2016 16:26:40</publishTime>
+    </File>
+    <File Include="Common/assets/js/script.js">
+      <publishTime>01/03/2017 10:51:55</publishTime>
+    </File>
+    <File Include="Common/assets/js/scripts.js">
+      <publishTime>12/23/2016 16:26:39</publishTime>
+    </File>
+    <File Include="Common/assets/js/select2.min.js">
+      <publishTime>12/23/2016 16:26:39</publishTime>
+    </File>
+    <File Include="Common/assets/js/shop/jquery-ui-touch-punch.min.js">
+      <publishTime>12/23/2016 16:26:40</publishTime>
+    </File>
+    <File Include="Common/assets/js/shop/mouse.min.js">
+      <publishTime>12/23/2016 16:26:40</publishTime>
+    </File>
+    <File Include="Common/assets/js/shop/price-slider.min.js">
+      <publishTime>12/23/2016 16:26:40</publishTime>
+    </File>
+    <File Include="Common/assets/js/shop/slider.min.js">
+      <publishTime>12/23/2016 16:26:40</publishTime>
+    </File>
+    <File Include="Common/assets/js/shop/widget.min.js">
+      <publishTime>12/23/2016 16:26:40</publishTime>
+    </File>
+    <File Include="Common/assets/js/single-product.min.js">
+      <publishTime>12/23/2016 16:26:39</publishTime>
+    </File>
+    <File Include="Common/assets/js/slider.min.js">
+      <publishTime>12/23/2016 16:26:39</publishTime>
+    </File>
+    <File Include="Common/assets/js/slider/revolution.extension.actions.min.js">
+      <publishTime>12/23/2016 16:26:40</publishTime>
+    </File>
+    <File Include="Common/assets/js/slider/revolution.extension.slideanims.min.js">
+      <publishTime>12/23/2016 16:26:40</publishTime>
+    </File>
+    <File Include="Common/assets/js/slider/revolution.extension.video.min.js">
+      <publishTime>12/23/2016 16:26:40</publishTime>
+    </File>
+    <File Include="Common/assets/js/subscription-popup.js">
+      <publishTime>12/23/2016 16:26:39</publishTime>
+    </File>
+    <File Include="Common/assets/js/tab/ultimate.min.css">
+      <publishTime>12/23/2016 16:26:41</publishTime>
+    </File>
+    <File Include="Common/assets/js/tab/vc-accordion.min.js">
+      <publishTime>12/23/2016 16:26:40</publishTime>
+    </File>
+    <File Include="Common/assets/js/tab/vc-tabs.min.js">
+      <publishTime>12/23/2016 16:26:40</publishTime>
+    </File>
+    <File Include="Common/assets/js/tab/vc-tta-autoplay.min.js">
+      <publishTime>12/23/2016 16:26:40</publishTime>
+    </File>
+    <File Include="Common/assets/js/tabcontent.js">
+      <publishTime>12/23/2016 16:26:39</publishTime>
+    </File>
+    <File Include="Common/assets/js/ui/core.mine899.js">
+      <publishTime>12/23/2016 16:26:40</publishTime>
+    </File>
+    <File Include="Common/assets/js/ui/mouse.mine899.js">
+      <publishTime>12/23/2016 16:26:40</publishTime>
+    </File>
+    <File Include="Common/assets/js/ui/slider.mine899.js">
+      <publishTime>12/23/2016 16:26:40</publishTime>
+    </File>
+    <File Include="Common/assets/js/ui/widget.mine899.js">
+      <publishTime>12/23/2016 16:26:40</publishTime>
+    </File>
+    <File Include="Common/assets/js/ultimate.min.js">
+      <publishTime>10/12/2016 10:56:28</publishTime>
+    </File>
+    <File Include="Common/assets/js/validation/additional-methods.js">
+      <publishTime>12/23/2016 16:26:40</publishTime>
+    </File>
+    <File Include="Common/assets/js/validation/additional-methods.min.js">
+      <publishTime>12/23/2016 16:26:40</publishTime>
+    </File>
+    <File Include="Common/assets/js/validation/jquery-1.11.1.js">
+      <publishTime>12/23/2016 16:26:41</publishTime>
+    </File>
+    <File Include="Common/assets/js/validation/jquery.validate.js">
+      <publishTime>12/23/2016 16:26:41</publishTime>
+    </File>
+    <File Include="Common/assets/js/validation/jquery.validate.min.js">
+      <publishTime>12/23/2016 16:26:41</publishTime>
+    </File>
+    <File Include="Common/assets/js/vhparallax.min.js">
+      <publishTime>12/23/2016 16:26:39</publishTime>
+    </File>
+    <File Include="Common/assets/js/widget.min.js">
+      <publishTime>12/23/2016 16:26:39</publishTime>
+    </File>
+    <File Include="Common/assets/js/widgets.js">
+      <publishTime>12/23/2016 16:26:40</publishTime>
+    </File>
+    <File Include="Common/assets/js/woocommerce-add-to-cart.js">
+      <publishTime>12/23/2016 16:26:39</publishTime>
+    </File>
+    <File Include="Common/assets/js/woocommerce.min.js">
+      <publishTime>12/23/2016 16:26:39</publishTime>
+    </File>
+    <File Include="Common/assets/js/woo_tabs.js">
+      <publishTime>12/23/2016 16:26:39</publishTime>
+    </File>
+    <File Include="Common/assets/js/wp-embed.min.js">
+      <publishTime>12/23/2016 16:26:39</publishTime>
+    </File>
+    <File Include="Common/assets/js/zoom/jquerysctipttop.css">
+      <publishTime>12/23/2016 16:26:41</publishTime>
+    </File>
+    <File Include="Common/assets/js/zoom/jzoom.jquery.json">
+      <publishTime>12/23/2016 16:26:41</publishTime>
+    </File>
+    <File Include="Common/assets/js/zoom/jzoom.js">
+      <publishTime>12/23/2016 16:26:41</publishTime>
+    </File>
+    <File Include="Common/assets/js/zoom/jzoom.min.js">
+      <publishTime>12/23/2016 16:26:41</publishTime>
+    </File>
+    <File Include="Common/assets/video/1.jpg">
+      <publishTime>12/23/2016 16:26:45</publishTime>
+    </File>
+    <File Include="Common/assets/video/1.mp4">
+      <publishTime>12/23/2016 16:33:46</publishTime>
+    </File>
+    <File Include="Common/assets/video/2.jpg">
+      <publishTime>12/23/2016 16:26:59</publishTime>
+    </File>
+    <File Include="Common/assets/video/2.mp4">
+      <publishTime>12/23/2016 16:28:16</publishTime>
+    </File>
+    <File Include="Common/assets/video/3.jpg">
+      <publishTime>12/23/2016 16:27:05</publishTime>
+    </File>
+    <File Include="Common/assets/video/3.mp4">
+      <publishTime>12/23/2016 16:34:30</publishTime>
+    </File>
+    <File Include="Common/assets/video/4.jpg">
+      <publishTime>12/23/2016 16:27:23</publishTime>
+    </File>
+    <File Include="Common/assets/video/4.mp4">
+      <publishTime>12/23/2016 16:32:14</publishTime>
+    </File>
+    <File Include="Common/assets/video/5.mp4">
+      <publishTime>12/23/2016 16:34:57</publishTime>
+    </File>
+    <File Include="Common/assets/video/6.mp4">
+      <publishTime>12/23/2016 16:29:44</publishTime>
+    </File>
+    <File Include="Common/assets/video/7.mp4">
+      <publishTime>12/23/2016 16:35:24</publishTime>
+    </File>
+    <File Include="Common/Brands.aspx">
+      <publishTime>01/03/2017 10:51:55</publishTime>
+    </File>
+    <File Include="Common/CaliberAboutus.aspx">
+      <publishTime>12/21/2016 17:57:53</publishTime>
+    </File>
+    <File Include="Common/CampcoCommon.Master">
+      <publishTime>01/31/2017 10:26:39</publishTime>
+    </File>
+    <File Include="Common/cart.aspx">
+      <publishTime>01/30/2017 18:14:36</publishTime>
+    </File>
+    <File Include="Common/Catalog.aspx">
+      <publishTime>12/21/2016 17:54:55</publishTime>
+    </File>
+    <File Include="Common/CheckOut.aspx">
+      <publishTime>01/31/2017 10:26:39</publishTime>
+    </File>
+    <File Include="Common/Contactus.aspx">
+      <publishTime>01/25/2017 12:07:48</publishTime>
+    </File>
+    <File Include="Common/CreateCaptcha.aspx">
+      <publishTime>12/21/2016 17:54:42</publishTime>
+    </File>
+    <File Include="Common/error.aspx">
+      <publishTime>01/11/2017 10:48:12</publishTime>
+    </File>
+    <File Include="Common/FAQ.aspx">
+      <publishTime>12/21/2016 17:58:23</publishTime>
+    </File>
+    <File Include="Common/HumveeAboutus.aspx">
+      <publishTime>12/21/2016 17:58:31</publishTime>
+    </File>
+    <File Include="Common/index.aspx">
+      <publishTime>01/30/2017 16:37:47</publishTime>
+    </File>
+    <File Include="Common/Login.aspx">
+      <publishTime>02/01/2017 14:29:58</publishTime>
+    </File>
+    <File Include="Common/MyAccount.aspx">
+      <publishTime>11/25/2016 18:21:49</publishTime>
+    </File>
+    <File Include="Common/MyCard.aspx">
+      <publishTime>01/30/2017 11:08:08</publishTime>
+    </File>
+    <File Include="Common/MyOrder.aspx">
+      <publishTime>12/23/2016 16:22:51</publishTime>
+    </File>
+    <File Include="Common/MyShippingAddress.aspx">
+      <publishTime>01/24/2017 16:48:49</publishTime>
+    </File>
+    <File Include="Common/OtherBrandProductDetail.aspx">
+      <publishTime>12/23/2016 16:22:51</publishTime>
+    </File>
+    <File Include="Common/OtherProductList.aspx">
+      <publishTime>01/31/2017 10:26:39</publishTime>
+    </File>
+    <File Include="Common/OurCompany.aspx">
+      <publishTime>12/21/2016 18:28:01</publishTime>
+    </File>
+    <File Include="Common/PriceList.aspx">
+      <publishTime>12/21/2016 18:28:14</publishTime>
+    </File>
+    <File Include="Common/productDetail.aspx">
+      <publishTime>01/30/2017 18:14:36</publishTime>
+    </File>
+    <File Include="Common/ProductList.aspx">
+      <publishTime>01/31/2017 14:30:03</publishTime>
+    </File>
+    <File Include="Common/RecoverAboutus.aspx">
+      <publishTime>12/21/2016 18:33:34</publishTime>
+    </File>
+    <File Include="Common/Registration.aspx">
+      <publishTime>02/01/2017 14:28:52</publishTime>
+    </File>
+    <File Include="Common/RegistrationThankyou.aspx">
+      <publishTime>12/21/2016 18:33:49</publishTime>
+    </File>
+    <File Include="Common/SmithAboutus.aspx">
+      <publishTime>12/21/2016 18:33:55</publishTime>
+    </File>
+    <File Include="Common/SwissAboutus.aspx">
+      <publishTime>12/21/2016 18:34:10</publishTime>
+    </File>
+    <File Include="Common/tempproductlist.aspx">
+      <publishTime>12/23/2016 16:22:53</publishTime>
+    </File>
+    <File Include="Common/Thankyou.aspx">
+      <publishTime>01/03/2017 10:51:55</publishTime>
+    </File>
+    <File Include="Common/UpdateMyProfile.aspx">
+      <publishTime>01/24/2017 16:22:52</publishTime>
+    </File>
+    <File Include="Common/UZIAboutus.aspx">
+      <publishTime>12/21/2016 18:34:28</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>12/23/2016 16:22:14</publishTime>
+    </File>
+    <File Include="Document/EmailOnlyContactUs.txt">
+      <publishTime>01/31/2017 11:52:56</publishTime>
+    </File>
+    <File Include="Document/EmailOnlyNewCustomer01.txt">
+      <publishTime>01/31/2017 11:52:40</publishTime>
+    </File>
+    <File Include="Document/EmailOnlyNewCustomerRetailer01.txt">
+      <publishTime>01/31/2017 11:52:42</publishTime>
+    </File>
+    <File Include="Document/PasswordRetrieve.txt">
+      <publishTime>01/30/2017 18:19:01</publishTime>
+    </File>
+    <File Include="Download/CampcoInventory.xls">
+      <publishTime>12/23/2016 16:28:08</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>12/23/2016 16:22:14</publishTime>
+    </File>
+    <File Include="HomePage.aspx">
+      <publishTime>10/28/2016 16:21:38</publishTime>
+    </File>
+    <File Include="OrderSummeryEmail.html">
+      <publishTime>12/26/2016 17:43:28</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>01/05/2017 15:58:13</publishTime>
+    </File>
+    <File Include="Pic/511-11001-019-10.jpg">
+      <publishTime>12/23/2016 16:40:31</publishTime>
+    </File>
+    <File Include="Pic/511-11001-019-11.5.jpg">
+      <publishTime>12/23/2016 16:40:31</publishTime>
+    </File>
+    <File Include="Pic/Category/Caliber_Logo.png">
+      <publishTime>12/23/2016 16:40:31</publishTime>
+    </File>
+    <File Include="Pic/Category/Caliber_Logo1.png">
+      <publishTime>12/23/2016 16:40:32</publishTime>
+    </File>
+    <File Include="Pic/Category/Humvee_Logo.png">
+      <publishTime>12/23/2016 16:40:32</publishTime>
+    </File>
+    <File Include="Pic/Category/Humvee_Logo1.png">
+      <publishTime>12/23/2016 16:40:32</publishTime>
+    </File>
+    <File Include="Pic/Category/recover-logo.png">
+      <publishTime>12/23/2016 16:40:32</publishTime>
+    </File>
+    <File Include="Pic/Category/Recover_Logo.png">
+      <publishTime>12/23/2016 16:40:32</publishTime>
+    </File>
+    <File Include="Pic/Category/Recover_Logo1.png">
+      <publishTime>12/23/2016 16:40:32</publishTime>
+    </File>
+    <File Include="Pic/Category/smith-wesson.png">
+      <publishTime>12/23/2016 16:40:32</publishTime>
+    </File>
+    <File Include="Pic/Category/Smith_Logo.png">
+      <publishTime>12/23/2016 16:40:32</publishTime>
+    </File>
+    <File Include="Pic/Category/Smith_Logo1.png">
+      <publishTime>12/23/2016 16:40:32</publishTime>
+    </File>
+    <File Include="Pic/Category/Swiss_Logo.png">
+      <publishTime>12/23/2016 16:40:32</publishTime>
+    </File>
+    <File Include="Pic/Category/Swiss_Logo1.png">
+      <publishTime>12/23/2016 16:40:33</publishTime>
+    </File>
+    <File Include="Pic/Category/Uzi_Logo.png">
+      <publishTime>12/23/2016 16:40:33</publishTime>
+    </File>
+    <File Include="Pic/Category/Uzi_Logo1.png">
+      <publishTime>12/23/2016 16:40:33</publishTime>
+    </File>
+    <File Include="Pic/HMV-1.2MIL-110.jpg">
+      <publishTime>12/23/2016 16:40:31</publishTime>
+    </File>
+    <File Include="Pic/HMV-1.2MIL-220.jpg">
+      <publishTime>12/23/2016 16:40:31</publishTime>
+    </File>
+    <File Include="Pic/HMV-1464-SLV.jpg">
+      <publishTime>12/23/2016 16:40:31</publishTime>
+    </File>
+    <File Include="Pic/HMV-1564-G.jpg">
+      <publishTime>12/23/2016 16:40:31</publishTime>
+    </File>
+    <File Include="Pic/HMV-57B-BLACK.jpg">
+      <publishTime>12/23/2016 16:40:31</publishTime>
+    </File>
+    <File Include="Pic/increase-sales.jpg">
+      <publishTime>12/23/2016 16:40:32</publishTime>
+    </File>
+    <File Include="Pic/Item/1.jpg">
+      <publishTime>10/12/2016 10:56:46</publishTime>
+    </File>
+    <File Include="Pic/Item/XLarge/thumbnail.SWW-357-N.jpg">
+      <publishTime>12/23/2016 16:44:56</publishTime>
+    </File>
+    <File Include="Pic/Item/XLarge/thumbnail.SWW-357-N_A.jpg">
+      <publishTime>12/23/2016 16:44:56</publishTime>
+    </File>
+    <File Include="Pic/Item/XLarge/thumbnail.SWW-357-R.jpg">
+      <publishTime>12/23/2016 16:44:56</publishTime>
+    </File>
+    <File Include="Pic/Item/XLarge/thumbnail.SWW-357-R_A.jpg">
+      <publishTime>12/23/2016 16:44:56</publishTime>
+    </File>
+    <File Include="Pic/Item/XLarge/thumbnail.SWW-357-SS.jpg">
+      <publishTime>12/23/2016 16:44:56</publishTime>
+    </File>
+    <File Include="Pic/Item/XLarge/thumbnail.SWW-357-SS_A.jpg">
+      <publishTime>12/23/2016 16:44:56</publishTime>
+    </File>
+    <File Include="Pic/Item/XLarge/thumbnail.UZK-FDR-006.jpg">
+      <publishTime>12/23/2016 16:44:56</publishTime>
+    </File>
+    <File Include="Pic/Item/XLarge/thumbnail.UZK-FDR-006_B.jpg">
+      <publishTime>12/23/2016 16:44:56</publishTime>
+    </File>
+    <File Include="Pic/Item/XLarge/thumbnail.UZK-FDR-007.jpg">
+      <publishTime>12/23/2016 16:44:56</publishTime>
+    </File>
+    <File Include="Pic/Item/XLarge/thumbnail.UZK-FDR-007_A.jpg">
+      <publishTime>12/23/2016 16:44:56</publishTime>
+    </File>
+    <File Include="Pic/Item/XLarge/thumbnail.UZK-FDR-007_B.jpg">
+      <publishTime>12/23/2016 16:44:56</publishTime>
+    </File>
+    <File Include="Pic/Item/XLarge/thumbnail.UZK-FDR-009.jpg">
+      <publishTime>12/23/2016 16:44:56</publishTime>
+    </File>
+    <File Include="Pic/Item/XLarge/thumbnail.UZK-FDR-009_A.jpg">
+      <publishTime>12/23/2016 16:44:56</publishTime>
+    </File>
+    <File Include="Pic/Item/XLarge/thumbnail.UZK-FDR-009_B.jpg">
+      <publishTime>12/23/2016 16:44:56</publishTime>
+    </File>
+    <File Include="Pic/Item/XLarge/thumbnail.UZK-FDR-010.jpg">
+      <publishTime>12/23/2016 16:44:56</publishTime>
+    </File>
+    <File Include="Pic/Item/XLarge/thumbnail.UZK-FDR-010_A.jpg">
+      <publishTime>12/23/2016 16:44:56</publishTime>
+    </File>
+    <File Include="Pic/Item/XLarge/thumbnail.UZK-FDR-010_B.jpg">
+      <publishTime>12/23/2016 16:44:57</publishTime>
+    </File>
+    <File Include="Pic/NoPicture.gif">
+      <publishTime>12/23/2016 16:40:31</publishTime>
+    </File>
+    <File Include="Pic/Other/1.jpg">
+      <publishTime>11/07/2016 10:50:30</publishTime>
+    </File>
+    <File Include="Pic/Other/10.jpg">
+      <publishTime>11/07/2016 10:50:30</publishTime>
+    </File>
+    <File Include="Pic/Other/11.jpg">
+      <publishTime>11/07/2016 10:50:30</publishTime>
+    </File>
+    <File Include="Pic/Other/12.jpg">
+      <publishTime>11/07/2016 10:50:30</publishTime>
+    </File>
+    <File Include="Pic/Other/13.jpg">
+      <publishTime>11/07/2016 10:50:30</publishTime>
+    </File>
+    <File Include="Pic/Other/14.jpg">
+      <publishTime>11/07/2016 10:50:30</publishTime>
+    </File>
+    <File Include="Pic/Other/15.jpg">
+      <publishTime>11/07/2016 10:50:30</publishTime>
+    </File>
+    <File Include="Pic/Other/16.jpg">
+      <publishTime>11/07/2016 10:50:30</publishTime>
+    </File>
+    <File Include="Pic/Other/17.jpg">
+      <publishTime>11/07/2016 10:50:30</publishTime>
+    </File>
+    <File Include="Pic/Other/18.jpg">
+      <publishTime>11/07/2016 10:50:30</publishTime>
+    </File>
+    <File Include="Pic/Other/19.jpg">
+      <publishTime>11/07/2016 10:50:30</publishTime>
+    </File>
+    <File Include="Pic/Other/2.jpg">
+      <publishTime>11/07/2016 10:50:30</publishTime>
+    </File>
+    <File Include="Pic/Other/20.jpg">
+      <publishTime>11/07/2016 10:50:30</publishTime>
+    </File>
+    <File Include="Pic/Other/21.jpg">
+      <publishTime>11/07/2016 10:50:30</publishTime>
+    </File>
+    <File Include="Pic/Other/22.jpg">
+      <publishTime>11/07/2016 10:50:30</publishTime>
+    </File>
+    <File Include="Pic/Other/23.jpg">
+      <publishTime>11/07/2016 10:50:30</publishTime>
+    </File>
+    <File Include="Pic/Other/24.jpg">
+      <publishTime>11/07/2016 10:50:36</publishTime>
+    </File>
+    <File Include="Pic/Other/25.jpg">
+      <publishTime>11/07/2016 10:50:30</publishTime>
+    </File>
+    <File Include="Pic/Other/26.jpg">
+      <publishTime>11/07/2016 10:50:36</publishTime>
+    </File>
+    <File Include="Pic/Other/3.jpg">
+      <publishTime>11/07/2016 10:50:36</publishTime>
+    </File>
+    <File Include="Pic/Other/4.jpg">
+      <publishTime>11/07/2016 10:50:36</publishTime>
+    </File>
+    <File Include="Pic/Other/5.jpg">
+      <publishTime>11/07/2016 10:50:36</publishTime>
+    </File>
+    <File Include="Pic/Other/6.jpg">
+      <publishTime>11/07/2016 10:50:36</publishTime>
+    </File>
+    <File Include="Pic/Other/7.jpg">
+      <publishTime>11/07/2016 10:50:36</publishTime>
+    </File>
+    <File Include="Pic/Other/8.jpg">
+      <publishTime>11/07/2016 10:50:36</publishTime>
+    </File>
+    <File Include="Pic/Other/9.jpg">
+      <publishTime>11/07/2016 10:50:36</publishTime>
+    </File>
+    <File Include="Pic/XLarge/SWW-357-R.jpg">
+      <publishTime>12/23/2016 16:44:56</publishTime>
+    </File>
+    <File Include="Pic/XLarge/thumbnail.SWW-357-N.jpg">
+      <publishTime>12/23/2016 16:44:56</publishTime>
+    </File>
+    <File Include="Pic/XLarge/thumbnail.SWW-357-R.jpg">
+      <publishTime>11/15/2016 16:09:42</publishTime>
+    </File>
+    <File Include="Pic/XLarge/thumbnail.SWW-357-SS.jpg">
+      <publishTime>12/23/2016 16:44:57</publishTime>
+    </File>
+    <File Include="Pic/XLarge/thumbnail.UZK-FDR-006.jpg">
+      <publishTime>12/23/2016 16:44:56</publishTime>
+    </File>
+    <File Include="Pic/XLarge/thumbnail.UZK-FDR-006_B.jpg">
+      <publishTime>12/23/2016 16:44:56</publishTime>
+    </File>
+    <File Include="Pic/XLarge/thumbnail.UZK-FDR-007.jpg">
+      <publishTime>12/23/2016 16:44:56</publishTime>
+    </File>
+    <File Include="Pic/XLarge/thumbnail.UZK-FDR-007_A.jpg">
+      <publishTime>12/23/2016 16:44:56</publishTime>
+    </File>
+    <File Include="Pic/XLarge/thumbnail.UZK-FDR-007_B.jpg">
+      <publishTime>12/23/2016 16:44:56</publishTime>
+    </File>
+    <File Include="Pic/XLarge/thumbnail.UZK-FDR-009.jpg">
+      <publishTime>12/23/2016 16:44:56</publishTime>
+    </File>
+    <File Include="Pic/XLarge/thumbnail.UZK-FDR-009_A.jpg">
+      <publishTime>12/23/2016 16:44:57</publishTime>
+    </File>
+    <File Include="Pic/XLarge/thumbnail.UZK-FDR-009_B.jpg">
+      <publishTime>12/23/2016 16:44:57</publishTime>
+    </File>
+    <File Include="Tracking_info.html">
+      <publishTime>01/06/2017 12:02:41</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>02/01/2017 12:06:34</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

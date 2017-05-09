@@ -1,0 +1,387 @@
+-------------------------START-------------------------3/27/2017 10:50:13 AM
+Page :Registration.aspx
+----------------------------------------------------
+Event :Registration page Load
+----------------------------------------------------
+-------------------------END-------------------------3/27/2017 10:50:13 AM
+----------------------------------------------------
+-------------------------START-------------------------3/27/2017 10:50:13 AM
+Page :Registration.aspx
+----------------------------------------------------
+Event :FillCapctcha.
+-------------------------END-------------------------3/27/2017 10:50:13 AM
+----------------------------------------------------
+-------------------------START-------------------------3/27/2017 10:50:42 AM
+Page :Registration.aspx
+----------------------------------------------------
+Event :Registration page Load
+-------------------------END-------------------------3/27/2017 10:50:42 AM
+----------------------------------------------------
+-------------------------START-------------------------3/27/2017 10:50:43 AM
+Page :Registration.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Campco.Common.CampcoCommon.lnkSinIn_Click(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\CampcoCommon.Master.cs:line 249
+----------------------------------------------------
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Campco.Common.CampcoCommon.lnkSinIn_Click(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\CampcoCommon.Master.cs:line 249
+-------------------------END-------------------------3/27/2017 10:50:43 AM
+----------------------------------------------------
+-------------------------START-------------------------3/27/2017 10:51:39 AM
+Page :index.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\index.aspx.cs:line 81
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\index.aspx.cs:line 81
+-------------------------END-------------------------3/27/2017 10:51:39 AM
+----------------------------------------------------
+-------------------------START-------------------------3/27/2017 10:52:11 AM
+Page :index.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\index.aspx.cs:line 81
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\index.aspx.cs:line 81
+-------------------------END-------------------------3/27/2017 10:52:11 AM
+----------------------------------------------------
+-------------------------START-------------------------3/27/2017 10:52:44 AM
+Page :Registration.aspx
+----------------------------------------------------
+Event :Registration page Load
+-------------------------END-------------------------3/27/2017 10:52:44 AM
+----------------------------------------------------
+-------------------------START-------------------------3/27/2017 10:52:44 AM
+Page :Registration.aspx
+----------------------------------------------------
+Event :FillCapctcha.
+-------------------------END-------------------------3/27/2017 10:52:44 AM
+----------------------------------------------------
+-------------------------START-------------------------3/27/2017 11:05:14 AM
+Page :index.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\index.aspx.cs:line 81
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\index.aspx.cs:line 81
+-------------------------END-------------------------3/27/2017 11:05:14 AM
+----------------------------------------------------
+-------------------------START-------------------------3/27/2017 11:15:52 AM
+Page :Registration.aspx
+----------------------------------------------------
+Event :Registration page Load
+-------------------------END-------------------------3/27/2017 11:15:52 AM
+----------------------------------------------------
+-------------------------START-------------------------3/27/2017 11:15:52 AM
+Page :Registration.aspx
+----------------------------------------------------
+Event :FillCapctcha.
+-------------------------END-------------------------3/27/2017 11:15:52 AM
+----------------------------------------------------
+-------------------------START-------------------------3/27/2017 11:16:27 AM
+Page :CheckOut.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Campco.Common.CampcoCommon.lnkSinIn_Click(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\CampcoCommon.Master.cs:line 249
+----------------------------------------------------
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Campco.Common.CampcoCommon.lnkSinIn_Click(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\CampcoCommon.Master.cs:line 249
+-------------------------END-------------------------3/27/2017 11:16:27 AM
+----------------------------------------------------
+-------------------------START-------------------------3/27/2017 11:16:27 AM
+Page :Registration.aspx
+----------------------------------------------------
+Event :Registration page Load
+-------------------------END-------------------------3/27/2017 11:16:27 AM
+----------------------------------------------------
+-------------------------START-------------------------3/27/2017 11:16:27 AM
+Page :Registration.aspx
+----------------------------------------------------
+Event :FillCapctcha.
+-------------------------END-------------------------3/27/2017 11:16:27 AM
+----------------------------------------------------
+-------------------------START-------------------------3/27/2017 11:19:44 AM
+Page :ProductList.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at Campco.Common.ProductList.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\ProductList.aspx.cs:line 103
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.Common.ProductList.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\ProductList.aspx.cs:line 103
+-------------------------END-------------------------3/27/2017 11:19:45 AM
+----------------------------------------------------
+-------------------------START-------------------------3/27/2017 11:20:16 AM
+Page :Login.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Campco.Common.CampcoCommon.lnkSinIn_Click(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\CampcoCommon.Master.cs:line 243
+----------------------------------------------------
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Campco.Common.CampcoCommon.lnkSinIn_Click(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\CampcoCommon.Master.cs:line 243
+-------------------------END-------------------------3/27/2017 11:20:16 AM
+----------------------------------------------------
+-------------------------START-------------------------3/27/2017 11:21:01 AM
+Page :PriceList.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at Campco.Common.PriceList.Export_pricelist() in E:\nisha\ordex\hR\Campco\Campco\Common\PriceList.aspx.cs:line 52
+----------------------------------------------------
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at Campco.Common.PriceList.Export_pricelist() in E:\nisha\ordex\hR\Campco\Campco\Common\PriceList.aspx.cs:line 52
+-------------------------END-------------------------3/27/2017 11:21:01 AM
+----------------------------------------------------
+-------------------------START-------------------------3/27/2017 2:16:10 PM
+Page :PriceList.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at Campco.Common.PriceList.Download_File(String FilePath)
+----------------------------------------------------
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at Campco.Common.PriceList.Download_File(String FilePath)
+-------------------------END-------------------------3/27/2017 2:16:10 PM
+----------------------------------------------------
+-------------------------START-------------------------3/27/2017 2:16:10 PM
+Page :PriceList.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at Campco.Common.PriceList.Download_File(String FilePath)
+   at Campco.Common.PriceList.lnkExcelFileDownload_Click(Object sender, EventArgs e)
+----------------------------------------------------
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at Campco.Common.PriceList.Download_File(String FilePath)
+   at Campco.Common.PriceList.lnkExcelFileDownload_Click(Object sender, EventArgs e)
+-------------------------END-------------------------3/27/2017 2:16:10 PM
+----------------------------------------------------
+-------------------------START-------------------------3/27/2017 2:19:26 PM
+Page :PriceList.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at Campco.Common.PriceList.Download_File(String FilePath) in E:\nisha\ordex\hR\Campco\Campco\Common\PriceList.aspx.cs:line 123
+----------------------------------------------------
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at Campco.Common.PriceList.Download_File(String FilePath) in E:\nisha\ordex\hR\Campco\Campco\Common\PriceList.aspx.cs:line 123
+-------------------------END-------------------------3/27/2017 2:19:26 PM
+----------------------------------------------------
+-------------------------START-------------------------3/27/2017 2:19:26 PM
+Page :PriceList.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at Campco.Common.PriceList.Download_File(String FilePath) in E:\nisha\ordex\hR\Campco\Campco\Common\PriceList.aspx.cs:line 128
+   at Campco.Common.PriceList.lnkExcelFileDownload_Click(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\PriceList.aspx.cs:line 105
+----------------------------------------------------
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at Campco.Common.PriceList.Download_File(String FilePath) in E:\nisha\ordex\hR\Campco\Campco\Common\PriceList.aspx.cs:line 128
+   at Campco.Common.PriceList.lnkExcelFileDownload_Click(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\PriceList.aspx.cs:line 105
+-------------------------END-------------------------3/27/2017 2:19:26 PM
+----------------------------------------------------
+-------------------------START-------------------------3/27/2017 3:03:32 PM
+Page :PriceList.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at Campco.Common.PriceList.Export_pricelist()
+----------------------------------------------------
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at Campco.Common.PriceList.Export_pricelist()
+-------------------------END-------------------------3/27/2017 3:03:32 PM
+----------------------------------------------------
+-------------------------START-------------------------3/27/2017 3:18:55 PM
+Page :index.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\index.aspx.cs:line 81
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\index.aspx.cs:line 81
+-------------------------END-------------------------3/27/2017 3:18:55 PM
+----------------------------------------------------
+-------------------------START-------------------------3/27/2017 3:20:47 PM
+Page :PriceList.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at Campco.Common.PriceList.Export_pricelist() in E:\nisha\ordex\hR\Campco\Campco\Common\PriceList.aspx.cs:line 62
+----------------------------------------------------
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at Campco.Common.PriceList.Export_pricelist() in E:\nisha\ordex\hR\Campco\Campco\Common\PriceList.aspx.cs:line 62
+-------------------------END-------------------------3/27/2017 3:20:47 PM
+----------------------------------------------------
+-------------------------START-------------------------3/27/2017 3:21:48 PM
+Page :PriceList.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at Campco.Common.PriceList.Export_pricelist() in E:\nisha\ordex\hR\Campco\Campco\Common\PriceList.aspx.cs:line 62
+----------------------------------------------------
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at Campco.Common.PriceList.Export_pricelist() in E:\nisha\ordex\hR\Campco\Campco\Common\PriceList.aspx.cs:line 62
+-------------------------END-------------------------3/27/2017 3:21:48 PM
+----------------------------------------------------
+-------------------------START-------------------------3/27/2017 3:35:23 PM
+Page :index.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at Campco.dbUtility.Getbrandbannerlist(Int32 CategoryId, Int32 param) in E:\nisha\ordex\hR\Campco\Campco\AppCode\dbUtility.cs:line 2419
+   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\index.aspx.cs:line 45
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.dbUtility.Getbrandbannerlist(Int32 CategoryId, Int32 param) in E:\nisha\ordex\hR\Campco\Campco\AppCode\dbUtility.cs:line 2419
+   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\index.aspx.cs:line 45
+-------------------------END-------------------------3/27/2017 3:35:23 PM
+----------------------------------------------------
+-------------------------START-------------------------3/27/2017 3:35:23 PM
+Page :index.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at Campco.Common.CampcoCommon.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\CampcoCommon.Master.cs:line 123
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.Common.CampcoCommon.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\CampcoCommon.Master.cs:line 123
+-------------------------END-------------------------3/27/2017 3:35:23 PM
+----------------------------------------------------
+-------------------------START-------------------------3/27/2017 6:04:08 PM
+Page :index.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\index.aspx.cs:line 85
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\index.aspx.cs:line 85
+-------------------------END-------------------------3/27/2017 6:04:09 PM
+----------------------------------------------------
+-------------------------START-------------------------3/27/2017 6:05:03 PM
+Page :index.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\index.aspx.cs:line 85
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\index.aspx.cs:line 85
+-------------------------END-------------------------3/27/2017 6:05:03 PM
+----------------------------------------------------
+-------------------------START-------------------------3/27/2017 6:07:07 PM
+Page :index.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\index.aspx.cs:line 85
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\index.aspx.cs:line 85
+-------------------------END-------------------------3/27/2017 6:07:07 PM
+----------------------------------------------------
+-------------------------START-------------------------3/27/2017 6:07:58 PM
+Page :index.aspx
+----------------------------------------------------
+Event :
+----------------------------------------------------
+Stack Trace :   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\index.aspx.cs:line 85
+----------------------------------------------------
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Campco.Common.index.Page_Load(Object sender, EventArgs e) in E:\nisha\ordex\hR\Campco\Campco\Common\index.aspx.cs:line 85
+-------------------------END-------------------------3/27/2017 6:07:58 PM
+----------------------------------------------------
